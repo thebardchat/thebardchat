@@ -18,7 +18,7 @@ Dispatcher. Father. Coach. Builder. Sober since November 27, 2023.
 
 I dispatch dump trucks by day and build local AI infrastructure by night — running a full AI stack on a Raspberry Pi 5 in a closet in Hazel Green, Alabama. Everything I build serves one mission: **putting real AI tools in the hands of the ~800 million people Big Tech is about to leave behind.**
 
-I'm a Christian man. I coach youth wrestling and football. I have four sons. My wife is my anchor. My faith is my foundation.
+I'm a Christian man. I coach youth wrestling and football. I have five sons. My wife is my anchor. My faith is my foundation.
 
 I build because I have to. And because I couldn't stop if I tried.
 
