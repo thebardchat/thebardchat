@@ -82,6 +82,7 @@ Every repo I build exists somewhere on this map.
 | [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | MCP server — 27 tools via streamable-http, Docker |
 | [constitution](https://github.com/thebardchat/constitution) | The governing covenant for this entire ecosystem |
 | [noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) | The AI-human writing pipeline behind the book |
+| [book-launch-playbook](https://github.com/thebardchat/book-launch-playbook) | Zero-budget book launch framework for indie authors |
 | [HaloFinance](https://github.com/thebardchat/HaloFinance) | AI-powered financial guidance for working families |
 | [angel-cloud](https://github.com/thebardchat/angel-cloud) | Mental wellness platform with auth bridge and AI sentiment |
 | [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum cryptography security framework |
