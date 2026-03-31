@@ -89,7 +89,7 @@ Every repo I build exists somewhere on this map.
     </td>
     <td align="center" width="150">
       <b>FastMCP</b><br/>
-      <sub>27 AI tools</sub>
+      <sub>42 AI tools</sub>
     </td>
     <td align="center" width="150">
       <b>Docker</b><br/>
@@ -107,7 +107,7 @@ Every repo I build exists somewhere on this map.
 | Repo | What It Is |
 |------|-----------|
 | [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | The brain — Discord bot, RAG, Weaviate, social automation, cloud backup |
-| [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 27-tool MCP server — knowledge, chat, vault, planning, security |
+| [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 42-tool MCP server — knowledge, chat, vault, planning, security |
 | [constitution](https://github.com/thebardchat/constitution) | The governing covenant for this entire ecosystem |
 | [angel-cloud](https://github.com/thebardchat/angel-cloud) | Mental wellness platform with auth bridge and AI sentiment |
 | [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum cryptography security framework |
@@ -135,6 +135,7 @@ Every repo I build exists somewhere on this map.
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Electromagnetic launch architecture simulations |
 | [loudon-desarro](https://github.com/thebardchat/loudon-desarro) | 50,000 SF athletic complex 3D visualizations |
 | [thought-tree](https://github.com/thebardchat/thought-tree) | React mind-mapping and brain-dump app |
+| [N8N](https://github.com/thebardchat/N8N) | Workflow automation hub — n8n on pulsar00100 connecting the cluster |
 | [thebardchat.github.io](https://github.com/thebardchat/thebardchat.github.io) | Ecosystem hub page |
 
 ---
