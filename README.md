@@ -135,6 +135,7 @@ Every repo I build exists somewhere on this map.
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Electromagnetic launch architecture simulations |
 | [loudon-desarro](https://github.com/thebardchat/loudon-desarro) | 50,000 SF athletic complex 3D visualizations |
 | [thought-tree](https://github.com/thebardchat/thought-tree) | React mind-mapping and brain-dump app |
+| [morning-chaos-briefing](https://github.com/thebardchat/morning-chaos-briefing) | Daily 6 AM dispatch briefing — weather, Pi status, finance alerts, Chaos Score, delivered to Discord |
 | [N8N](https://github.com/thebardchat/N8N) | Workflow automation hub — n8n on pulsar00100 connecting the cluster |
 | [thebardchat.github.io](https://github.com/thebardchat/thebardchat.github.io) | Ecosystem hub page |
 
