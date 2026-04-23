@@ -153,6 +153,23 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 ---
 
+## The Released Treasures
+
+Eight projects recovered from the drives and released to GitHub in April 2026. Each has a live GitHub Pages site.
+
+| Project | What It Does | Pages | Repo |
+|---------|-------------|-------|------|
+| 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum, zero cloud, Windows .bat | [Pages ↗](https://thebardchat.github.io/AI-Trainer-MAX/) | [Repo](https://github.com/thebardchat/AI-Trainer-MAX) |
+| ☁️ **angelcloud-actual** | Firebase wellness platform, Pulsar blockchain security core | [Pages ↗](https://thebardchat.github.io/angelcloud-actual/) | [Repo](https://github.com/thebardchat/angelcloud-actual) |
+| 🌳 **thought-tree** | React mind-mapping on a dark canvas, Weaviate semantic search | [Pages ↗](https://thebardchat.github.io/thought-tree/) | [Repo](https://github.com/thebardchat/thought-tree) |
+| 🚛 **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers, Bridgeport rotation | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) | [Repo](https://github.com/thebardchat/srm-dispatch) |
+| 🤖 **mini-shanebrain** | Social bot framework: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) | [Repo](https://github.com/thebardchat/mini-shanebrain) |
+| 📚 **shanebrain-learning** | Auto-ingest inbox pipeline — drop files, Weaviate picks them up | [Pages ↗](https://thebardchat.github.io/shanebrain-learning/) | [Repo](https://github.com/thebardchat/shanebrain-learning) |
+| 🐳 **multi-container-app** | Docker Node.js + MongoDB starter, one compose up | [Pages ↗](https://thebardchat.github.io/multi-container-app/) | [Repo](https://github.com/thebardchat/multi-container-app) |
+| 💎 **treasures (hub)** | Master archive hub — all 8 recovered projects | [Pages ↗](https://thebardchat.github.io/treasures/) | [Repo](https://github.com/thebardchat/treasures) |
+
+---
+
 ## The Constitution
 
 Every repo here operates under one governing document.
