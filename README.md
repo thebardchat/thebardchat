@@ -61,33 +61,65 @@ Every repo on this profile exists somewhere on that map.
 
 ## BGKPJR — The Aerospace Work
 
-<div align="center">
-<img src="./assets/concept-stack.webp" alt="From a Raspberry Pi 5 in a closet in Hazel Green, Alabama — through a 28.7 km electromagnetic launch tube — to a solar sail unfolding above Earth" width="100%">
+> **The missing link in the Space Pipeline.** Blue Origin and SpaceX are building the lunar landers. NASA flies Artemis crews every 10 months. Nobody yet has a way to get cargo into low Earth orbit cheaply enough to feed a permanent moon base. We do.
 
-*The whole stack in one frame: a Pi 5 in an Alabama closet → a 28.7 km maglev tube → an orbital solar sail.*
+<div align="center">
+<img src="./assets/space-pipeline.svg" alt="The BGKPJR Space Pipeline: Earth surface to LEO via 37 km maglev rail; LEO to lunar orbit via permanent Space Tug; lunar orbit to surface via Blue Moon Mk2 / SpaceX HLS lander; empty pods become regolith-filled radiation-proof base structures" width="100%">
+
+*Earth → LEO → Moon → Base. Four phases, one mission. Every empty pod that lands becomes a "Space LEGO" — filled with lunar regolith for radiation-proof base structures. Watch the cycle loop.*
 </div>
 
 <br/>
 
-The patent-filed electromagnetic launch architecture. Ground-based superconducting magnets replace the first stage of every rocket ever built.
+### The Manhattan Timeline
+
+| Phase | Years | Status |
+|-------|-------|--------|
+| **Phase 0** — Concept maturation, NIAC submission, dimensional reconciliation | 2026–2028 | 🟢 ACTIVE |
+| **Phase 1** — Manna cargo pipeline (unmanned) | 2029–2033 | 🔵 PRIMARY OBJECTIVE |
+| **Phase 2** — Gryphon crewed vehicle | 2034+ | ⚪ DEFERRED |
+
+**Operational unmanned cargo pipeline in 7–9 years.** Parallel to NASA Artemis crew launches every 10 months using SpaceX HLS or Blue Moon Mk2 landers. Lunar base target: 2029. Every Artemis crew that arrives finds a base already supplied by BGKPJR.
+
+<br/>
+
+### Stage 1 — The Rail (Canonical Specs · 2026-04-30)
 
 ```
-Stage 1 — Maglev Jump  │ 28.7 km evacuated tube · NbTi 4.2K coils · Mach 3.5 in 23s
-Stage 2 — Gryphon Wing  │ Deploy at tube exit · Mach 3.5 → 8 · atmosphere as free fuel
-Stage 3 — Kepler Sail   │ 1,200 m² CP1 Polyimide · 310 km deploy · zero propellant forever
+Tube length         │ 37 km evacuated coilgun
+Drive architecture  │ Linear Synchronous Motor · copper drive coils + REBCO armature
+Operating temp      │ 20 K (LH₂ cryogenic)
+Exit velocity       │ Mach 5 · 1,700 m/s · 4G sustained
+Run time            │ 43.5 seconds, end to end
+Tube pressure       │ 0.05 atm (within Patent BGKPJR-001 envelope)
+Coils               │ 7,400 coils @ 5 m spacing · 8 T peak field
+Energy stored       │ 580 GJ · 39 GW peak draw
+Muzzle              │ TWO ALTERNATIVES under trade study: LH₂ membrane (canonical) or thermite (alternative)
 ```
 
-Target: **$200/kg to lunar surface**. Current state of the art (CLPS): **$1,200,000/kg**.
+**Cost target:** $1,025/kg LEO (vs. $2,720/kg Falcon 9). Total infrastructure: $85–120 B.
 
 <br/>
 
 ### Inside the Tube — Live Coilgun Sequence
 
 <div align="center">
-<img src="./assets/maglev-tube.svg" alt="Stage 1 — 28.7 km electromagnetic launch tube with sequential superconducting coil firing, traveling pod, and live Mach / velocity / distance / G-load / energy readouts" width="100%">
+<img src="./assets/maglev-tube.svg" alt="Stage 1 — 37 km electromagnetic launch tube with sequential coilgun firing, traveling pod, LH₂ muzzle membrane, and live Mach / velocity / distance / G-load / energy readouts. Representative section showing 14 of 7,400 coils." width="100%">
 
-*Sequential NbTi coil firing · leading coils pull · trailing coils de-energize · pod accelerates 0 → Mach 3.5 in 23 seconds · 900 MJ stored in flywheel banks. Watch the loop — every cycle is one full launch.*
+*Sequential coilgun firing · leading coils pull · trailing coils de-energize · pod accelerates 0 → Mach 5 in 43.5 seconds · 580 GJ stored. Representative section: 14 of 7,400 coils shown.*
 </div>
+
+<br/>
+
+### 🎯 Pre-Lukens Audit · 2026-04-30
+
+The whole BGKPJR repository set was audited dimensional-integrity-end-to-end before going for review by **Scott Lukens, Senior Systems Engineer at Victory Solutions Inc.** (a NASA Marshall Space Flight Center contractor in Huntsville, AL). We caught and reconciled three different baselines that had drifted apart, fixed mutually-incompatible math, and aligned every visualization with a single source of truth. The full audit and decision record are public:
+
+- 📄 [PRE-LUKENS-AUDIT-2026-04-30.md](https://github.com/thebardchat/BGKPJR-Core-Simulations/blob/main/expert-reviews/PRE-LUKENS-AUDIT-2026-04-30.md) — full audit
+- 📄 [CANONICAL-BASELINE.md](https://github.com/thebardchat/BGKPJR-Core-Simulations/blob/main/CANONICAL-BASELINE.md) — decision record
+- 🐍 [bgkpjr_dimensions.py](https://github.com/thebardchat/BGKPJR-Core-Simulations/blob/main/simulation/src/bgkpjr_dimensions.py) — single source of truth
+
+> *Pre-Phase-A aerospace concepts that hide their gaps fail review on first contact. The goal is to know the gaps better than any reviewer will, document them publicly, and ladder up.*
 
 <br/>
 
