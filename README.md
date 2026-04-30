@@ -79,6 +79,18 @@ Stage 3 — Kepler Sail   │ 1,200 m² CP1 Polyimide · 310 km deploy · zero p
 
 Target: **$200/kg to lunar surface**. Current state of the art (CLPS): **$1,200,000/kg**.
 
+<br/>
+
+### Inside the Tube — Live Coilgun Sequence
+
+<div align="center">
+<img src="./assets/maglev-tube.svg" alt="Stage 1 — 28.7 km electromagnetic launch tube with sequential superconducting coil firing, traveling pod, and live Mach / velocity / distance / G-load / energy readouts" width="100%">
+
+*Sequential NbTi coil firing · leading coils pull · trailing coils de-energize · pod accelerates 0 → Mach 3.5 in 23 seconds · 900 MJ stored in flywheel banks. Watch the loop — every cycle is one full launch.*
+</div>
+
+<br/>
+
 | Repo | What It Is | Live |
 |------|-----------|------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte | [Demo ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |

@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="BGKPJR Stage 1 — 28.7 km electromagnetic launch tube with sequential superconducting coil firing">
+  <title>BGKPJR — Inside the EM Launch Tube</title>
+
+  <defs>
+    <!-- ── gradients ── -->
+    <linearGradient id="frame-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#030810"/>
+      <stop offset="50%" stop-color="#050d1a"/>
+      <stop offset="100%" stop-color="#030810"/>
+    </linearGradient>
+
+    <linearGradient id="tube-int" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040a14"/>
+      <stop offset="50%" stop-color="#020610"/>
+      <stop offset="100%" stop-color="#040a14"/>
+    </linearGradient>
+
+    <linearGradient id="tube-glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a6e96" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#4a6e96" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#4a6e96" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="pod-body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8faec8"/>
+      <stop offset="50%" stop-color="#ddeeff"/>
+      <stop offset="100%" stop-color="#8faec8"/>
+    </linearGradient>
+
+    <linearGradient id="pod-trail" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffaa00" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffaa00" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffaa00" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="coil-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#00e5ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="muzzle-flash" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa00" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffaa00" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ── filters ── -->
+    <filter id="glow-c" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-strong" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- ── grid ── -->
+    <pattern id="grid-mini" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#192e4c" stroke-width="1" opacity="0.35"/>
+    </pattern>
+
+    <!-- ── frame clip (rounded corners) ── -->
+    <clipPath id="frame-clip">
+      <rect x="20" y="20" width="1560" height="660" rx="16"/>
+    </clipPath>
+
+    <!-- ── reusable coil symbol ── -->
+    <!-- Drawn as a coil ring in side-view: top arc + bottom arc + connecting verticals -->
+    <symbol id="coil" overflow="visible">
+      <!-- back half (behind tube) -->
+      <ellipse cx="0" cy="0" rx="14" ry="120" fill="none" stroke="#0a2040" stroke-width="2" opacity="0.5"/>
+      <!-- core ring -->
+      <ellipse cx="0" cy="0" rx="14" ry="120" fill="none" stroke="#00e5ff" stroke-width="2.5" class="coil-energy"/>
+      <!-- inner highlight -->
+      <ellipse cx="0" cy="0" rx="9" ry="115" fill="none" stroke="#7ee8ff" stroke-width="1" opacity="0.7" class="coil-inner"/>
+      <!-- glow halo -->
+      <ellipse cx="0" cy="0" rx="40" ry="135" fill="url(#coil-glow)" class="coil-halo"/>
+      <!-- top + bottom caps -->
+      <rect x="-16" y="-128" width="32" height="6" rx="1" fill="#254469" stroke="#4a6e96" stroke-width="0.5"/>
+      <rect x="-16" y="122"  width="32" height="6" rx="1" fill="#254469" stroke="#4a6e96" stroke-width="0.5"/>
+    </symbol>
+
+    <style>
+      .mono    { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+      .display { font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 700; }
+
+      /* pod travels left → right and loops */
+      @keyframes pod-fly {
+        0%   { transform: translateX(0); }
+        92%  { transform: translateX(1280px); opacity: 1; }
+        96%  { transform: translateX(1280px); opacity: 0; }
+        96.01% { transform: translateX(0); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+      }
+      @keyframes muzzle-fire {
+        0%, 88%   { opacity: 0; transform: scale(0.4); }
+        92%       { opacity: 1; transform: scale(1.3); }
+        96%       { opacity: 0.6; transform: scale(1); }
+        100%      { opacity: 0; transform: scale(0.4); }
+      }
+      @keyframes blink-soft { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @keyframes pulse-led  { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+
+      /* readout counters use SMIL on text values, but we also rotate a needle/bar */
+      @keyframes readout-grow {
+        0%   { transform: scaleX(0); }
+        92%  { transform: scaleX(1); }
+        100% { transform: scaleX(0); }
+      }
+
+      .pod-fx       { animation: pod-fly 9s linear infinite; }
+      .muzzle-fx    { animation: muzzle-fire 9s linear infinite; transform-origin: center; transform-box: fill-box; }
+      .pulse-led    { animation: pulse-led 1.4s ease-in-out infinite; }
+      .blink-soft-1 { animation: blink-soft 1.8s ease-in-out infinite; }
+      .blink-soft-2 { animation: blink-soft 2.5s ease-in-out infinite; }
+      .readout-bar  { animation: readout-grow 9s linear infinite; transform-origin: left; }
+    </style>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- FRAME                                                        -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect x="20" y="20" width="1560" height="660" rx="16" fill="url(#frame-bg)"/>
+  <rect x="20" y="20" width="1560" height="660" rx="16" fill="url(#grid-mini)" clip-path="url(#frame-clip)"/>
+  <rect x="20" y="20" width="1560" height="660" rx="16" fill="none" stroke="#192e4c" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- TOP LABELS                                                   -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g class="mono" font-size="11" letter-spacing="0.14em">
+    <!-- top-left -->
+    <g transform="translate(56, 60)">
+      <circle cx="0" cy="0" r="4" fill="#00e5ff" filter="url(#glow-c)"/>
+      <text x="14" y="4" fill="#8faec8">EM COIL RING · NbTi · 4.2K · 8T</text>
+    </g>
+    <!-- top-right -->
+    <g transform="translate(1544, 60)" text-anchor="end">
+      <text x="-14" y="4" fill="#8faec8">MUZZLE SEAL · 3-LAYER MEMBRANE · L1 THERMITE</text>
+      <circle cx="0" cy="0" r="4" fill="#ffaa00" filter="url(#glow-c)"/>
+    </g>
+    <!-- mid-left -->
+    <g transform="translate(56, 88)">
+      <circle cx="0" cy="0" r="4" fill="#4a6e96"/>
+      <text x="14" y="4" fill="#4d6680">OUTER BARREL · STEEL / COMPOSITE</text>
+    </g>
+    <!-- mid-right -->
+    <g transform="translate(1544, 88)" text-anchor="end">
+      <text x="-14" y="4" fill="#4d6680">WC PENETRATOR TIP · 1190 m/s IMPACT</text>
+      <circle cx="0" cy="0" r="4" fill="#e0e0e0"/>
+    </g>
+  </g>
+
+  <!-- title strip -->
+  <g transform="translate(800, 64)" text-anchor="middle">
+    <text class="mono" font-size="10" fill="#4d6680" letter-spacing="0.32em">— BGKPJR · STAGE 01 · INSIDE THE EM LAUNCH TUBE —</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- THE TUBE                                                     -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- tube interior fill -->
+  <rect x="100" y="265" width="1400" height="170" fill="url(#tube-int)"/>
+
+  <!-- coils inside the tube — 14 coils evenly spaced -->
+  <!-- Each coil's energy state animates based on pod position via individual begin times -->
+  <g transform="translate(0, 350)">
+    <!-- coil positions: 150, 250, 350, ..., 1450 (every 100 units) -->
+    <use href="#coil" x="150">
+      <animate attributeName="opacity" values="0.18;1;1;0.4;0.25" keyTimes="0;0.05;0.07;0.13;0.95" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="250">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.06;0.12;0.14;0.20;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="350">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.13;0.19;0.21;0.27;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="450">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.20;0.26;0.28;0.34;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="550">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.27;0.33;0.35;0.41;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="650">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.34;0.40;0.42;0.48;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="750">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.41;0.47;0.49;0.55;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="850">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.48;0.54;0.56;0.62;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="950">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.55;0.61;0.63;0.69;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="1050">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.62;0.68;0.70;0.76;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="1150">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.69;0.75;0.77;0.83;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="1250">
+      <animate attributeName="opacity" values="0.18;0.18;1;1;0.4;0.25;0.25" keyTimes="0;0.76;0.82;0.84;0.90;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="1350">
+      <animate attributeName="opacity" values="0.18;0.18;0.18;1;1;0.4;0.4" keyTimes="0;0.5;0.83;0.89;0.91;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#coil" x="1450">
+      <animate attributeName="opacity" values="0.18;0.18;0.18;1;1;1;0.5" keyTimes="0;0.5;0.88;0.92;0.94;0.96;1" dur="9s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- glass/vacuum tube walls (drawn over coils so coils look "inside") -->
+  <line x1="100" y1="265" x2="1500" y2="265" stroke="#4a6e96" stroke-width="2" opacity="0.85"/>
+  <line x1="100" y1="435" x2="1500" y2="435" stroke="#4a6e96" stroke-width="2" opacity="0.85"/>
+  <!-- inner glass highlight (subtle reflection) -->
+  <line x1="100" y1="270" x2="1500" y2="270" stroke="#00e5ff" stroke-width="0.6" opacity="0.25"/>
+  <line x1="100" y1="430" x2="1500" y2="430" stroke="#00e5ff" stroke-width="0.6" opacity="0.25"/>
+  <!-- bore tint -->
+  <rect x="100" y="265" width="1400" height="170" fill="url(#tube-glass)" pointer-events="none"/>
+
+  <!-- breech (left end) -->
+  <g>
+    <rect x="60" y="245" width="48" height="210" rx="3" fill="#0a1422" stroke="#4a6e96" stroke-width="1.2"/>
+    <rect x="68" y="280" width="32" height="140" rx="2" fill="#040910"/>
+    <text x="84" y="500" class="mono" font-size="9" fill="#4d6680" text-anchor="middle" letter-spacing="0.2em">BREECH</text>
+    <!-- power feed bus -->
+    <line x1="60" y1="350" x2="40" y2="350" stroke="#ffaa00" stroke-width="2"/>
+    <circle cx="40" cy="350" r="3" fill="#ffaa00"/>
+  </g>
+
+  <!-- muzzle (right end) -->
+  <g>
+    <rect x="1492" y="245" width="48" height="210" rx="3" fill="#0a1422" stroke="#4a6e96" stroke-width="1.2"/>
+    <!-- 3-layer membrane -->
+    <line x1="1500" y1="270" x2="1500" y2="430" stroke="#ddeeff" stroke-width="1.2" opacity="0.7"/>
+    <line x1="1510" y1="280" x2="1510" y2="420" stroke="#aaaaaa" stroke-width="1" opacity="0.5"/>
+    <line x1="1520" y1="290" x2="1520" y2="410" stroke="#ffaa00" stroke-width="1.2" opacity="0.85"/>
+    <text x="1516" y="500" class="mono" font-size="9" fill="#4d6680" text-anchor="middle" letter-spacing="0.2em">MUZZLE</text>
+    <!-- thermite flash on exit -->
+    <g class="muzzle-fx">
+      <circle cx="1530" cy="350" r="55" fill="url(#muzzle-flash)"/>
+      <circle cx="1530" cy="350" r="20" fill="#ffaa00" opacity="0.55"/>
+      <circle cx="1530" cy="350" r="6" fill="#ffffff" filter="url(#glow-strong)"/>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- THE POD                                                      -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g class="pod-fx">
+    <g transform="translate(140, 350)">
+      <!-- amber plasma trail -->
+      <rect x="-110" y="-14" width="100" height="28" rx="14" fill="url(#pod-trail)"/>
+      <!-- armature glow halo -->
+      <ellipse cx="-22" cy="0" rx="22" ry="20" fill="#2255cc" opacity="0.3" filter="url(#glow-strong)"/>
+      <!-- main body -->
+      <rect x="-30" y="-13" width="48" height="26" rx="6" fill="url(#pod-body)" stroke="#8faec8" stroke-width="0.5"/>
+      <!-- carbon-carbon (CC) band -->
+      <rect x="20" y="-13" width="6" height="26" fill="#1a1a1a"/>
+      <!-- silicon carbide ogive (tan) -->
+      <path d="M 26 -13 L 38 0 L 26 13 Z" fill="#ccc8aa" stroke="#8faec8" stroke-width="0.5"/>
+      <!-- WC tip (tungsten carbide, very white) -->
+      <polygon points="38,-3 50,0 38,3" fill="#ffffff" filter="url(#glow-c)"/>
+      <!-- superconducting armature (mid section) -->
+      <rect x="-10" y="-15" width="14" height="3" fill="#2255cc"/>
+      <rect x="-10" y="12" width="14" height="3" fill="#2255cc"/>
+      <!-- rear duocel collar -->
+      <rect x="-30" y="-13" width="6" height="26" fill="#8B7355" opacity="0.85"/>
+      <!-- forward indicator dot -->
+      <circle cx="44" cy="0" r="1.5" fill="#ffaa00"/>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- READOUTS BAR (between tube and labels)                       -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g transform="translate(60, 480)">
+    <!-- mach -->
+    <g>
+      <text class="mono" font-size="9" fill="#4d6680" letter-spacing="0.18em">MACH</text>
+      <rect x="0" y="14" width="280" height="3" fill="#0a1422" stroke="#192e4c" stroke-width="0.5"/>
+      <rect x="0" y="14" width="280" height="3" fill="#00e5ff" class="readout-bar"/>
+      <text class="mono" font-size="14" fill="#00e5ff" y="36">
+        <animate attributeName="textContent" values="0.0;0.5;1.2;1.9;2.6;3.1;3.4;3.5;3.5;3.5" keyTimes="0;0.1;0.2;0.35;0.5;0.65;0.8;0.92;0.96;1" dur="9s" repeatCount="indefinite"/>
+        3.5
+      </text>
+    </g>
+    <!-- velocity -->
+    <g transform="translate(340, 0)">
+      <text class="mono" font-size="9" fill="#4d6680" letter-spacing="0.18em">VELOCITY · m/s</text>
+      <rect x="0" y="14" width="280" height="3" fill="#0a1422" stroke="#192e4c" stroke-width="0.5"/>
+      <rect x="0" y="14" width="280" height="3" fill="#7ee8ff" class="readout-bar"/>
+      <text class="mono" font-size="14" fill="#7ee8ff" y="36">
+        <animate attributeName="textContent" values="0;170;408;646;884;1054;1156;1190;1190;1190" keyTimes="0;0.1;0.2;0.35;0.5;0.65;0.8;0.92;0.96;1" dur="9s" repeatCount="indefinite"/>
+        1190
+      </text>
+    </g>
+    <!-- distance -->
+    <g transform="translate(680, 0)">
+      <text class="mono" font-size="9" fill="#4d6680" letter-spacing="0.18em">DISTANCE · km</text>
+      <rect x="0" y="14" width="280" height="3" fill="#0a1422" stroke="#192e4c" stroke-width="0.5"/>
+      <rect x="0" y="14" width="280" height="3" fill="#b4ff6e" class="readout-bar"/>
+      <text class="mono" font-size="14" fill="#b4ff6e" y="36">
+        <animate attributeName="textContent" values="0.0;1.4;5.7;11.5;17.2;22.4;26.2;28.7;28.7;28.7" keyTimes="0;0.1;0.2;0.35;0.5;0.65;0.8;0.92;0.96;1" dur="9s" repeatCount="indefinite"/>
+        28.7
+      </text>
+    </g>
+    <!-- G-load -->
+    <g transform="translate(1020, 0)">
+      <text class="mono" font-size="9" fill="#4d6680" letter-spacing="0.18em">G-LOAD</text>
+      <rect x="0" y="14" width="200" height="3" fill="#0a1422" stroke="#192e4c" stroke-width="0.5"/>
+      <rect x="0" y="14" width="200" height="3" fill="#ffaa00" class="readout-bar"/>
+      <text class="mono" font-size="14" fill="#ffaa00" y="36">
+        <animate attributeName="textContent" values="0.0;1.2;2.1;2.5;2.5;2.5;2.5;2.5;0.0;0.0" keyTimes="0;0.1;0.2;0.3;0.5;0.7;0.85;0.92;0.96;1" dur="9s" repeatCount="indefinite"/>
+        2.5
+      </text>
+    </g>
+    <!-- energy stored -->
+    <g transform="translate(1280, 0)">
+      <text class="mono" font-size="9" fill="#4d6680" letter-spacing="0.18em">ENERGY · MJ</text>
+      <rect x="0" y="14" width="200" height="3" fill="#0a1422" stroke="#192e4c" stroke-width="0.5"/>
+      <rect x="0" y="14" width="200" height="3" fill="#a78bfa"/>
+      <text class="mono" font-size="14" fill="#a78bfa" y="36">
+        <animate attributeName="textContent" values="900;820;680;540;380;220;100;30;900;900" keyTimes="0;0.1;0.2;0.35;0.5;0.65;0.8;0.92;0.96;1" dur="9s" repeatCount="indefinite"/>
+        900
+      </text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM LABELS                                                -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g class="mono" font-size="11" letter-spacing="0.14em">
+    <g transform="translate(56, 580)">
+      <rect x="-2" y="-4" width="8" height="8" fill="#0a2040" stroke="#192e4c"/>
+      <text x="14" y="4" fill="#4d6680">EVACUATED BORE · 0.1 ATM · ZERO DRAG</text>
+    </g>
+    <g transform="translate(56, 608)">
+      <circle cx="0" cy="0" r="4" fill="#2255cc" filter="url(#glow-c)"/>
+      <text x="14" y="4" fill="#4d6680">SUPERCONDUCTING ARMATURE · 20 K LH₂</text>
+    </g>
+    <g transform="translate(1544, 580)" text-anchor="end">
+      <text x="-14" y="4" fill="#4d6680">PEAK FIELD · 8 T · NbTi @ 4.2 K</text>
+      <circle cx="0" cy="0" r="4" fill="#7ee8ff" filter="url(#glow-c)"/>
+    </g>
+    <g transform="translate(1544, 608)" text-anchor="end">
+      <text x="-14" y="4" fill="#4d6680">RECHARGE · 4 MIN · PEAK 39 GW · CHARGE 650 MW</text>
+      <circle cx="0" cy="0" r="4" fill="#a78bfa"/>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- STATUS BAR                                                   -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g transform="translate(0, 640)">
+    <rect x="20" y="0" width="1560" height="32" fill="#020610" opacity="0.95"/>
+    <line x1="20" y1="0" x2="1580" y2="0" stroke="#192e4c" stroke-width="1"/>
+    <g transform="translate(40, 22)">
+      <circle cx="0" cy="-3" r="4" fill="#00e5ff" filter="url(#glow-c)" class="pulse-led"/>
+      <text x="14" y="0" class="mono" font-size="11" fill="#00e5ff" letter-spacing="0.18em">COILGUN SEQUENCE ACTIVE</text>
+      <text x="285" y="0" class="mono" font-size="11" fill="#4d6680" letter-spacing="0.18em">·</text>
+      <text x="305" y="0" class="mono" font-size="11" fill="#7ee8ff" letter-spacing="0.18em">LEADING COILS PULL</text>
+      <text x="500" y="0" class="mono" font-size="11" fill="#4d6680" letter-spacing="0.18em">·</text>
+      <text x="520" y="0" class="mono" font-size="11" fill="#ffaa00" letter-spacing="0.18em">TRAILING COILS DE-ENERGIZE</text>
+      <text x="790" y="0" class="mono" font-size="11" fill="#4d6680" letter-spacing="0.18em">·</text>
+      <text x="810" y="0" class="mono" font-size="11" fill="#a78bfa" letter-spacing="0.18em">900 MJ STORED</text>
+      <text x="945" y="0" class="mono" font-size="11" fill="#4d6680" letter-spacing="0.18em">·</text>
+      <text x="965" y="0" class="mono" font-size="11" fill="#b4ff6e" letter-spacing="0.18em">23 SEC RUN · MACH 3.5 EXIT · 28.7 KM</text>
+      <text x="1300" y="0" class="mono blink-soft-1" font-size="11" fill="#4d6680" letter-spacing="0.18em">●</text>
+      <text x="1320" y="0" class="mono" font-size="11" fill="#4d6680" letter-spacing="0.18em">PRE-PHASE A · CONCEPT</text>
+    </g>
+  </g>
+
+</svg>
