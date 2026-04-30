@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="thebardchat — the stack: Pi 5 in a closet to orbital sail">
+  <title>thebardchat — Faith · Family · Sobriety · Local AI · Left-Behind User</title>
+
+  <defs>
+    <!-- ── gradients ── -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040910"/>
+      <stop offset="55%" stop-color="#070f1c"/>
+      <stop offset="100%" stop-color="#040910"/>
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="40%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="55%" stop-color="#7ee8ff"/>
+      <stop offset="100%" stop-color="#ffaa00"/>
+    </linearGradient>
+
+    <linearGradient id="stack-line-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.0"/>
+      <stop offset="20%" stop-color="#00e5ff" stop-opacity="0.6"/>
+      <stop offset="80%" stop-color="#ffaa00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffaa00" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <radialGradient id="pulse-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#00e5ff" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#00e5ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sail-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b4ff6e" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#b4ff6e" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="ticker-fade-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#040910" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#040910" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ticker-fade-r" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#040910" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#040910" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- ── filters ── -->
+    <filter id="glow-soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-strong" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-title" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- ── clip path ── -->
+    <clipPath id="ticker-clip">
+      <rect x="20" y="450" width="1560" height="44"/>
+    </clipPath>
+
+    <!-- ── grid pattern ── -->
+    <pattern id="grid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#192e4c" stroke-width="1" opacity="0.5"/>
+    </pattern>
+    <pattern id="grid-major" x="0" y="0" width="250" height="250" patternUnits="userSpaceOnUse">
+      <path d="M 250 0 L 0 0 0 250" fill="none" stroke="#254469" stroke-width="1" opacity="0.4"/>
+    </pattern>
+
+    <!-- ── styles + animations ── -->
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+      .display { font-family: 'Space Grotesk', 'Inter', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: -0.03em; }
+      .sans { font-family: 'Inter', 'Helvetica Neue', sans-serif; }
+
+      @keyframes scan-h { 0% { transform: translateX(-260px); } 100% { transform: translateX(1860px); } }
+      @keyframes pulse-up { 0% { transform: translateY(0); opacity: 0; } 5% { opacity: 1; } 95% { opacity: 1; } 100% { transform: translateY(-340px); opacity: 0; } }
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes spin-rev { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+      @keyframes title-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.85; } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+      @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-1180px); } }
+      @keyframes sail-breath { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+      @keyframes wing-flap { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(0.94); } }
+      @keyframes pi-led { 0%, 100% { fill: #b4ff6e; } 50% { fill: #ffaa00; } }
+      @keyframes ring-pulse { 0%, 100% { stroke-opacity: 0.7; } 50% { stroke-opacity: 1; } }
+
+      .scan-h    { animation: scan-h 9s linear infinite; }
+      .pulse     { animation: pulse-up 4.2s cubic-bezier(.4,0,.6,1) infinite; }
+      .spin-12   { animation: spin 12s linear infinite; transform-origin: 200px 290px; }
+      .spin-r-20 { animation: spin-rev 20s linear infinite; transform-origin: 200px 290px; }
+      .title-fx  { animation: title-pulse 3.5s ease-in-out infinite; }
+      .blink-1   { animation: blink 1.6s ease-in-out infinite; }
+      .blink-2   { animation: blink 2.4s ease-in-out infinite; }
+      .blink-3   { animation: blink 3.1s ease-in-out infinite; }
+      .ticker-go { animation: ticker 28s linear infinite; }
+      .sail-fx   { animation: sail-breath 4s ease-in-out infinite; transform-origin: 200px 95px; transform-box: fill-box; }
+      .wing-fx   { animation: wing-flap 3.6s ease-in-out infinite; transform-origin: 200px 195px; transform-box: fill-box; }
+      .pi-led    { animation: pi-led 1.8s ease-in-out infinite; }
+      .ring-fx   { animation: ring-pulse 2.6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BACKGROUND                                                   -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect width="1600" height="500" fill="url(#bg-grad)"/>
+  <rect width="1600" height="500" fill="url(#grid)"/>
+  <rect width="1600" height="500" fill="url(#grid-major)"/>
+
+  <!-- corner brackets (technical drawing aesthetic) -->
+  <g stroke="#254469" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M 20 20 L 20 50 M 20 20 L 50 20"/>
+    <path d="M 1580 20 L 1580 50 M 1580 20 L 1550 20"/>
+    <path d="M 20 480 L 20 450 M 20 480 L 50 480"/>
+    <path d="M 1580 480 L 1580 450 M 1580 480 L 1550 480"/>
+  </g>
+
+  <!-- starfield (top-right quadrant — orbital region) -->
+  <g fill="#ddeeff">
+    <circle cx="430" cy="60" r="0.8" opacity="0.6" class="blink-1"/>
+    <circle cx="370" cy="100" r="0.6" opacity="0.5" class="blink-2"/>
+    <circle cx="300" cy="50" r="0.7" opacity="0.7" class="blink-3"/>
+    <circle cx="270" cy="120" r="0.5" opacity="0.4" class="blink-1"/>
+    <circle cx="220" cy="40" r="0.6" opacity="0.5" class="blink-2"/>
+    <circle cx="160" cy="80" r="0.7" opacity="0.6" class="blink-3"/>
+    <circle cx="100" cy="50" r="0.5" opacity="0.4" class="blink-1"/>
+    <circle cx="450" cy="140" r="0.5" opacity="0.5" class="blink-2"/>
+    <circle cx="80" cy="130" r="0.6" opacity="0.6" class="blink-1"/>
+  </g>
+
+  <!-- horizontal scan line (top) -->
+  <g class="scan-h">
+    <line x1="0" y1="14" x2="240" y2="14" stroke="#00e5ff" stroke-width="1.5" opacity="0.9"/>
+    <line x1="0" y1="14" x2="240" y2="14" stroke="#00e5ff" stroke-width="6" opacity="0.15"/>
+  </g>
+
+  <!-- top-left technical readout -->
+  <g class="mono" font-size="9" fill="#4d6680" letter-spacing="0.1em">
+    <text x="36" y="36">SYS://THEBARDCHAT</text>
+    <text x="36" y="48">LAT 34.93N · LON -86.58W</text>
+    <text x="36" y="60">PI5 · 8GB · NVME · LAN</text>
+  </g>
+
+  <!-- top-right technical readout -->
+  <g class="mono" font-size="9" fill="#4d6680" letter-spacing="0.1em" text-anchor="end">
+    <text x="1564" y="36">REV.2026.04 · OPCODE 0x4242</text>
+    <text x="1564" y="48">FAITH · FAMILY · SOBRIETY</text>
+    <text x="1564" y="60">LOCAL · OFFLINE · COVENANT</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LEFT: THE STACK (vertical schematic)                         -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- vertical connector line (the data spine) -->
+  <line x1="200" y1="100" x2="200" y2="430" stroke="url(#stack-line-grad)" stroke-width="2" stroke-dasharray="3 4" opacity="0.5"/>
+
+  <!-- ─── STAGE 4: KEPLER SAIL (top, y ≈ 95) ──────────────────── -->
+  <g class="sail-fx">
+    <!-- glow halo -->
+    <circle cx="200" cy="95" r="50" fill="url(#sail-glow)"/>
+    <!-- sail diamond -->
+    <g filter="url(#glow-soft)">
+      <polygon points="200,55 240,95 200,135 160,95"
+               fill="none" stroke="#b4ff6e" stroke-width="1.6"/>
+      <polygon points="200,65 230,95 200,125 170,95"
+               fill="none" stroke="#b4ff6e" stroke-width="1" opacity="0.7"/>
+      <!-- sail panels (cross) -->
+      <line x1="200" y1="55" x2="200" y2="135" stroke="#b4ff6e" stroke-width="0.8" opacity="0.6"/>
+      <line x1="160" y1="95" x2="240" y2="95" stroke="#b4ff6e" stroke-width="0.8" opacity="0.6"/>
+      <!-- center boom -->
+      <circle cx="200" cy="95" r="3" fill="#b4ff6e"/>
+    </g>
+  </g>
+  <!-- label -->
+  <g class="mono" font-size="9" fill="#b4ff6e" letter-spacing="0.18em">
+    <text x="260" y="92">STAGE · 04</text>
+    <text x="260" y="105" fill="#8faec8" letter-spacing="0.06em">KEPLER SAIL · 1,200 m²</text>
+  </g>
+  <!-- left coordinate tick -->
+  <g class="mono" font-size="8" fill="#4d6680" text-anchor="end" letter-spacing="0.12em">
+    <text x="140" y="92">y+340</text>
+  </g>
+
+  <!-- ─── STAGE 3: GRYPHON WINGS (y ≈ 195) ────────────────────── -->
+  <g class="wing-fx" filter="url(#glow-soft)">
+    <!-- fuselage -->
+    <ellipse cx="200" cy="195" rx="6" ry="14" fill="none" stroke="#ffaa00" stroke-width="1.5"/>
+    <!-- wings (chevron) -->
+    <path d="M 200 195 L 152 215 L 168 200 L 200 195 L 232 200 L 248 215 L 200 195 Z"
+          fill="none" stroke="#ffaa00" stroke-width="1.6"/>
+    <!-- inner wing detail -->
+    <path d="M 200 195 L 175 207 M 200 195 L 225 207" stroke="#ffaa00" stroke-width="0.8" opacity="0.6"/>
+    <!-- nose mark -->
+    <circle cx="200" cy="183" r="2" fill="#ffaa00"/>
+  </g>
+  <g class="mono" font-size="9" fill="#ffaa00" letter-spacing="0.18em">
+    <text x="260" y="192">STAGE · 03</text>
+    <text x="260" y="205" fill="#8faec8" letter-spacing="0.06em">GRYPHON · MACH 8</text>
+  </g>
+  <g class="mono" font-size="8" fill="#4d6680" text-anchor="end" letter-spacing="0.12em">
+    <text x="140" y="192">y+240</text>
+  </g>
+
+  <!-- ─── STAGE 2: MAGLEV TUBE CROSS-SECTION (y ≈ 290) ────────── -->
+  <g>
+    <!-- outer tube ring (rotating) -->
+    <g class="spin-12">
+      <circle cx="200" cy="290" r="42" fill="none" stroke="#00e5ff" stroke-width="1.4" opacity="0.85"/>
+      <!-- coil tick marks around outer ring -->
+      <g stroke="#00e5ff" stroke-width="1.2" opacity="0.7">
+        <line x1="200" y1="248" x2="200" y2="254"/>
+        <line x1="242" y1="290" x2="236" y2="290"/>
+        <line x1="200" y1="332" x2="200" y2="326"/>
+        <line x1="158" y1="290" x2="164" y2="290"/>
+        <line x1="230" y1="260" x2="226" y2="264"/>
+        <line x1="230" y1="320" x2="226" y2="316"/>
+        <line x1="170" y1="320" x2="174" y2="316"/>
+        <line x1="170" y1="260" x2="174" y2="264"/>
+      </g>
+    </g>
+
+    <!-- middle ring (counter-rotating) -->
+    <g class="spin-r-20">
+      <circle cx="200" cy="290" r="30" fill="none" stroke="#00e5ff" stroke-width="1" opacity="0.6" stroke-dasharray="4 3"/>
+    </g>
+
+    <!-- inner bore + pod -->
+    <circle cx="200" cy="290" r="18" fill="#040910" stroke="#00e5ff" stroke-width="1.2" class="ring-fx"/>
+    <!-- pod silhouette -->
+    <g filter="url(#glow-soft)">
+      <ellipse cx="200" cy="290" rx="6" ry="9" fill="#ffaa00" opacity="0.9"/>
+      <circle cx="200" cy="284" r="2" fill="#ffffff"/>
+    </g>
+
+    <!-- field lines extending beyond -->
+    <g stroke="#00e5ff" stroke-width="0.6" opacity="0.4">
+      <path d="M 144 290 Q 130 290 128 280" fill="none"/>
+      <path d="M 256 290 Q 270 290 272 280" fill="none"/>
+      <path d="M 144 290 Q 130 290 128 300" fill="none"/>
+      <path d="M 256 290 Q 270 290 272 300" fill="none"/>
+    </g>
+  </g>
+  <g class="mono" font-size="9" fill="#00e5ff" letter-spacing="0.18em">
+    <text x="260" y="287">STAGE · 02</text>
+    <text x="260" y="300" fill="#8faec8" letter-spacing="0.06em">MAGLEV · 28.7 km · NbTi 4.2K</text>
+  </g>
+  <g class="mono" font-size="8" fill="#4d6680" text-anchor="end" letter-spacing="0.12em">
+    <text x="140" y="287">y+120</text>
+  </g>
+
+  <!-- ─── STAGE 1: PI 5 (closet) (y ≈ 410) ────────────────────── -->
+  <g>
+    <!-- closet frame -->
+    <rect x="160" y="378" width="80" height="56" fill="none" stroke="#254469" stroke-width="1" stroke-dasharray="2 3" opacity="0.6"/>
+    <!-- pi board outline -->
+    <rect x="170" y="388" width="60" height="38" rx="2" fill="#0a1422" stroke="#00e5ff" stroke-width="1.2"/>
+    <!-- soc chip -->
+    <rect x="184" y="400" width="14" height="14" fill="#192e4c" stroke="#00e5ff" stroke-width="0.6"/>
+    <text x="191" y="411" class="mono" font-size="6" fill="#00e5ff" text-anchor="middle">SOC</text>
+    <!-- ram chip -->
+    <rect x="204" y="400" width="10" height="6" fill="#254469"/>
+    <rect x="204" y="408" width="10" height="6" fill="#254469"/>
+    <!-- gpio header -->
+    <g fill="#4d6680">
+      <rect x="173" y="391" width="22" height="3"/>
+    </g>
+    <!-- LEDs -->
+    <circle cx="220" cy="392" r="1.5" class="pi-led"/>
+    <circle cx="225" cy="392" r="1.5" fill="#ffaa00"/>
+    <!-- USB ports -->
+    <rect x="220" y="416" width="6" height="3" fill="#192e4c" stroke="#4d6680" stroke-width="0.4"/>
+    <rect x="220" y="421" width="6" height="3" fill="#192e4c" stroke="#4d6680" stroke-width="0.4"/>
+  </g>
+  <g class="mono" font-size="9" fill="#00e5ff" letter-spacing="0.18em">
+    <text x="260" y="402">STAGE · 01</text>
+    <text x="260" y="415" fill="#8faec8" letter-spacing="0.06em">PI 5 · CLOSET · ZERO CLOUD</text>
+  </g>
+  <g class="mono" font-size="8" fill="#4d6680" text-anchor="end" letter-spacing="0.12em">
+    <text x="140" y="402">y+0</text>
+  </g>
+
+  <!-- ─── TRAVELING PULSE (bottom → top) ──────────────────────── -->
+  <g class="pulse">
+    <circle cx="200" cy="410" r="14" fill="url(#pulse-grad)"/>
+    <circle cx="200" cy="410" r="3" fill="#ffffff" filter="url(#glow-strong)"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- RIGHT: TYPOGRAPHY                                            -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- decorative vertical accent line -->
+  <line x1="495" y1="100" x2="495" y2="380" stroke="#192e4c" stroke-width="1"/>
+  <circle cx="495" cy="100" r="3" fill="#00e5ff"/>
+  <circle cx="495" cy="380" r="3" fill="#ffaa00"/>
+
+  <!-- eyebrow label -->
+  <g transform="translate(540, 130)">
+    <rect x="0" y="-14" width="9" height="9" fill="#00e5ff"/>
+    <text x="20" y="-6" class="mono" font-size="11" fill="#00e5ff" letter-spacing="0.22em">SHANE BRAZELTON</text>
+    <line x1="0" y1="6" x2="320" y2="6" stroke="#192e4c" stroke-width="1"/>
+  </g>
+
+  <!-- title: thebardchat -->
+  <g transform="translate(540, 150)" class="title-fx">
+    <text class="display" font-size="118" fill="url(#title-grad)" filter="url(#glow-title)" y="100">thebardchat</text>
+  </g>
+
+  <!-- subtitle row -->
+  <g transform="translate(540, 290)">
+    <text class="sans" font-size="20" font-weight="600" fill="#ddeeff" letter-spacing="-0.01em">
+      Concrete dispatcher · Author · AI builder · Aerospace concepts
+    </text>
+  </g>
+
+  <!-- meta line -->
+  <g transform="translate(540, 322)">
+    <text class="mono" font-size="13" fill="#8faec8" letter-spacing="0.08em">
+      HAZEL GREEN, ALABAMA · RASPBERRY PI 5 · ZERO CLOUD · OFFLINE FIRST
+    </text>
+  </g>
+
+  <!-- covenant line -->
+  <g transform="translate(540, 350)">
+    <text class="mono" font-size="13" font-weight="600" letter-spacing="0.18em" fill="#b4ff6e">
+      FAITH · FAMILY · SOBRIETY · LOCAL AI · LEFT-BEHIND USER
+    </text>
+  </g>
+
+  <!-- pillar chips -->
+  <g transform="translate(540, 378)" class="mono" font-size="10" letter-spacing="0.14em">
+    <g>
+      <rect x="0" y="0" width="118" height="22" rx="3" fill="none" stroke="#00e5ff" stroke-width="1" opacity="0.7"/>
+      <text x="59" y="15" fill="#00e5ff" text-anchor="middle">17 BOTS</text>
+    </g>
+    <g transform="translate(128,0)">
+      <rect x="0" y="0" width="148" height="22" rx="3" fill="none" stroke="#ffaa00" stroke-width="1" opacity="0.7"/>
+      <text x="74" y="15" fill="#ffaa00" text-anchor="middle">42 MCP TOOLS</text>
+    </g>
+    <g transform="translate(286,0)">
+      <rect x="0" y="0" width="178" height="22" rx="3" fill="none" stroke="#b4ff6e" stroke-width="1" opacity="0.7"/>
+      <text x="89" y="15" fill="#b4ff6e" text-anchor="middle">25 COLLECTIONS</text>
+    </g>
+    <g transform="translate(474,0)">
+      <rect x="0" y="0" width="158" height="22" rx="3" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.85"/>
+      <text x="79" y="15" fill="#a78bfa" text-anchor="middle">885 DAYS SOBER</text>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BOTTOM TICKER                                                -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g transform="translate(0, 458)">
+    <line x1="20" y1="0" x2="1580" y2="0" stroke="#192e4c" stroke-width="1"/>
+    <rect x="0" y="2" width="1600" height="36" fill="#040910" opacity="0.6"/>
+
+    <g clip-path="url(#ticker-clip)">
+      <g class="ticker-go">
+        <text x="0" y="26" class="mono" font-size="12" fill="#4d6680" letter-spacing="0.18em">
+          ▸ 17 AUTONOMOUS BOTS · 42 MCP TOOLS · 25 WEAVIATE COLLECTIONS · 3,200+ OBJECTS · 28.7 KM MAGLEV TUBE · 1,200 m² KEPLER SAIL · 885 DAYS SOBER · ZERO CLOUD · ZERO BIG TECH · ZERO SUBSCRIPTION · BUILT FOR THE LEFT-BEHIND USER ▸ <tspan fill="#00e5ff">FAITH</tspan> · <tspan fill="#ffaa00">FAMILY</tspan> · <tspan fill="#b4ff6e">SOBRIETY</tspan> · <tspan fill="#a78bfa">LOCAL AI</tspan> ·
+        </text>
+        <text x="1180" y="26" class="mono" font-size="12" fill="#4d6680" letter-spacing="0.18em">
+          ▸ 17 AUTONOMOUS BOTS · 42 MCP TOOLS · 25 WEAVIATE COLLECTIONS · 3,200+ OBJECTS · 28.7 KM MAGLEV TUBE · 1,200 m² KEPLER SAIL · 885 DAYS SOBER · ZERO CLOUD · ZERO BIG TECH · ZERO SUBSCRIPTION · BUILT FOR THE LEFT-BEHIND USER ▸ <tspan fill="#00e5ff">FAITH</tspan> · <tspan fill="#ffaa00">FAMILY</tspan> · <tspan fill="#b4ff6e">SOBRIETY</tspan> · <tspan fill="#a78bfa">LOCAL AI</tspan> ·
+        </text>
+      </g>
+    </g>
+
+    <!-- ticker fade-out edges -->
+    <rect x="0" y="2" width="60" height="36" fill="url(#ticker-fade-l)"/>
+    <rect x="1540" y="2" width="60" height="36" fill="url(#ticker-fade-r)"/>
+  </g>
+</svg>

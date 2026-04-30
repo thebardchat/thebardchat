@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://thebardchat.github.io/assets/social-card.jpg" alt="thebardchat" width="100%">
+<img src="./assets/banner.svg" alt="thebardchat — Pi 5 in a closet to orbital sail · Faith · Family · Sobriety · Local AI · Left-Behind User" width="100%">
 
 <br/><br/>
 
@@ -56,6 +56,14 @@ Every repo on this profile exists somewhere on that map.
 ---
 
 ## BGKPJR — The Aerospace Work
+
+<div align="center">
+<img src="./assets/concept-stack.webp" alt="From a Raspberry Pi 5 in a closet in Hazel Green, Alabama — through a 28.7 km electromagnetic launch tube — to a solar sail unfolding above Earth" width="100%">
+
+*The whole stack in one frame: a Pi 5 in an Alabama closet → a 28.7 km maglev tube → an orbital solar sail.*
+</div>
+
+<br/>
 
 The patent-filed electromagnetic launch architecture. Ground-based superconducting magnets replace the first stage of every rocket ever built.
 
