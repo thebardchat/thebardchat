@@ -2,7 +2,11 @@
 
 <img src="./assets/banner.svg" alt="thebardchat — Pi 5 in a closet to orbital sail · Faith · Family · Sobriety · Local AI · Left-Behind User" width="100%">
 
-<br/><br/>
+<br/>
+
+<img src="./assets/logo.svg" alt="thebardchat — official logo lockup" width="100%">
+
+<br/>
 
 # Shane Brazelton · thebardchat
 

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="thebardchat logo lockup">
+  <title>thebardchat — Logo Lockup</title>
+
+  <defs>
+    <!-- ── EXACT same tokens as the masthead banner ── -->
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="40%">
+      <stop offset="0%" stop-color="#00e5ff">
+        <animate attributeName="stop-color"
+                 values="#00e5ff;#7ee8ff;#00e5ff"
+                 dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#7ee8ff"/>
+      <stop offset="100%" stop-color="#ffaa00">
+        <animate attributeName="stop-color"
+                 values="#ffaa00;#ffd066;#ffaa00"
+                 dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="underline-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00e5ff" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#ffaa00" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffaa00" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040910"/>
+      <stop offset="50%" stop-color="#070f1c"/>
+      <stop offset="100%" stop-color="#040910"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.10"/>
+      <stop offset="55%" stop-color="#00e5ff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ── filters ── -->
+    <filter id="glow-logo" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-strong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- ── grid (same as banner) ── -->
+    <pattern id="grid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#192e4c" stroke-width="1" opacity="0.4"/>
+    </pattern>
+    <pattern id="grid-major" x="0" y="0" width="250" height="250" patternUnits="userSpaceOnUse">
+      <path d="M 250 0 L 0 0 0 250" fill="none" stroke="#254469" stroke-width="1" opacity="0.4"/>
+    </pattern>
+
+    <style>
+      .display { font-family: 'Space Grotesk', 'Inter', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: -0.03em; }
+      .mono    { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+
+      @keyframes logo-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.92; } }
+      @keyframes scan-pass  { 0% { transform: translateX(-360px); } 100% { transform: translateX(1700px); } }
+      @keyframes corner-fx  { 0%, 100% { stroke-opacity: 0.7; } 50% { stroke-opacity: 1; } }
+      @keyframes underline-grow {
+        0%   { transform: scaleX(0); transform-origin: center; }
+        20%  { transform: scaleX(1); transform-origin: center; }
+        80%  { transform: scaleX(1); transform-origin: center; }
+        100% { transform: scaleX(1); transform-origin: center; }
+      }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+      .logo-fx     { animation: logo-pulse 3.5s ease-in-out infinite; }
+      .scan-fx     { animation: scan-pass 8s linear infinite; }
+      .corner-fx   { animation: corner-fx 2.4s ease-in-out infinite; }
+      .blink-1     { animation: blink 1.6s ease-in-out infinite; }
+      .blink-2     { animation: blink 2.4s ease-in-out infinite; }
+      .blink-3     { animation: blink 3.1s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- ─── BACKGROUND ─── -->
+  <rect width="1600" height="480" fill="url(#bg-grad)"/>
+  <rect width="1600" height="480" fill="url(#grid)"/>
+  <rect width="1600" height="480" fill="url(#grid-major)"/>
+
+  <!-- soft halo behind the wordmark -->
+  <ellipse cx="800" cy="240" rx="700" ry="180" fill="url(#halo)"/>
+
+  <!-- ─── corner brackets (technical-drawing aesthetic) ─── -->
+  <g stroke="#00e5ff" stroke-width="1.5" fill="none" class="corner-fx">
+    <path d="M 30 30 L 30 70 M 30 30 L 70 30"/>
+    <path d="M 1570 30 L 1570 70 M 1570 30 L 1530 30"/>
+    <path d="M 30 450 L 30 410 M 30 450 L 70 450"/>
+    <path d="M 1570 450 L 1570 410 M 1570 450 L 1530 450"/>
+  </g>
+
+  <!-- starfield accents -->
+  <g fill="#ddeeff">
+    <circle cx="180" cy="80" r="0.7" class="blink-1"/>
+    <circle cx="1430" cy="100" r="0.6" class="blink-2"/>
+    <circle cx="1500" cy="380" r="0.7" class="blink-3"/>
+    <circle cx="120" cy="400" r="0.6" class="blink-1"/>
+    <circle cx="240" cy="420" r="0.5" class="blink-2"/>
+  </g>
+
+  <!-- horizontal scan line (subtle, drifts across) -->
+  <g class="scan-fx">
+    <line x1="0" y1="50" x2="320" y2="50" stroke="#00e5ff" stroke-width="1" opacity="0.6"/>
+    <line x1="0" y1="50" x2="320" y2="50" stroke="#00e5ff" stroke-width="5" opacity="0.10"/>
+  </g>
+
+  <!-- top-center small label -->
+  <g class="mono" font-size="11" fill="#4d6680" letter-spacing="0.32em" text-anchor="middle">
+    <text x="800" y="80">— LOGO LOCKUP · v1 —</text>
+  </g>
+
+  <!-- ─── THE WORDMARK ─── -->
+  <g class="logo-fx">
+    <text class="display"
+          x="800" y="285"
+          font-size="220"
+          fill="url(#logo-grad)"
+          text-anchor="middle"
+          filter="url(#glow-logo)">thebardchat</text>
+  </g>
+
+  <!-- ─── underline accent ─── -->
+  <g transform="translate(800, 312)">
+    <line x1="-540" y1="0" x2="540" y2="0" stroke="url(#underline-grad)" stroke-width="2"/>
+    <circle cx="-540" cy="0" r="3" fill="#00e5ff" filter="url(#glow-strong)"/>
+    <circle cx="540" cy="0" r="3" fill="#ffaa00" filter="url(#glow-strong)"/>
+  </g>
+
+  <!-- ─── COVENANT TAGLINE ─── -->
+  <g transform="translate(800, 360)">
+    <text class="mono"
+          font-size="18"
+          fill="#b4ff6e"
+          text-anchor="middle"
+          letter-spacing="0.32em"
+          font-weight="600">FAITH · FAMILY · SOBRIETY · LOCAL AI · LEFT-BEHIND USER</text>
+  </g>
+
+  <!-- ─── tertiary line ─── -->
+  <g transform="translate(800, 395)">
+    <text class="mono"
+          font-size="12"
+          fill="#4d6680"
+          text-anchor="middle"
+          letter-spacing="0.36em">SHANE BRAZELTON · HAZEL GREEN, ALABAMA · ZERO CLOUD</text>
+  </g>
+
+</svg>
