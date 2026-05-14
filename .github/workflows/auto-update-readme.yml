@@ -1,0 +1,44 @@
+name: Auto-update README
+
+on:
+  schedule:
+    - cron: "7 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/workflows/auto-update-readme.yml
+      - scripts/update_readme.py
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update sober-day counter and stats
+        env:
+          SOBRIETY_START: "2023-11-27"
+          GH_USER: thebardchat
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-update README counters"
+            git push
+          else
+            echo "No changes to commit."
+          fi
