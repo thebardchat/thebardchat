@@ -168,6 +168,25 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ---
 
+## MEGA Crew Chronicles
+
+17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+
+<div align="center">
+
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/arc_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/weld_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/sparky_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/gemini_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/glitch_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/volt_Gemini_Generated.png" width="72" style="border-radius:50%"></a>
+
+**[Read the Chronicles →](https://thebardchat.github.io/mega-crew-stories/)** · **[View Cards →](https://thebardchat.github.io/mega-crew-stories/cards.html)**
+
+</div>
+
+---
+
 ## The Stack
 
 <div align="center">
