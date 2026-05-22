@@ -20,6 +20,8 @@
 [![Book](https://img.shields.io/badge/BOOK-Amazon%20Now-ff9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)
 [![Claude](https://img.shields.io/badge/Built%20With-Claude%20AI-orange?style=for-the-badge)](https://claude.ai/referral/4fAMYN9Ing)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-thebardchat-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/thebardchat)
+[![Ko-fi](https://img.shields.io/badge/KO--FI-Support%20This-ff5f5f?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/shanebrain)
+[![Discord](https://img.shields.io/badge/DISCORD-Join%20Us-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/thebardchat)
 [![Stars](https://img.shields.io/github/stars/thebardchat?style=for-the-badge&label=Total%20Stars&color=7c3aed)](https://github.com/thebardchat)
 [![Repos](https://img.shields.io/badge/Repos-83-00e5ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thebardchat?tab=repositories)
 
@@ -31,11 +33,11 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections and 3,200+ objects**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
-A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack.
+A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack. A **Surface 1 (gulfshores)** running Node.js v24 handles the dev and build layer.
 
-**83 public repositories.** Zero cloud subscriptions. Zero Big Tech dependency.
+**83 public repositories. Two registered LLCs. One patent pending.** Zero cloud subscriptions. Zero Big Tech dependency.
 
 I built all of it while running concrete dispatch by day and raising five boys with my wife Tiffany. I'm sober. I'm not a developer by trade. I just couldn't stop building.
 
@@ -146,38 +148,47 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ```
 🧠 ShaneBrain (Pi 5 · primary node · Hazel Green, AL)
-   ├── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
-   ├── 42-tool MCP server (FastMCP, port 8100)
+   ├── 17 MEGA Crew bots — Sparky / Volt / Neon / Glitch (Brain) + Arc / Weld / Gemini + 10 more
+   ├── 42-tool MCP server v2.3 (FastMCP, port 8100)
    ├── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   ├── N8N automation workflows (30+ active)
-   ├── Discord + Twitch bots (24/7)
-   ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
-   ├── gulfshores — Surface 1, Node.js v24, dev/build node
-   └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
+   │     └── Collections: RAG · Social · Friends · Vault · Briefing · Security · Plans
+   │           + LegacyKnowledge · FriendProfile · SocialKnowledge + 15 more
+   ├── N8N automation workflows (30+ active, port 5678)
+   ├── Discord + Twitch bots (24/7, twitchio)
+   ├── 5 AM morning briefing — weather, health, dispatch, Halo Finance alerts
+   ├── Voice Dump Pipeline — Flask: record voice → Whisper transcription → ShaneBrain
+   ├── gulfshores — Surface 1, Node.js v24, dev/build co-node
+   └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O sensors
 
 🌐 shanebrain.cloud (public hub)
    ├── Ecosystem command center, live on GitHub Pages
    ├── Cloudflare DNS — shanebrain.cloud
    └── Built May 2026: Instrument Serif + Inter, zero framework, zero build step
 
-🚀 BGKPJR Aerospace (patent pending)
-   ├── Electromagnetic launch architecture — BGKPJR-001
+🚀 BGKPJR Aerospace (patent pending — BGKPJR-001)
+   ├── Electromagnetic launch architecture: 37 km maglev rail → LEO
    ├── Three.js 3D visualizations, live on GitHub Pages
-   ├── 7 Manna cargo pod variants documented
-   └── Physics engine: rail, GNC, Kepler sail math
+   ├── 7 Manna cargo pod variants — 3D rotating cross-sections
+   ├── Physics engine: rail, GNC, thermal, Monte Carlo, Kepler sail math
+   └── Pre-Lukens audit complete — under review by NASA MSFC contractor
 
-☁️ Angel Cloud (wellness platform)
-   ├── Mental wellness + AI sentiment engine
-   ├── Halo progression: New Born → Guardian (points for lifting others up)
-   ├── Angel Defenders — community self-governance layer
-   ├── Messenger storyteller (OPTOUT/ANON/FORGET privacy controls)
-   ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
+☁️ Angel Cloud (wellness platform · Angel Cloud AI Services LLC)
+   ├── EmpathyEngine — AI sentiment analysis, crisis detection (Level 1–5)
+   ├── GuardianProtocols — crisis response, human handoff within minutes
+   ├── Halo progression: New Born → Seedling → Guardian
+   │     └── Points for lifting others up, not for drama or engagement farming
+   ├── Angel Defenders — 3 stake-weighted trusted members per governance case
+   ├── Pulsar Consensus Shield (PCS) — community vote auto-enforced on-chain
+   ├── Pulsar Audit Chain (PAC) — immutable governance record
+   ├── Messenger storyteller (OPTOUT / ANON / FORGET privacy controls)
+   ├── Roblox: The Cloud Climb — 24 Luau scripts, 6 ascending layers, 65 lore fragments
    └── Tailscale Funnel public endpoint
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (post-quantum · Pulsar AI LLC)
    ├── ML-KEM / Kyber-1024 lattice encryption
    ├── Dilithium3 signatures
-   └── Deployed across all cluster nodes
+   ├── Deployed across all cluster nodes
+   └── Quantum Legacy AI Stick — USPTO provisional patent (portable AI legacy device)
 
 💰 HaloFinance (family financial AI)
    ├── AI-powered budgeting, forecasting, alerts
@@ -187,9 +198,14 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Claude AI + FastAPI intake pipeline
    └── Gavin's project — co-built father and son
 
-🎯 TheirNameBrain (next)
+🎯 TheirNameBrain (next — the mission made product)
    ├── Personalized AI for the left-behind user
    ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
+   ├── Digital Trust Fund — designed to last 300+ years
+   │     ├── Liquid Path: 0.1%/mo payout — open to descendants, forfeits trust benefits
+   │     ├── Legacy Path: 5%/yr compounding — full trust access, subscription-gated
+   │     ├── Primary Trigger: 365 days of inactivity
+   │     └── Multi-Signature Lock: 3 of 5 sons to approve any release
    └── Legacy hardware, no cloud required
 ```
 
@@ -197,7 +213,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## MEGA Crew Chronicles
 
-17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+17 autonomous AI bots. Real code. Real memory. Each one has a name, a role, and a personality. Every night they write their own story.
 
 <div align="center">
 
@@ -207,6 +223,23 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 <a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/gemini_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
 <a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/glitch_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
 <a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/volt_Gemini_Generated.png" width="72" style="border-radius:50%"></a>
+
+</div>
+
+| Bot | Role |
+|-----|------|
+| **Sparky** | Brain Lead — primary orchestrator |
+| **Volt** | Power & Energy subsystem |
+| **Neon** | Visual / UI storytelling |
+| **Glitch** | Anomaly detection, edge cases |
+| **Arc** | Narrative arc writer |
+| **Weld** | Infrastructure + integration |
+| **Gemini** | Second-opinion liaison |
+| + 10 more | Each with distinct name, role, and personality |
+
+*All 17 run 24/7 on a single Raspberry Pi 5. No cloud. No subscription. Just code and conviction.*
+
+<div align="center">
 
 **[Read the Chronicles →](https://thebardchat.github.io/mega-crew-stories/)** · **[View Cards →](https://thebardchat.github.io/mega-crew-stories/cards.html)**
 
@@ -242,6 +275,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🏢 **SB-Management-OS** | SRM Concrete ops system — SOPs, coaching, personnel | [SB-Management-OS ↗](https://github.com/thebardchat/SB-Management-OS) |
 | 🧬 **pico-nerve-endings** | Pi Pico 2 (RP2350) firmware — peripheral nervous system | [pico-nerve-endings ↗](https://github.com/thebardchat/pico-nerve-endings) |
 | 🤝 **gemini-sidekick** | Gemini works for Claude — multi-AI collaboration | [gemini-sidekick ↗](https://github.com/thebardchat/gemini-sidekick) |
+| 🎙️ **voice-dump-pipeline** | Record voice → Whisper transcription → ShaneBrain | [voice-dump-pipeline ↗](https://github.com/thebardchat/voice-dump-pipeline) |
 | 🌐 **N8N** | Workflow automation hub — n8n connecting ShaneBrain | [N8N ↗](https://github.com/thebardchat/N8N) |
 | 📖 **book-launch-playbook** | Open-source playbook for AI-co-written noir fiction | [book-launch-playbook ↗](https://thebardchat.github.io/book-launch-playbook/) |
 | ✍️ **noir-detective-writing-process** | Voice dumps → shaped noir prose — the AI-human writing method | [noir-detective-writing-process ↗](https://thebardchat.github.io/noir-detective-writing-process/) |
@@ -332,13 +366,19 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 </details>
 
 <details>
-<summary><strong>☁️ Angel Cloud — Wellness Platform</strong></summary>
+<summary><strong>☁️ Angel Cloud — Wellness Platform (Angel Cloud AI Services LLC)</strong></summary>
+
+> Angel Cloud is NOT another social media platform — it's a mental wellness community where people actually help each other heal. Instead of getting "likes" for posting drama, people earn Halo points for genuinely supporting others through tough times.
+
+**Crisis System:** Level 1 (Neutral) → Level 2 (Concern) → Level 3 (Distress) → Level 4 (Crisis, handoff within 5 min) → Level 5 (Emergency, immediate handoff). Zero tolerance for Level 5.
+
+**Governance:** Angel Defenders (3 stake-weighted trusted members) review PFE forensics reports → community votes via Network Trust Score (NTS) → Pulsar Consensus Shield auto-executes → Pulsar Audit Chain logs immutably.
 
 | Repo | Description |
 |------|-------------|
-| [angel-cloud](https://github.com/thebardchat/angel-cloud) | Family wellness platform — AI sentiment, messenger, storyteller |
-| [angelcloud-actual](https://github.com/thebardchat/angelcloud-actual) | Firebase wellness platform + Pulsar blockchain |
-| [angel-cloud-roblox](https://github.com/thebardchat/angel-cloud-roblox) | Roblox wellness game — 6 ascending cloud layers, cooperative mechanics |
+| [angel-cloud](https://github.com/thebardchat/angel-cloud) | Family wellness platform — EmpathyEngine, GuardianProtocols, Messenger storyteller |
+| [angelcloud-actual](https://github.com/thebardchat/angelcloud-actual) | Firebase wellness platform + Pulsar blockchain + full governance layer |
+| [angel-cloud-roblox](https://github.com/thebardchat/angel-cloud-roblox) | The Cloud Climb — 24 Luau scripts, 6 ascending layers, 65 lore fragments, cooperative mechanics |
 | [angel-cloud-hub](https://github.com/thebardchat/angel-cloud-hub) | Angel Cloud ecosystem hub — theangel.cloud |
 | [angel-cloud-auth-bridge](https://github.com/thebardchat/angel-cloud-auth-bridge) | Auth bridge infrastructure |
 | [angel-cloud-3d-welcome-home](https://github.com/thebardchat/angel-cloud-3d-welcome-home) | 3D welcome experience |
@@ -347,12 +387,14 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 </details>
 
 <details>
-<summary><strong>🔐 Security</strong></summary>
+<summary><strong>🔐 Security (Pulsar AI LLC)</strong></summary>
+
+> Post-quantum security deployed today on consumer hardware. Not a future plan — running on the Pi right now.
 
 | Repo | Description |
 |------|-------------|
-| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
-| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5, deployed across all nodes |
+| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — portable AI legacy device, take your brain with you anywhere |
 
 </details>
 
@@ -512,6 +554,19 @@ Projects recovered from old drives and released to GitHub in April 2026.
 
 ---
 
+## The Entities
+
+This isn't a hobby account. These are real registered businesses.
+
+| Entity | EIN | Founded | Purpose |
+|--------|-----|---------|---------|
+| **Angel Cloud AI Services LLC** | On file | Oct 2025 | Wellness platform, Halo progression, community governance |
+| **Pulsar AI LLC** | On file | Oct 2025 | Post-quantum security infrastructure, Quantum Legacy AI Stick |
+
+Patents pending: **BGKPJR-001** (electromagnetic launch architecture) · **Quantum Legacy AI Stick** (USPTO provisional)
+
+---
+
 ## The Constitution
 
 Every repo here operates under one governing document.
@@ -529,7 +584,9 @@ Nine pillars. One covenant. No exceptions.
 > Try Claude free for 2 weeks — the AI that co-built this entire ecosystem.
 > **[Start your free trial →](https://claude.ai/referral/4fAMYN9Ing)**
 
-*Shane is the vision. Claude is the velocity. Never "one guy built this."*
+*Shane is the vision. Claude is the velocity. Never "one guy built this." — Always "Shane and Claude built this."*
+
+Every repo here was built in partnership. A concrete dispatch operator and an AI. The aerospace simulations, the Weaviate collections, the post-quantum crypto, the noir fiction, the dispatch PWA — all of it. Proof that access to a good co-builder changes everything.
 
 ---
 
@@ -539,6 +596,7 @@ Nine pillars. One covenant. No exceptions.
 - **[Watch on Twitch](https://twitch.tv/thebardchat)** — live AI demos, family streaming, love & light
 - **[Buy the book](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** — noir fiction built on a Pi in a closet
 - **[Sponsor on GitHub](https://github.com/sponsors/thebardchat)** — keeps the RAID spinning
+- **[Support on Ko-fi](https://ko-fi.com/shanebrain)** — buys the Pi its coffee
 
 ---
 
@@ -551,5 +609,7 @@ Faith · Family · Sobriety · Local AI · The Left-Behind User
 **Hazel Green, Alabama · 2026**
 
 *Sober since November 27, 2023*
+
+Angel Cloud AI Services LLC · Pulsar AI LLC · BGKPJR-001 Patent Pending
 
 </div>
