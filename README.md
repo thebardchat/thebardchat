@@ -157,6 +157,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 🌐 shanebrain.cloud (public hub)
    ├── Ecosystem command center, live on GitHub Pages
+   ├── app.shanebrain.cloud — shanebrain-app: Astro 6 + Three.js 3D brain mesh + Svelte 5
+   ├── mega.shanebrain.cloud — MEGA Crew Comics live subdomain
    ├── Cloudflare DNS — shanebrain.cloud
    └── Built May 2026: Instrument Serif + Inter, zero framework, zero build step
 
@@ -174,9 +176,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
    └── Tailscale Funnel public endpoint
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (post-quantum · SOFT-LAUNCHED May 2026)
    ├── ML-KEM / Kyber-1024 lattice encryption
    ├── Dilithium3 signatures
+   ├── YourLegacy Vault — non-custodial digital trust fund, ships Q3 2026
    └── Deployed across all cluster nodes
 
 💰 HaloFinance (family financial AI)
@@ -190,6 +193,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 🎯 TheirNameBrain (next)
    ├── Personalized AI for the left-behind user
    ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
+   ├── ShaneBrain Vault Patent — $499 edge AI co-processor (filed Nov 10, 2025)
    └── Legacy hardware, no cloud required
 ```
 
@@ -223,14 +227,15 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🌐 **shanebrain.cloud** | Ecosystem command center — the public hub | [shanebrain-cloud ↗](https://thebardchat.github.io/shanebrain-cloud/) |
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods ↗](https://thebardchat.github.io/manna-pods) |
-| 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew ↗](https://thebardchat.github.io/mega-crew/) |
+| 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local · Comics at mega.shanebrain.cloud | [mega-crew ↗](https://thebardchat.github.io/mega-crew/) |
 | 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat ↗](https://twitch.tv/thebardchat) |
+| 🌐 **shanebrain-app** | 3D brain mesh landing — Astro 6 + Three.js + Svelte 5, live at app.shanebrain.cloud | [shanebrain-app ↗](https://github.com/thebardchat/shanebrain-app) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [shanebrain_mcp ↗](https://github.com/thebardchat/shanebrain_mcp) |
 | 🤖 **shanebrain-agents** | 7 specialist AI agents (Guardian, Life Coach + more) | [shanebrain-agents ↗](https://github.com/thebardchat/shanebrain-agents) |
 | ☀️ **shanebrain-briefing** | Daily 6 AM briefing — weather, health, dispatch | [shanebrain-briefing ↗](https://thebardchat.github.io/shanebrain-briefing/) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
-| 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
+| 🛡️ **Pulsar Sentinel** | Post-quantum security — SOFT-LAUNCHED · YourLegacy Vault ships Q3 2026 | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thought-tree ↗](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [AI-Trainer-MAX ↗](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🎓 **AI-Trainer-OBLIVION** | Next-level AI training — beyond MAX | [AI-Trainer-OBLIVION ↗](https://github.com/thebardchat/AI-Trainer-OBLIVION) |
@@ -267,9 +272,9 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Second Opinion | Gemini (via gemini-sidekick) | Gemini works for Claude here |
 | Containers | Docker + 17 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
-| Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Viz Stack | Astro 6 + Svelte 5 + Three.js 0.184 | Aerospace UIs + 3D brain mesh |
 | Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
-| Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
+| Public DNS | Cloudflare — shanebrain.cloud | shanebrain.cloud · app · mega subdomains |
 
 </div>
 
@@ -301,7 +306,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — Discord bot, MCP, Weaviate, N8N on one Pi 5 |
 | [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 42-tool MCP server — RAG, Weaviate, vault, planning, briefing |
 | [shanebrain-agents](https://github.com/thebardchat/shanebrain-agents) | 7 specialist AI agents orchestrated on Pi 5 |
-| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app |
+| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | Astro 6 + Three.js 0.184 + Svelte 5 — 3D brain mesh landing, live at app.shanebrain.cloud |
 | [shanebrain-cloud](https://github.com/thebardchat/shanebrain-cloud) | Ecosystem hub site — shanebrain.cloud |
 | [shanebrain-briefing](https://github.com/thebardchat/shanebrain-briefing) | Daily 6 AM briefing — weather, health, Halo Finance alerts |
 | [shanebrain-workflows](https://github.com/thebardchat/shanebrain-workflows) | Rust automation workflows |
@@ -351,8 +356,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Repo | Description |
 |------|-------------|
-| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
-| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 · SOFT-LAUNCHED May 2026 |
+| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — $499 edge AI co-processor (ShaneBrain Vault, filed Nov 10, 2025) |
 
 </details>
 
@@ -509,6 +514,25 @@ Projects recovered from old drives and released to GitHub in April 2026.
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
+
+---
+
+## Pulsar Sentinel — Soft-Launched May 2026
+
+> *Post-quantum encryption. Today. Not someday.*
+
+**[pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel)** is live. Built on ML-KEM / Kyber-1024 lattice encryption and Dilithium3 signatures — the same post-quantum primitives NIST standardized in 2024. Deployed across every node in the ShaneBrain cluster.
+
+### YourLegacy Vault — Ships Q3 2026
+
+The first product built on Pulsar Sentinel. A **non-custodial digital trust fund** for working families:
+
+- AI Brain (knowledge, values, voice, memories)
+- Digital Assets — post-quantum encrypted, self-custodied
+- Legal Documents + Personal Letters for your children
+- Legacy hardware. No cloud. No subscription. No middleman.
+
+**Designed for the family that can't afford a lawyer and doesn't trust a bank.**
 
 ---
 
