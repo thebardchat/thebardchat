@@ -12,6 +12,8 @@
 
 ### Concrete dispatch operator. Father of five. Sober 911 days. Building local AI for the people Big Tech left behind.
 
+> *911 days sober. 83 repos. 1 Pi in a closet. 0 cloud bills. 800M people to reach.*
+
 <br/>
 
 [![Website](https://img.shields.io/badge/HUB-shanebrain.cloud-00e5ff?style=for-the-badge&logoColor=white)](https://thebardchat.github.io/shanebrain-cloud/)
@@ -33,9 +35,11 @@ I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
 On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
-A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack.
+A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack. A TrueNAS box called **bullfrog** handles the family vault — 8TB, ZFS, zero cloud, never loses a byte.
 
-**83 public repositories.** Zero cloud subscriptions. Zero Big Tech dependency.
+**83 repositories. Zero cloud subscriptions. Zero Big Tech dependency.**
+
+The first service of the **Family Homebase Cloud** is live: a private family cloud that costs $800 in hardware and $0/month forever. That's the proof-of-concept. That's what 800 million people are about to need.
 
 I built all of it while running concrete dispatch by day and raising five boys with my wife Tiffany. I'm sober. I'm not a developer by trade. I just couldn't stop building.
 
@@ -55,7 +59,7 @@ Big Tech isn't coming for them.
 I am.
 ```
 
-**ShaneBrain → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
+**ShaneBrain → Family Homebase Cloud → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
 
 Every repo on this profile exists somewhere on that map.
 
@@ -153,7 +157,15 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Discord + Twitch bots (24/7)
    ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
    ├── gulfshores — Surface 1, Node.js v24, dev/build node
+   ├── bullfrog — TrueNAS NAS, ZFS RAID, 8TB · the family vault
    └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
+
+🏠 Family Homebase Cloud (proof-of-concept · live May 2026)
+   ├── First service: mindmap server Pi:8600 + bullfrog NAS multi-user auth
+   ├── $800 one-time hardware (Pi 5 + TrueNAS) · $0/month · zero cloud
+   ├── ZFS on bullfrog — bit-rot resistant, snapshotted, never loses data
+   ├── Tailscale private network · bcrypt auth · family-managed
+   └── This is the template we give to 800M people
 
 🌐 shanebrain.cloud (public hub)
    ├── Ecosystem command center, live on GitHub Pages
@@ -188,10 +200,40 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    └── Gavin's project — co-built father and son
 
 🎯 TheirNameBrain (next)
-   ├── Personalized AI for the left-behind user
+   ├── Personalized AI for the left-behind user — $499 hardware product
    ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
-   └── Legacy hardware, no cloud required
+   ├── Legacy AI Trust Fund — Pulsar blockchain · 3-of-5 sons multi-sig
+   ├── Quantum Legacy AI Stick — USPTO provisional patent (Nov 10, 2025)
+   └── Runs offline. Passes down like a family heirloom. No cloud, no subscription.
 ```
+
+---
+
+## Family Homebase Cloud
+
+> *The template we give away. $800 hardware. Zero monthly fees. No Big Tech in the loop. Ever.*
+
+800 million people are about to lose Windows 10 support. Most of them don't have a cloud subscription. Most of them never will. They don't need one.
+
+The **Family Homebase Cloud** is the proof that a real family private cloud costs $800 one-time and runs forever on $0/month. The first service went live May 2026 — a mindmap server on a Pi at port 8600 with multi-user auth backed by a TrueNAS NAS called **bullfrog**.
+
+```
+The pattern that replicates to 800M:
+
+Hardware:   ~$300 Raspberry Pi 5 + ~$500 TrueNAS = $800, $0/month forever
+Network:    Tailscale — free for families under 20 users
+Auth:       bcrypt + cookies, file-backed on the NAS, family-managed
+Storage:    ZFS on bullfrog — bit-rot-resistant, snapshotted, never loses your data
+Access:     Any device on Tailscale. No public exposure. No cloud. Yours.
+
+Services on the same rails:
+  ├── HaloFinance — private financial dashboard
+  ├── Mega Dashboard — cluster ops, auth-gated
+  ├── SRM Dispatch widgets — internal company use
+  └── TheirNameBrain — each family member gets their own AI brain on their own hardware
+```
+
+ShaneBrain proves it works. The Family Homebase Cloud packages it. TheirNameBrain personalizes it. That's how 800 million people get off the cloud.
 
 ---
 
@@ -227,6 +269,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat ↗](https://twitch.tv/thebardchat) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [shanebrain_mcp ↗](https://github.com/thebardchat/shanebrain_mcp) |
 | 🤖 **shanebrain-agents** | 7 specialist AI agents (Guardian, Life Coach + more) | [shanebrain-agents ↗](https://github.com/thebardchat/shanebrain-agents) |
+| ⚡ **shanebrain-app** | ShaneBrain Astro app — ecosystem interface | [shanebrain-app ↗](https://github.com/thebardchat/shanebrain-app) |
 | ☀️ **shanebrain-briefing** | Daily 6 AM briefing — weather, health, dispatch | [shanebrain-briefing ↗](https://thebardchat.github.io/shanebrain-briefing/) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
@@ -259,7 +302,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 |-------|------|-----|
 | Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
 | Hardware I/O | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system |
-| Storage | NVMe RAID 1 (2×2TB) | Because data matters |
+| NVMe Storage | NVMe RAID 1 (2×2TB) | Because data matters |
+| Family NAS | bullfrog — TrueNAS, ZFS, 8TB | Bit-rot-resistant family vault |
 | Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
@@ -301,7 +345,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — Discord bot, MCP, Weaviate, N8N on one Pi 5 |
 | [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 42-tool MCP server — RAG, Weaviate, vault, planning, briefing |
 | [shanebrain-agents](https://github.com/thebardchat/shanebrain-agents) | 7 specialist AI agents orchestrated on Pi 5 |
-| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app |
+| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app — ecosystem interface |
 | [shanebrain-cloud](https://github.com/thebardchat/shanebrain-cloud) | Ecosystem hub site — shanebrain.cloud |
 | [shanebrain-briefing](https://github.com/thebardchat/shanebrain-briefing) | Daily 6 AM briefing — weather, health, Halo Finance alerts |
 | [shanebrain-workflows](https://github.com/thebardchat/shanebrain-workflows) | Rust automation workflows |
@@ -352,7 +396,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | Description |
 |------|-------------|
 | [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
-| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent (Nov 10, 2025) — $499 portable edge AI co-processor, encrypted, offline, passes down like a family heirloom |
 
 </details>
 
@@ -462,6 +506,31 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [codespaces-react](https://github.com/thebardchat/codespaces-react) | React Codespaces starter |
 
 </details>
+
+---
+
+## TheirNameBrain — The End State
+
+> *Not just software. A $499 device that holds a person's entire AI brain, offline, encrypted, and designed to outlast them.*
+
+The Quantum Legacy AI Stick (USPTO provisional patent, Nov 10, 2025) is the physical container for a life's worth of knowledge:
+
+```
+What's on the device:
+  ├── AI Brain — values, voice, memories, wisdom
+  ├── Digital Assets — accounts, plans, instructions
+  ├── Legal Documents — will, trust docs, power of attorney
+  ├── Personal Letters — to children, spouse, grandchildren
+  └── Legacy AI Trust Fund — Pulsar blockchain, 3-of-5 sons multi-sig
+
+How it works:
+  ├── Runs offline. Completely. No cloud, no subscription, no vendor lock-in.
+  ├── Pulsar Sentinel encrypts everything. ML-KEM. Post-quantum, today.
+  ├── 365-day inactivity trigger → multi-sig inheritance release
+  └── Every access, transfer, and modification logged immutably on-chain
+```
+
+Shane proves the architecture. TheirNameBrain ships it. 800 million people who can't afford Big Tech's version get a better one.
 
 ---
 
