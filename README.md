@@ -29,9 +29,11 @@
 
 ---
 
-I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
+I run a **5-node Tailscale mesh cluster** out of Hazel Green, Alabama. The spine is a Raspberry Pi 5.
 
 On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+
+The cluster now spans **neworleans** (Weaviate + N8N data node), **Mexico** (HP laptop — dedicated backend glue layer, locked May 2026), **gulfshores** (Surface Pro, Linux Mint, Node.js v24, dev/build node), and a **7.3 TB ZFS tank** shared across every node via NFS over Tailscale — sourced from the recovered bullfrog drive, state: ONLINE.
 
 A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack.
 
@@ -55,7 +57,7 @@ Big Tech isn't coming for them.
 I am.
 ```
 
-**ShaneBrain → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
+**ShaneBrain → Family Homebase Cloud → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
 
 Every repo on this profile exists somewhere on that map.
 
@@ -152,8 +154,18 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── N8N automation workflows (30+ active)
    ├── Discord + Twitch bots (24/7)
    ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
-   ├── gulfshores — Surface 1, Node.js v24, dev/build node
+   ├── /tank/shanebrain/shared — 7.3 TB ZFS pool, NFS-mounted across mesh
+   ├── neworleans — dedicated inference + automation node
+   ├── mexico — HP laptop · Ubuntu Server 24.04 · backend glue layer (locked 2026-05-26)
+   ├── gulfshores — Surface Pro · Linux Mint · Node.js v24 · dev/build node
    └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
+
+🏠 Family Homebase Cloud (NEW · May 2026)
+   ├── Proof-of-concept: $800 hardware, $0/month, zero Big Tech
+   ├── Mindmap server (Pi:8600) — multi-user, family auth via Tailscale
+   ├── 8TB ZFS tank (bullfrog pool) — NFS-shared across every node
+   ├── Pattern: ~$300 Pi + ~$500 drive = family cloud forever
+   └── Blueprint for 800M left-behind users to build their own
 
 🌐 shanebrain.cloud (public hub)
    ├── Ecosystem command center, live on GitHub Pages
@@ -195,6 +207,27 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ---
 
+## The Cluster — Hardware Mesh
+
+Five nodes. One Tailscale mesh. One `/tank`. Zero cloud.
+
+<div align="center">
+
+| Node | Hardware | Role | OS |
+|------|----------|------|-----|
+| **shanebrain** (Pi) | Raspberry Pi 5 · 16GB · NVMe RAID 1 2×2TB | Primary node — ShaneBrain, 17 bots, MCP, briefing | Raspberry Pi OS |
+| **neworleans** | Dedicated data node | Weaviate 1.36.2 · N8N automation · inference | Ubuntu Server |
+| **mexico** | HP laptop · x86_64 · 8GB RAM · 4 cores · 57GB eMMC | Backend glue layer — single-purpose, always-on | Ubuntu Server 24.04 LTS |
+| **gulfshores** | Surface Pro · x86_64 | Dev/build · Node.js v24 · pulsar_sentinel source | Linux Mint 21.3 |
+| **bullfrog / tank** | 8TB Seagate Expansion · ZFS pool | Shared storage — NFS-mounted at `/tank/shanebrain/shared` across all nodes | Pi (import) |
+| **Pi Pico 2** | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system — GPIO, sensors, USB serial to Pi | MicroPython |
+
+</div>
+
+> *"One big computer." Every node sees the same `/tank`. Write a config once — the whole mesh reads it.*
+
+---
+
 ## MEGA Crew Chronicles
 
 17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
@@ -228,6 +261,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [shanebrain_mcp ↗](https://github.com/thebardchat/shanebrain_mcp) |
 | 🤖 **shanebrain-agents** | 7 specialist AI agents (Guardian, Life Coach + more) | [shanebrain-agents ↗](https://github.com/thebardchat/shanebrain-agents) |
 | ☀️ **shanebrain-briefing** | Daily 6 AM briefing — weather, health, dispatch | [shanebrain-briefing ↗](https://thebardchat.github.io/shanebrain-briefing/) |
+| 🌐 **shanebrain-app** | ShaneBrain Astro app — ecosystem front door | [shanebrain-app ↗](https://github.com/thebardchat/shanebrain-app) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
@@ -260,7 +294,11 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
 | Hardware I/O | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
+| Shared Storage | bullfrog / ZFS tank (7.3 TB) | One source of truth across all nodes |
 | Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
+| Glue Layer | mexico — HP laptop · Ubuntu Server 24.04 | Backend services, always-on |
+| Dev Node | gulfshores — Surface Pro · Linux Mint | Build, test, deploy |
+| Network Mesh | Tailscale | Every node reachable, zero port forwarding |
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
@@ -301,7 +339,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — Discord bot, MCP, Weaviate, N8N on one Pi 5 |
 | [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 42-tool MCP server — RAG, Weaviate, vault, planning, briefing |
 | [shanebrain-agents](https://github.com/thebardchat/shanebrain-agents) | 7 specialist AI agents orchestrated on Pi 5 |
-| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app |
+| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app — ecosystem front door |
 | [shanebrain-cloud](https://github.com/thebardchat/shanebrain-cloud) | Ecosystem hub site — shanebrain.cloud |
 | [shanebrain-briefing](https://github.com/thebardchat/shanebrain-briefing) | Daily 6 AM briefing — weather, health, Halo Finance alerts |
 | [shanebrain-workflows](https://github.com/thebardchat/shanebrain-workflows) | Rust automation workflows |
@@ -340,9 +378,6 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [angelcloud-actual](https://github.com/thebardchat/angelcloud-actual) | Firebase wellness platform + Pulsar blockchain |
 | [angel-cloud-roblox](https://github.com/thebardchat/angel-cloud-roblox) | Roblox wellness game — 6 ascending cloud layers, cooperative mechanics |
 | [angel-cloud-hub](https://github.com/thebardchat/angel-cloud-hub) | Angel Cloud ecosystem hub — theangel.cloud |
-| [angel-cloud-auth-bridge](https://github.com/thebardchat/angel-cloud-auth-bridge) | Auth bridge infrastructure |
-| [angel-cloud-3d-welcome-home](https://github.com/thebardchat/angel-cloud-3d-welcome-home) | 3D welcome experience |
-| [angelcloud2.0](https://github.com/thebardchat/angelcloud2.0) | Angel Cloud 2.0 architecture |
 
 </details>
 
@@ -365,11 +400,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [MASTER-Scheduler-Dashboard-SRM](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM) | Master dispatch — 16 drivers, 19 plants, block plant priority |
 | [SB-Management-OS](https://github.com/thebardchat/SB-Management-OS) | SRM Concrete ops — SOPs, coaching scripts, personnel |
 | [pedal-to-the-metal](https://github.com/thebardchat/pedal-to-the-metal) | Dispatch SaaS for concrete fleet managers |
-| [srm-operations-demo](https://github.com/thebardchat/srm-operations-demo) | Operations demo system |
 | [melvin_operations_os](https://github.com/thebardchat/melvin_operations_os) | Operations OS |
 | [2.0RepairTrucks](https://github.com/thebardchat/2.0RepairTrucks) | Work truck repair tracking |
-| [order-calendar](https://github.com/thebardchat/order-calendar) | Node.js dispatch scheduling API |
-| [weather-log](https://github.com/thebardchat/weather-log) | Weather logging for dispatch |
 
 </details>
 
@@ -439,7 +471,6 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [brand](https://github.com/thebardchat/brand) | Brand assets and guidelines |
 | [shanebrain](https://github.com/thebardchat/shanebrain) | From mind to world |
 | [claude-memory](https://github.com/thebardchat/claude-memory) | Claude Code session memory and CLAUDE.md state |
-| [claude-notes](https://github.com/thebardchat/claude-notes) | Memory exports and conversation context |
 | [treasures](https://github.com/thebardchat/treasures) | Recovered archive hub — drives to GitHub |
 | [index](https://github.com/thebardchat/index) | Master index |
 
@@ -457,9 +488,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [twitch](https://github.com/thebardchat/twitch) | Love & light on Twitch — family channel, local AI powered |
 | [retro-cha](https://github.com/thebardchat/retro-cha) | Retro chatroom |
 | [rettro--chatroom](https://github.com/thebardchat/rettro--chatroom) | Retro chatroom v2 |
-| [wingfest2025](https://github.com/thebardchat/wingfest2025) | WingFest 2025 site |
 | [multi-container-app](https://github.com/thebardchat/multi-container-app) | Node.js + MongoDB multi-container Docker starter |
-| [codespaces-react](https://github.com/thebardchat/codespaces-react) | React Codespaces starter |
 
 </details>
 
