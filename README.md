@@ -55,7 +55,7 @@ Big Tech isn't coming for them.
 I am.
 ```
 
-**ShaneBrain → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
+**ShaneBrain → Angel Cloud → Pulsar Sentinel → YourLegacy → 800M users**
 
 Every repo on this profile exists somewhere on that map.
 
@@ -132,7 +132,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | What It Is | Live |
 |------|-----------|------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte | [Demo ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
-| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 28.7 km coilgun specs, cross-sections, engineering detail | [Repo ↗](https://github.com/thebardchat/BGKPJR-Stage1-Tube) |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 37 km coilgun specs, cross-sections, engineering detail | [Repo ↗](https://github.com/thebardchat/BGKPJR-Stage1-Tube) |
 | [manna-pods](https://github.com/thebardchat/manna-pods) | 7 Manna cargo pod concepts — 3D rotating cross-sections, full specs | [Demo ↗](https://thebardchat.github.io/manna-pods) |
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Repo ↗](https://github.com/thebardchat/manna) |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo | [Repo ↗](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
@@ -153,6 +153,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Discord + Twitch bots (24/7)
    ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
    ├── gulfshores — Surface 1, Node.js v24, dev/build node
+   ├── bullfrog — TrueNAS NAS, ZFS storage, 8TB migrated · Tailscale mesh
    └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
 
 🌐 shanebrain.cloud (public hub)
@@ -166,7 +167,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── 7 Manna cargo pod variants documented
    └── Physics engine: rail, GNC, Kepler sail math
 
-☁️ Angel Cloud (wellness platform)
+☁️ Angel Cloud (wellness platform · Angel Cloud AI Services LLC)
    ├── Mental wellness + AI sentiment engine
    ├── Halo progression: New Born → Guardian (points for lifting others up)
    ├── Angel Defenders — community self-governance layer
@@ -174,9 +175,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
    └── Tailscale Funnel public endpoint
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (post-quantum · Pulsar AI LLC)
    ├── ML-KEM / Kyber-1024 lattice encryption
-   ├── Dilithium3 signatures
+   ├── Dilithium3 signatures + blockchain audit trail
+   ├── Sentinel Core tiers: $9 / $29 / $99 /mo
    └── Deployed across all cluster nodes
 
 💰 HaloFinance (family financial AI)
@@ -187,10 +189,17 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Claude AI + FastAPI intake pipeline
    └── Gavin's project — co-built father and son
 
-🎯 TheirNameBrain (next)
-   ├── Personalized AI for the left-behind user
-   ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
-   └── Legacy hardware, no cloud required
+🏠 Family Homebase Cloud (proof of concept · live May 2026)
+   ├── Pi orchestrator + Tailscale + bullfrog NAS + bcrypt auth
+   ├── $800 hardware one-time · $0 monthly · zero Big Tech
+   ├── ZFS on bullfrog — bit-rot-resistant, snapshotted, never-loses-data
+   └── Template: install this Pi image → get a family cloud
+
+🎯 YourLegacy (launched · Founding 100 Waitlist · May 2026)
+   ├── Personal AI that holds your values, voice, and story
+   ├── LegacyVault — family knowledge base on your own hardware
+   ├── Non-custodial architecture — your data, your hardware, your family
+   └── TheirNameBrain → one per family, delivered via AI-Trainer curriculum
 ```
 
 ---
@@ -221,6 +230,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Project | What It Does | Link |
 |---------|-------------|------|
 | 🌐 **shanebrain.cloud** | Ecosystem command center — the public hub | [shanebrain-cloud ↗](https://thebardchat.github.io/shanebrain-cloud/) |
+| 🎯 **YourLegacy** | Personal AI for the left-behind — Founding 100 Waitlist live | [AI-Trainer-MAX ↗](https://thebardchat.github.io/AI-Trainer-MAX/) |
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods ↗](https://thebardchat.github.io/manna-pods) |
 | 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew ↗](https://thebardchat.github.io/mega-crew/) |
@@ -230,7 +240,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | ☀️ **shanebrain-briefing** | Daily 6 AM briefing — weather, health, dispatch | [shanebrain-briefing ↗](https://thebardchat.github.io/shanebrain-briefing/) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
-| 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
+| 🛡️ **Pulsar Sentinel** | Post-quantum security — $9/$29/$99 tiers | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thought-tree ↗](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [AI-Trainer-MAX ↗](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🎓 **AI-Trainer-OBLIVION** | Next-level AI training — beyond MAX | [AI-Trainer-OBLIVION ↗](https://github.com/thebardchat/AI-Trainer-OBLIVION) |
@@ -260,6 +270,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
 | Hardware I/O | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
+| NAS Node | bullfrog — TrueNAS + ZFS (8TB) | Bit-rot-resistant, snapshotted |
 | Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
@@ -269,6 +280,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
 | Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
+| Mesh Network | Tailscale | Family cloud, zero exposure |
 | Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
 
 </div>
@@ -283,7 +295,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | Description |
 |------|-------------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte |
-| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 28.7 km coilgun, full engineering detail |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 37 km coilgun, full engineering detail |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo |
 | [manna-pods](https://github.com/thebardchat/manna-pods) | 7 Manna cargo pod concepts — 3D rotating cross-sections |
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research |
@@ -347,12 +359,24 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 </details>
 
 <details>
-<summary><strong>🔐 Security</strong></summary>
+<summary><strong>🔐 Security — Pulsar AI LLC</strong></summary>
 
 | Repo | Description |
 |------|-------------|
-| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
+| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 · $9/$29/$99 tiers |
 | [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+
+</details>
+
+<details>
+<summary><strong>🎯 YourLegacy — Personal AI for the Left-Behind</strong></summary>
+
+| Repo | Description |
+|------|-------------|
+| [AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) | 36-module curriculum — zero to AI sovereignty, delivers YourLegacy to 800M |
+| [AI-Trainer-OBLIVION](https://github.com/thebardchat/AI-Trainer-OBLIVION) | Next-level beyond MAX — for builders who want more |
+| [thought-tree](https://github.com/thebardchat/thought-tree) | Local AI mind mapping — Weaviate semantic search, family mindmap server |
+| [shanebrain](https://github.com/thebardchat/shanebrain) | From mind to world — the original ShaneBrain vision |
 
 </details>
 
@@ -381,16 +405,6 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [HaloFinance](https://github.com/thebardchat/HaloFinance) | AI financial guidance for working families — budget, forecast, alerts |
 | [Greenfield](https://github.com/thebardchat/Greenfield) | Claim Cruncher — AI medical billing intake, Claude AI + FastAPI |
 | [claim-cruncher](https://github.com/thebardchat/claim-cruncher) | Medical billing platform (Gavin's project) |
-
-</details>
-
-<details>
-<summary><strong>🎓 AI Education</strong></summary>
-
-| Repo | Description |
-|------|-------------|
-| [AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) | 36-module local AI curriculum — zero to AI sovereignty, zero cloud |
-| [AI-Trainer-OBLIVION](https://github.com/thebardchat/AI-Trainer-OBLIVION) | Next-level beyond MAX — for builders who want more |
 
 </details>
 
@@ -509,6 +523,17 @@ Projects recovered from old drives and released to GitHub in April 2026.
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
+
+---
+
+## The Companies
+
+Two real LLCs. Built from a closet in Alabama.
+
+| Entity | EIN Filed | What It Does |
+|--------|-----------|-------------|
+| **Angel Cloud AI Services LLC** | October 15, 2025 | Wellness platform, Halo progression, Angel Defenders community |
+| **Pulsar AI LLC** | October 13, 2025 | Post-quantum security, Sentinel tiers, LegacyVault infrastructure |
 
 ---
 
