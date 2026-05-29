@@ -31,9 +31,11 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database (17 collections, 13,800+ objects)**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
 A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack.
+
+The cluster is five nodes: **Pi 5** (primary brain / MCP / inference), **neworleans** (dedicated Weaviate host), **mexico** (backend glue — N8N + Redis + MEGA Crew Docker), **gulfshores** (Surface 1, dev/build), and **bullfrog** (TrueNAS / ZFS — 8 TB NAS backbone). All connected by Tailscale. No public exposure. No monthly fees.
 
 **83 public repositories.** Zero cloud subscriptions. Zero Big Tech dependency.
 
@@ -55,7 +57,7 @@ Big Tech isn't coming for them.
 I am.
 ```
 
-**ShaneBrain → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
+**ShaneBrain → Family Homebase Cloud → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
 
 Every repo on this profile exists somewhere on that map.
 
@@ -145,28 +147,50 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 ## The Ecosystem
 
 ```
-🧠 ShaneBrain (Pi 5 · primary node · Hazel Green, AL)
-   ├── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+🧠 ShaneBrain (Pi 5 · primary brain · Hazel Green, AL)
    ├── 42-tool MCP server (FastMCP, port 8100)
-   ├── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   ├── N8N automation workflows (30+ active)
+   ├── t2v-transformers vectorizer (port 8090)
+   ├── Pulsar Sentinel (port 8250)
+   ├── Mindmap / YourLegacy server (port 8600)
    ├── Discord + Twitch bots (24/7)
    ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
-   ├── gulfshores — Surface 1, Node.js v24, dev/build node
+   ├── 7 specialist agents (Guardian, Life Coach, + more)
    └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
+
+⚡ mexico (HP x86_64 · backend glue · 8GB RAM · Tailscale)
+   ├── 17 MEGA Crew bots (Docker) — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+   ├── N8N automation workflows (30+ active)
+   ├── Redis message broker
+   ├── Webhook router (FastAPI) — Stripe, GitHub, Discord events
+   └── Caddy internal reverse proxy
+
+🗄️ neworleans (dedicated data node · Weaviate host · Tailscale)
+   ├── Weaviate 1.36.2 — 17 collections, 13,800+ objects
+   └── Long-term semantic memory for the entire cluster
+
+💻 gulfshores (Surface 1 · Node.js v24 · dev/build node)
+🐃 bullfrog (TrueNAS · ZFS RAID · 8 TB · NAS backbone · bit-rot-resistant)
 
 🌐 shanebrain.cloud (public hub)
    ├── Ecosystem command center, live on GitHub Pages
    ├── Cloudflare DNS — shanebrain.cloud
+   ├── app.shanebrain.cloud — Astro 6 + Three.js brain mesh + sobriety counter
    └── Built May 2026: Instrument Serif + Inter, zero framework, zero build step
 
-🚀 BGKPJR Aerospace (patent pending)
-   ├── Electromagnetic launch architecture — BGKPJR-001
+🏠 Family Homebase Cloud (the blueprint for 800M)
+   ├── Pi orchestrator + TrueNAS (ZFS) + Tailscale
+   ├── $800 one-time hardware — $0/month recurring, forever
+   ├── bcrypt auth · cookie sessions · file-backed on NAS
+   └── TheirNameBrain extension = every family member gets their own AI brain
+
+🚀 BGKPJR Aerospace (2 patents pending)
+   ├── Electromagnetic launch architecture — BGKPJR-001 (filed Apr 18, 2025)
+   ├── Quantum Legacy AI Stick — USPTO provisional (filed Nov 10, 2025)
    ├── Three.js 3D visualizations, live on GitHub Pages
    ├── 7 Manna cargo pod variants documented
    └── Physics engine: rail, GNC, Kepler sail math
 
-☁️ Angel Cloud (wellness platform)
+☁️ Angel Cloud (wellness platform · Angel Cloud AI Services LLC)
    ├── Mental wellness + AI sentiment engine
    ├── Halo progression: New Born → Guardian (points for lifting others up)
    ├── Angel Defenders — community self-governance layer
@@ -174,9 +198,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
    └── Tailscale Funnel public endpoint
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (post-quantum · Pulsar AI LLC)
    ├── ML-KEM / Kyber-1024 lattice encryption
    ├── Dilithium3 signatures
+   ├── Blockchain audit trail — LegacyVault.sol smart contract
    └── Deployed across all cluster nodes
 
 💰 HaloFinance (family financial AI)
@@ -187,10 +212,13 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Claude AI + FastAPI intake pipeline
    └── Gavin's project — co-built father and son
 
-🎯 TheirNameBrain (next)
+🎯 TheirNameBrain (next · the endgame)
    ├── Personalized AI for the left-behind user
-   ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
-   └── Legacy hardware, no cloud required
+   ├── 5 pillars: AI Brain + Digital Assets + Financial Records + Legal Docs + Personal Letters
+   ├── Legacy AI Trust Fund — 3-of-5 sons multi-signature activation
+   ├── LegacyVault.sol — immutable blockchain inheritance smart contract
+   ├── $499 Quantum Legacy AI Stick — portable, encrypted, runs offline, no subscription
+   └── Legacy hardware, no cloud required — $800 one-time, yours forever
 ```
 
 ---
@@ -214,6 +242,27 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ---
 
+## The $800 Family Cloud Blueprint
+
+> The pattern that makes TheirNameBrain real for the 800 million.
+
+```
+Hardware   │ ~$300 Raspberry Pi 5 + ~$500 TrueNAS box = $800 one-time
+Network    │ Tailscale — free for families under 20 devices
+Auth       │ bcrypt + cookie sessions, file-backed on NAS — no SaaS, no vendor
+Storage    │ ZFS on NAS — bit-rot-resistant, snapshotted, never loses data
+Service    │ FastAPI on Pi — single file, idempotent restart
+Access     │ Any device on Tailscale. No public exposure required. $0/month forever.
+```
+
+This is the proof-of-concept. Every service in the ShaneBrain ecosystem rides the same rails.
+HaloFinance, Mega Dashboard, srm-dispatch widgets, TheirNameBrain instances — **same shape, same stack.**
+
+Phase 2 of the ShaneBrain mission: *install this Pi image, get a family cloud.*
+The TheirNameBrain extension is the AI-personalized version — each family member gets their own brain on their own hardware.
+
+---
+
 ## What's Live Right Now
 
 <div align="center">
@@ -221,6 +270,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Project | What It Does | Link |
 |---------|-------------|------|
 | 🌐 **shanebrain.cloud** | Ecosystem command center — the public hub | [shanebrain-cloud ↗](https://thebardchat.github.io/shanebrain-cloud/) |
+| 🧠 **shanebrain-app** | Three.js brain mesh · sobriety counter · live login + register | [app.shanebrain.cloud ↗](https://thebardchat.github.io/shanebrain-app/) |
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods ↗](https://thebardchat.github.io/manna-pods) |
 | 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew ↗](https://thebardchat.github.io/mega-crew/) |
@@ -257,17 +307,20 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Layer | Tool | Why |
 |-------|------|-----|
-| Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
+| Primary Brain | Raspberry Pi 5 (16GB) | $80. MCP + agents + inference. |
+| Backend Glue | mexico — HP x86_64 (8GB) | N8N + Redis + 17 MEGA Crew bots |
+| Data Node | neworleans — dedicated Weaviate host | Memory lives here, nowhere else |
+| Dev/Build Node | gulfshores — Surface 1, Node.js v24 | Frontends, builds, experiments |
+| NAS Backbone | bullfrog — TrueNAS + ZFS RAID | 8 TB, bit-rot-resistant, snapshotted |
+| Network Fabric | Tailscale (all 5 nodes) | No public IPs. No open ports. |
 | Hardware I/O | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system |
-| Storage | NVMe RAID 1 (2×2TB) | Because data matters |
-| Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
-| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
+| Vector DB | Weaviate 1.36.2 (17 collections, 13,800+ objects) | Long-term semantic memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
 | Second Opinion | Gemini (via gemini-sidekick) | Gemini works for Claude here |
-| Containers | Docker + 17 MEGA Crew bots | Ship it |
-| Automation | N8N + systemd (30+ services) | Never stop |
-| Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Containers | Docker — 17 MEGA Crew bots on mexico | Ship it |
+| Automation | N8N on mexico + systemd (30+ services) | Never stop |
+| Viz Stack | Astro 6 + Svelte 5 + Three.js | Aerospace UIs |
 | Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
 | Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
 
@@ -298,10 +351,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Repo | Description |
 |------|-------------|
-| [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — Discord bot, MCP, Weaviate, N8N on one Pi 5 |
+| [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — 5-node cluster: Pi 5, mexico, neworleans, gulfshores, bullfrog |
 | [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 42-tool MCP server — RAG, Weaviate, vault, planning, briefing |
+| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | Live at app.shanebrain.cloud — Astro 6 + Three.js brain mesh + sobriety counter |
 | [shanebrain-agents](https://github.com/thebardchat/shanebrain-agents) | 7 specialist AI agents orchestrated on Pi 5 |
-| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app |
 | [shanebrain-cloud](https://github.com/thebardchat/shanebrain-cloud) | Ecosystem hub site — shanebrain.cloud |
 | [shanebrain-briefing](https://github.com/thebardchat/shanebrain-briefing) | Daily 6 AM briefing — weather, health, Halo Finance alerts |
 | [shanebrain-workflows](https://github.com/thebardchat/shanebrain-workflows) | Rust automation workflows |
@@ -347,12 +400,14 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 </details>
 
 <details>
-<summary><strong>🔐 Security</strong></summary>
+<summary><strong>🔐 Security & Patents</strong></summary>
 
 | Repo | Description |
 |------|-------------|
 | [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
-| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick: $499 portable edge AI co-processor, personal legacy in your pocket |
+
+**Patent BGKPJR-001** — Brazelton Gryphon Kepler Propulsion Jump Revolution Launch Architecture — USPTO application pending (Apr 18, 2025). See [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations).
 
 </details>
 
@@ -509,6 +564,21 @@ Projects recovered from old drives and released to GitHub in April 2026.
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
+
+---
+
+## The Legal Foundation
+
+Two companies. Two patents. One mission.
+
+| Entity | Type | Status |
+|--------|------|--------|
+| **Angel Cloud AI Services LLC** | Wellness platform + TheirNameBrain | EIN on file — Oct 2025 |
+| **Pulsar AI LLC** | Post-quantum security + blockchain trust | EIN on file — Oct 2025 |
+| **BGKPJR-001** (Brazelton Gryphon Kepler Propulsion Jump Revolution) | Aerospace launch architecture patent | USPTO — application pending (Apr 18, 2025) |
+| **Quantum Legacy AI Stick** | $499 portable edge AI co-processor — personal legacy in your pocket | USPTO provisional patent (Nov 10, 2025) |
+
+> *Two provisional patents. Two LLCs. All of it built on a Pi in a closet in Alabama while running concrete dispatch by day.*
 
 ---
 
