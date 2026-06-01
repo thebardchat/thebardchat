@@ -70,6 +70,14 @@ Every repo on this profile exists somewhere on that map.
 > **The missing link in the Space Pipeline.** Blue Origin and SpaceX are building the lunar landers. NASA flies Artemis crews every 10 months. Nobody yet has a way to get cargo into low Earth orbit cheaply enough to feed a permanent moon base. We do.
 
 <div align="center">
+<img src="./assets/concept-stack.webp" alt="BGKPJR concept — Pi-scale electronics to electromagnetic coilgun to orbital satellite. The full arc: closet to space." width="100%">
+
+*From the closet to the cosmos. The same stack powering this ecosystem is the same stack driving the concept. Pi-scale compute. Electromagnetic rail. Orbital delivery.*
+</div>
+
+<br/>
+
+<div align="center">
 <img src="./assets/space-pipeline.svg" alt="The BGKPJR Space Pipeline: Earth surface to LEO via 37 km maglev rail; LEO to lunar orbit via permanent Space Tug; lunar orbit to surface via Blue Moon Mk2 / SpaceX HLS lander; empty pods become regolith-filled radiation-proof base structures" width="100%">
 
 *Earth → LEO → Moon → Base. Four phases, one mission. Every empty pod that lands becomes a "Space LEGO" — filled with lunar regolith for radiation-proof base structures. Watch the cycle loop.*
@@ -177,6 +185,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 🔐 Pulsar Sentinel (post-quantum)
    ├── ML-KEM / Kyber-1024 lattice encryption
    ├── Dilithium3 signatures
+   ├── Quantum Legacy AI Stick — USPTO provisional patent
    └── Deployed across all cluster nodes
 
 💰 HaloFinance (family financial AI)
@@ -192,6 +201,66 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
    └── Legacy hardware, no cloud required
 ```
+
+<br/>
+
+### The Hardware Cluster — Three Nodes, One Brain
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  NODE 1 · Pi 5 (16GB) · Hazel Green, AL                            │
+│  ─────────────────────────────────────────────────────              │
+│  Primary compute · 17 MEGA Crew bots · MCP server (42 tools)       │
+│  Discord/Twitch bots · FastAPI services · Systemd (30+ services)   │
+│  NVMe RAID 1 (2×2TB) · Docker containers · 24/7 uptime             │
+│                                                                     │
+│  NODE 2 · neworleans (Surface 1)                                    │
+│  ─────────────────────────────────────────────────────              │
+│  Weaviate 1.36.2 — 25 collections, 3,200+ objects · Long memory    │
+│  N8N automation hub — 30+ active workflows · Node.js v24           │
+│  Dedicated inference + automation · Dev/build environment           │
+│                                                                     │
+│  NODE 3 · Pi Pico 2 (RP2350) · pico-nerve-endings                  │
+│  ─────────────────────────────────────────────────────              │
+│  Peripheral nervous system · Hardware I/O layer                     │
+│  Sensor reads · Physical-world interfaces · Hardware inputs         │
+│  Firmware: MicroPython + C · Real-time response layer               │
+└─────────────────────────────────────────────────────────────────────┘
+              ↕ Tailscale mesh · Cloudflare tunnel ↕
+              All three nodes. Zero cloud dependency.
+```
+
+---
+
+## TheirNameBrain — The Product
+
+> *Every tool in this ecosystem was built toward one destination.*
+
+**800 million people are losing Windows 10 support.** Most have never used AI. Most won't pay $20/month for a cloud subscription. Most have old hardware gathering dust. Big Tech will build products for the affluent early adopters.
+
+TheirNameBrain is built for everyone else.
+
+```
+What TheirNameBrain delivers
+─────────────────────────────────────────────────────────────────────
+🧠  Your AI Brain       — Personal memory, context, your history
+📁  Digital Assets      — Your files, photos, documents, organized
+📜  Legal Documents     — Wills, directives, estate planning, accessible
+✉️  Personal Letters    — Letters to your kids. To your future self.
+🔐  Post-quantum secure — Pulsar Sentinel encryption, not optional
+💻  Legacy hardware     — Runs on what you already own. No new gear.
+☁️  No cloud required   — Your data stays yours. Always.
+```
+
+**The pipeline:**
+```
+ShaneBrain (foundation) → Angel Cloud (community) → Pulsar Sentinel (security)
+    → TheirNameBrain (personal AI for everyone) → 800M users
+```
+
+This isn't a startup pitch. This is a roadmap built from working code, a real user in mind, and zero venture capital.
+
+**[Follow the build →](https://github.com/thebardchat/shanebrain)**
 
 ---
 
@@ -212,6 +281,46 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 </div>
 
+<br/>
+
+**The Brain Crew** — Sparky · Volt · Neon · Glitch — the core four. Orchestration, memory, analysis, chaos injection. The rest of the 17 rotate through roles: storyteller, researcher, archivist, code reviewer, and more. Every bot has a name, a personality, and a Docker container. Every night the stack runs. Every morning there's output.
+
+No subscription. No API bill. All local.
+
+---
+
+## The Voice → Prose Pipeline
+
+One of the most unique workflows in this ecosystem: **raw voice → published noir prose.**
+
+```
+STEP 1  Voice dump recorded anywhere — driving, hardware store, drive-through
+STEP 2  voice-dump-pipeline → Flask → Whisper transcription
+STEP 3  Raw transcript → ShaneBrain (Weaviate context injection)
+STEP 4  Claude shapes the transcription into noir prose
+STEP 5  MEGA Crew reviews, archives, and stages for publication
+```
+
+This is how *You Probably Think This Book Is About You* was written — 55 noir vignettes built on a Raspberry Pi 5, published on Amazon. No traditional writing process. No keyboard-first drafting. Voice → thought → story.
+
+The entire method is documented and open-source:
+
+**[noir-detective-writing-process ↗](https://thebardchat.github.io/noir-detective-writing-process/)** · **[voice-dump-pipeline ↗](https://github.com/thebardchat/voice-dump-pipeline)**
+
+---
+
+## The 7 Specialist Agents
+
+ShaneBrain runs 7 purpose-built AI agents on the Pi 5 cluster. Not chatbots. Agents with tools, memory, and autonomous scheduling.
+
+| Agent | Role |
+|-------|------|
+| **Guardian** | Safety, moderation, and community oversight for Angel Cloud |
+| **Life Coach** | Personal growth, accountability, daily check-ins |
+| **+ 5 more** | [Full roster in shanebrain-agents ↗](https://github.com/thebardchat/shanebrain-agents) |
+
+All 7 run locally. All 7 have Weaviate memory. All 7 are orchestrated through the 42-tool MCP server.
+
 ---
 
 ## What's Live Right Now
@@ -231,6 +340,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
+| 🔑 **Quantum Legacy AI Stick** | USPTO provisional patent — post-quantum personal AI device | [quantum-legacy-ai-stick ↗](https://github.com/thebardchat/quantum-legacy-ai-stick) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thought-tree ↗](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [AI-Trainer-MAX ↗](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🎓 **AI-Trainer-OBLIVION** | Next-level AI training — beyond MAX | [AI-Trainer-OBLIVION ↗](https://github.com/thebardchat/AI-Trainer-OBLIVION) |
@@ -243,8 +353,12 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🧬 **pico-nerve-endings** | Pi Pico 2 (RP2350) firmware — peripheral nervous system | [pico-nerve-endings ↗](https://github.com/thebardchat/pico-nerve-endings) |
 | 🤝 **gemini-sidekick** | Gemini works for Claude — multi-AI collaboration | [gemini-sidekick ↗](https://github.com/thebardchat/gemini-sidekick) |
 | 🌐 **N8N** | Workflow automation hub — n8n connecting ShaneBrain | [N8N ↗](https://github.com/thebardchat/N8N) |
+| 🎙️ **voice-dump-pipeline** | Voice → Whisper → ShaneBrain → prose | [voice-dump-pipeline ↗](https://github.com/thebardchat/voice-dump-pipeline) |
 | 📖 **book-launch-playbook** | Open-source playbook for AI-co-written noir fiction | [book-launch-playbook ↗](https://thebardchat.github.io/book-launch-playbook/) |
 | ✍️ **noir-detective-writing-process** | Voice dumps → shaped noir prose — the AI-human writing method | [noir-detective-writing-process ↗](https://thebardchat.github.io/noir-detective-writing-process/) |
+| 📣 **shanebrain-linkedin-bot** | LinkedIn content + strategy automation | [shanebrain-linkedin-bot ↗](https://github.com/thebardchat/shanebrain-linkedin-bot) |
+| 🌍 **mini-shanebrain** | Social bot — X, FB, LinkedIn, Instagram, Bluesky, Threads | [mini-shanebrain ↗](https://thebardchat.github.io/mini-shanebrain/) |
+| 🏟️ **loudon-desarro** | Loudon/DeSarro Athletic Complex — 50,000 SF 3D visualization | [loudon-desarro ↗](https://github.com/thebardchat/loudon-desarro) |
 | 🎯 **manifesto** | The ShaneBrain AI mission statement | [manifesto ↗](https://github.com/thebardchat/manifesto) |
 
 </div>
@@ -270,6 +384,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
 | Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
 | Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
+| Social Automation | mini-shanebrain | 6 platforms, one Pi |
 
 </div>
 
@@ -400,9 +515,9 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | Description |
 |------|-------------|
 | [you-probably-think-this-book-is-about-you](https://github.com/thebardchat/you-probably-think-this-book-is-about-you) | 55 noir vignettes — published on Amazon |
+| [you-probably-think-this-song-is-about-you-too](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too) | The follow-up — in the works |
 | [book-launch-playbook](https://github.com/thebardchat/book-launch-playbook) | Open-source AI-co-written book launch playbook |
 | [noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) | Voice dumps → shaped noir prose — the AI-human method |
-| [you-probably-think-this-song-is-about-you-too](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too) | The follow-up |
 
 </details>
 
@@ -479,7 +594,27 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)** · **[How It Was Made](https://thebardchat.github.io/noir-detective-writing-process/)**
 
+<br/>
+
+### *You Probably Think This Song Is About You Too*
+
+The follow-up is in progress. Same process. Same Pi. Same closet.
+
+**[Watch the build ↗](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too)**
+
 </div>
+
+---
+
+## 2026 Milestones
+
+| Date | What Happened |
+|------|--------------|
+| May 2026 | `shanebrain.cloud` goes live — Cloudflare DNS, zero framework |
+| April 30, 2026 | Pre-Lukens Audit complete — dimensional integrity locked before NASA review |
+| April 2026 | Released Treasures — recovered drives pushed to 83 public repos |
+| March 2026 | MEGA Crew Chronicles launched — 17 bots writing every night |
+| 2026 | 83 public repositories · Zero cloud subscriptions · Zero Big Tech dependency |
 
 ---
 
