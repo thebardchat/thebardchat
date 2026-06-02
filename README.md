@@ -41,6 +41,21 @@ I built all of it while running concrete dispatch by day and raising five boys w
 
 > *"The internet has enough darkness. This is the opposite of that."*
 
+<br/>
+
+<div align="center">
+
+```
+Sober 918 days and building · 5 sons · 1 Raspberry Pi 5 (16GB)
+17 autonomous bots · 42 MCP tools · 25 Weaviate collections · 3,200+ memories
+83 public repos · 0 cloud subscriptions · 800 million people to build for
+```
+
+*While OpenClaw went viral in 2026 for "running AI locally" — this stack had already been running for two years.*
+*From a closet in Hazel Green, Alabama. On an $80 Pi.*
+
+</div>
+
 ---
 
 <div align="center">
@@ -55,7 +70,15 @@ Big Tech isn't coming for them.
 I am.
 ```
 
-**ShaneBrain → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
+**The roadmap:**
+
+```
+ShaneBrain       — proves it runs on $80 hardware (it does)
+Angel Cloud      — proves it can serve a community (it does)
+Pulsar Sentinel  — proves it can be post-quantum secure (it is)
+AI-Trainer-MAX   — teaches anyone to build their own (36 modules, free)
+TheirNameBrain   — puts all of it in the hands of 800M left-behind users
+```
 
 Every repo on this profile exists somewhere on that map.
 
@@ -242,12 +265,50 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🏢 **SB-Management-OS** | SRM Concrete ops system — SOPs, coaching, personnel | [SB-Management-OS ↗](https://github.com/thebardchat/SB-Management-OS) |
 | 🧬 **pico-nerve-endings** | Pi Pico 2 (RP2350) firmware — peripheral nervous system | [pico-nerve-endings ↗](https://github.com/thebardchat/pico-nerve-endings) |
 | 🤝 **gemini-sidekick** | Gemini works for Claude — multi-AI collaboration | [gemini-sidekick ↗](https://github.com/thebardchat/gemini-sidekick) |
+| 🎤 **voice-dump-pipeline** | Speak → Whisper transcription → ShaneBrain memory (fully local) | [voice-dump-pipeline ↗](https://github.com/thebardchat/voice-dump-pipeline) |
+| 🔐 **quantum-legacy-ai-stick** | USPTO provisional patent — post-quantum AI stick | [quantum-legacy-ai-stick ↗](https://github.com/thebardchat/quantum-legacy-ai-stick) |
 | 🌐 **N8N** | Workflow automation hub — n8n connecting ShaneBrain | [N8N ↗](https://github.com/thebardchat/N8N) |
 | 📖 **book-launch-playbook** | Open-source playbook for AI-co-written noir fiction | [book-launch-playbook ↗](https://thebardchat.github.io/book-launch-playbook/) |
 | ✍️ **noir-detective-writing-process** | Voice dumps → shaped noir prose — the AI-human writing method | [noir-detective-writing-process ↗](https://thebardchat.github.io/noir-detective-writing-process/) |
 | 🎯 **manifesto** | The ShaneBrain AI mission statement | [manifesto ↗](https://github.com/thebardchat/manifesto) |
 
 </div>
+
+---
+
+## TheirNameBrain — The Product That Matters Most
+
+The infrastructure, the bots, the aerospace, the MCP server — every piece of it exists to prove one thing:
+
+**A person who has never touched AI can have one that knows them completely. Built on hardware they already own. Zero subscription. Zero cloud. Zero Big Tech.**
+
+```
+TheirNameBrain — what it holds:
+├── AI Brain          — trained on YOUR life, YOUR voice, YOUR documents
+├── Digital Assets    — accounts, instructions, what comes after
+├── Legal Documents   — will, power of attorney, living trust. In plain language.
+├── Personal Letters  — written to your children. For after.
+└── Legacy Hardware   — runs on the machine you already own. Forever.
+```
+
+> *"I'm not building an app. I'm building an inheritance."*
+
+The ShaneBrain stack is the proof of concept. TheirNameBrain is for the 800 million people Big Tech will never build for — the 60-year-old whose Windows 10 PC still works fine, the family that can't afford subscriptions, the person who wants their story to outlast them.
+
+**[Follow TheirNameBrain →](https://github.com/thebardchat)**
+
+---
+
+## Currently Shipping · June 2026
+
+| Status | Project | What's Moving |
+|--------|---------|---------------|
+| 🟢 LIVE | **shanebrain.cloud** | Ecosystem command center — launched May 2026 · zero framework · zero build step |
+| 🟢 ACTIVE | **BGKPJR Phase 0** | Pre-Lukens audit complete · NIAC submission prep · dimensional reconciliation done |
+| 🟢 24/7 | **MEGA Crew** | 17 bots writing noir fiction every night · autonomous · never stops |
+| 🔵 BUILDING | **TheirNameBrain** | AI legacy system for the left-behind user · the product that matters most |
+| 🟠 ONGOING | **AI-Trainer-OBLIVION** | Beyond MAX — the AI curriculum that doesn't end |
+| 🟠 ONGOING | **Angel Cloud** | Wellness platform · Halo progression · Roblox game · Messenger storyteller |
 
 ---
 
@@ -493,6 +554,10 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=thebardchat&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5ff&fire=7c3aed&currStreakLabel=ffffff)](https://github.com/thebardchat)
 
+<br/>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=thebardchat/shanebrain_mcp,thebardchat/BGKPJR-Launch-Vis,thebardchat/angel-cloud,thebardchat/mega-crew-stories&type=Date)](https://star-history.com/#thebardchat/shanebrain_mcp&thebardchat/BGKPJR-Launch-Vis&thebardchat/angel-cloud&thebardchat/mega-crew-stories&Date)
+
 </div>
 
 ---
@@ -533,6 +598,23 @@ Nine pillars. One covenant. No exceptions.
 
 ---
 
+## Join the Movement
+
+This isn't a portfolio. It's a mission.
+
+If you believe AI should work for the people Big Tech left behind — if you've ever felt priced out, left behind, or invisible to the tech industry — this is your ecosystem too.
+
+| How | Where |
+|-----|-------|
+| 📺 Watch live builds | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
+| 🌐 Explore the hub | [shanebrain.cloud](https://thebardchat.github.io/shanebrain-cloud/) |
+| 🤖 See the bots work | [MEGA Crew Chronicles](https://thebardchat.github.io/mega-crew-stories/) |
+| 📖 Read the book | [Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD) |
+| ⭐ Star a repo | [All Repos](https://github.com/thebardchat?tab=repositories) |
+| ❤️ Sponsor the work | [GitHub Sponsors](https://github.com/sponsors/thebardchat) |
+
+---
+
 ## Support This Work
 
 - **[Star the repos](https://github.com/thebardchat?tab=repositories)** — visibility is oxygen for projects like this
@@ -550,6 +632,6 @@ Faith · Family · Sobriety · Local AI · The Left-Behind User
 
 **Hazel Green, Alabama · 2026**
 
-*Sober since November 27, 2023*
+**Sober 918 days** · *Since November 27, 2023*
 
 </div>
