@@ -35,7 +35,7 @@ On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector 
 
 A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack.
 
-**83 public repositories.** Zero cloud subscriptions. Zero Big Tech dependency.
+**83 repositories.** Two USPTO provisional patents. Zero cloud subscriptions. Zero Big Tech dependency.
 
 I built all of it while running concrete dispatch by day and raising five boys with my wife Tiffany. I'm sober. I'm not a developer by trade. I just couldn't stop building.
 
@@ -132,7 +132,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | What It Is | Live |
 |------|-----------|------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte | [Demo ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
-| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 28.7 km coilgun specs, cross-sections, engineering detail | [Repo ↗](https://github.com/thebardchat/BGKPJR-Stage1-Tube) |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 37 km coilgun specs, cross-sections, engineering detail | [Repo ↗](https://github.com/thebardchat/BGKPJR-Stage1-Tube) |
 | [manna-pods](https://github.com/thebardchat/manna-pods) | 7 Manna cargo pod concepts — 3D rotating cross-sections, full specs | [Demo ↗](https://thebardchat.github.io/manna-pods) |
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Repo ↗](https://github.com/thebardchat/manna) |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo | [Repo ↗](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
@@ -144,11 +144,17 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## The Ecosystem
 
+<div align="center">
+<img src="./assets/concept-stack.webp" alt="ShaneBrain Concept Stack — full ecosystem from Pi hardware layer to orbital aerospace and the 800M mission" width="100%">
+</div>
+
+<br/>
+
 ```
 🧠 ShaneBrain (Pi 5 · primary node · Hazel Green, AL)
    ├── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
    ├── 42-tool MCP server (FastMCP, port 8100)
-   ├── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
+   ├── Weaviate 1.36.2 — 25 collections, 3,200+ objects, growing daily
    ├── N8N automation workflows (30+ active)
    ├── Discord + Twitch bots (24/7)
    ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
@@ -160,13 +166,13 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Cloudflare DNS — shanebrain.cloud
    └── Built May 2026: Instrument Serif + Inter, zero framework, zero build step
 
-🚀 BGKPJR Aerospace (patent pending)
-   ├── Electromagnetic launch architecture — BGKPJR-001
+🚀 BGKPJR Aerospace (patent pending · BGKPJR-001)
+   ├── Electromagnetic launch architecture — 37 km coilgun, Mach 5, $1,025/kg LEO
    ├── Three.js 3D visualizations, live on GitHub Pages
    ├── 7 Manna cargo pod variants documented
    └── Physics engine: rail, GNC, Kepler sail math
 
-☁️ Angel Cloud (wellness platform)
+☁️ Angel Cloud (wellness platform · theangel.cloud)
    ├── Mental wellness + AI sentiment engine
    ├── Halo progression: New Born → Guardian (points for lifting others up)
    ├── Angel Defenders — community self-governance layer
@@ -174,7 +180,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
    └── Tailscale Funnel public endpoint
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (post-quantum · USPTO provisional patent)
    ├── ML-KEM / Kyber-1024 lattice encryption
    ├── Dilithium3 signatures
    └── Deployed across all cluster nodes
@@ -192,6 +198,15 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
    └── Legacy hardware, no cloud required
 ```
+
+### 🌐 Live Domains
+
+| Domain | What's There |
+|--------|-------------|
+| [shanebrain.cloud](https://thebardchat.github.io/shanebrain-cloud/) | Ecosystem command center |
+| [thebardchat.github.io](https://thebardchat.github.io) | Portfolio & showcase hub |
+| [theangel.cloud](https://github.com/thebardchat/angel-cloud-hub) | Angel Cloud wellness platform hub |
+| [twitch.tv/thebardchat](https://twitch.tv/thebardchat) | Family streaming · local AI live demos |
 
 ---
 
@@ -229,6 +244,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🤖 **shanebrain-agents** | 7 specialist AI agents (Guardian, Life Coach + more) | [shanebrain-agents ↗](https://github.com/thebardchat/shanebrain-agents) |
 | ☀️ **shanebrain-briefing** | Daily 6 AM briefing — weather, health, dispatch | [shanebrain-briefing ↗](https://thebardchat.github.io/shanebrain-briefing/) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
+| ☁️ **angel-cloud-hub** | Angel Cloud public hub — theangel.cloud | [angel-cloud-hub ↗](https://github.com/thebardchat/angel-cloud-hub) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thought-tree ↗](https://thebardchat.github.io/thought-tree/) |
@@ -243,6 +259,11 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🧬 **pico-nerve-endings** | Pi Pico 2 (RP2350) firmware — peripheral nervous system | [pico-nerve-endings ↗](https://github.com/thebardchat/pico-nerve-endings) |
 | 🤝 **gemini-sidekick** | Gemini works for Claude — multi-AI collaboration | [gemini-sidekick ↗](https://github.com/thebardchat/gemini-sidekick) |
 | 🌐 **N8N** | Workflow automation hub — n8n connecting ShaneBrain | [N8N ↗](https://github.com/thebardchat/N8N) |
+| 🏛️ **loudon-desarro** | Loudon/DeSarro Athletic Complex — 50,000 SF 3D viz | [Pages ↗](https://thebardchat.github.io/loudon-desarro/) |
+| 🎨 **mega-dashboard** | MEGA Crew operations dashboard | [mega-dashboard ↗](https://github.com/thebardchat/mega-dashboard) |
+| 🖥️ **mega-dashboard-template** | Cyberpunk credits dashboard — fork it, wire your own | [mega-dashboard-template ↗](https://thebardchat.github.io/mega-dashboard-template/) |
+| 💬 **retro-cha** | Retro chatroom — classic vibes, local AI backend | [retro-cha ↗](https://github.com/thebardchat/retro-cha) |
+| 🌐 **shanebrain-app** | ShaneBrain Astro app | [shanebrain-app ↗](https://github.com/thebardchat/shanebrain-app) |
 | 📖 **book-launch-playbook** | Open-source playbook for AI-co-written noir fiction | [book-launch-playbook ↗](https://thebardchat.github.io/book-launch-playbook/) |
 | ✍️ **noir-detective-writing-process** | Voice dumps → shaped noir prose — the AI-human writing method | [noir-detective-writing-process ↗](https://thebardchat.github.io/noir-detective-writing-process/) |
 | 🎯 **manifesto** | The ShaneBrain AI mission statement | [manifesto ↗](https://github.com/thebardchat/manifesto) |
@@ -261,7 +282,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Hardware I/O | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
 | Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
-| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
+| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory, grows every day |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
 | Second Opinion | Gemini (via gemini-sidekick) | Gemini works for Claude here |
@@ -270,6 +291,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
 | Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
 | Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
+| Voice Pipeline | Whisper + Flask → ShaneBrain | Phone voice dumps → searchable memory |
+| Social Automation | LinkedIn bot + mini-shanebrain | X · FB · LinkedIn · Bluesky · Threads |
 
 </div>
 
@@ -283,7 +306,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | Description |
 |------|-------------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte |
-| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 28.7 km coilgun, full engineering detail |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 37 km coilgun, full engineering detail |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo |
 | [manna-pods](https://github.com/thebardchat/manna-pods) | 7 Manna cargo pod concepts — 3D rotating cross-sections |
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research |
@@ -308,7 +331,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [shanebrain-learning](https://github.com/thebardchat/shanebrain-learning) | Learning data ingestion pipeline |
 | [shanebrain-backup](https://github.com/thebardchat/shanebrain-backup) | Backup infrastructure |
 | [shanebrain-linkedin-bot](https://github.com/thebardchat/shanebrain-linkedin-bot) | LinkedIn content + strategy bot |
-| [shanebrain-template](https://github.com/thebardchat/shanebrain-template) | GitHub template — Constitution, CLAUDE.md, branding |
+| [shanebrain-template](https://github.com/thebardchat/shanebrain-template) | GitHub template — Constitution, CLAUDE.md, branding. **Fork it.** |
 | [pico-nerve-endings](https://github.com/thebardchat/pico-nerve-endings) | Pi Pico 2 (RP2350) firmware — hardware I/O peripheral layer |
 | [N8N](https://github.com/thebardchat/N8N) | Workflow automation hub — n8n connecting the whole stack |
 | [morning-chaos-briefing](https://github.com/thebardchat/morning-chaos-briefing) | 6 AM dispatch briefing — weather, system health, alerts |
@@ -340,19 +363,21 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [angelcloud-actual](https://github.com/thebardchat/angelcloud-actual) | Firebase wellness platform + Pulsar blockchain |
 | [angel-cloud-roblox](https://github.com/thebardchat/angel-cloud-roblox) | Roblox wellness game — 6 ascending cloud layers, cooperative mechanics |
 | [angel-cloud-hub](https://github.com/thebardchat/angel-cloud-hub) | Angel Cloud ecosystem hub — theangel.cloud |
-| [angel-cloud-auth-bridge](https://github.com/thebardchat/angel-cloud-auth-bridge) | Auth bridge infrastructure |
-| [angel-cloud-3d-welcome-home](https://github.com/thebardchat/angel-cloud-3d-welcome-home) | 3D welcome experience |
-| [angelcloud2.0](https://github.com/thebardchat/angelcloud2.0) | Angel Cloud 2.0 architecture |
+| [angel-cloud-auth-bridge](https://github.com/thebardchat/angel-cloud-auth-bridge) | Auth bridge infrastructure `[archived]` |
+| [angel-cloud-3d-welcome-home](https://github.com/thebardchat/angel-cloud-3d-welcome-home) | 3D welcome experience `[archived]` |
+| [angelcloud2.0](https://github.com/thebardchat/angelcloud2.0) | Angel Cloud 2.0 architecture `[archived]` |
 
 </details>
 
 <details>
-<summary><strong>🔐 Security</strong></summary>
+<summary><strong>🔐 Security & Patents</strong></summary>
 
 | Repo | Description |
 |------|-------------|
 | [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
-| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | **USPTO provisional patent** — Quantum Legacy AI Stick: portable edge AI co-processor + Pulsar Sentinel audit log |
+
+> 🏛️ **Patent Alert:** The Quantum Legacy AI Stick is under USPTO provisional patent. A plug-and-play edge AI device with post-quantum security baked in — designed for the 800M left-behind users. No cloud. No subscription. Yours forever.
 
 </details>
 
@@ -365,11 +390,11 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [MASTER-Scheduler-Dashboard-SRM](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM) | Master dispatch — 16 drivers, 19 plants, block plant priority |
 | [SB-Management-OS](https://github.com/thebardchat/SB-Management-OS) | SRM Concrete ops — SOPs, coaching scripts, personnel |
 | [pedal-to-the-metal](https://github.com/thebardchat/pedal-to-the-metal) | Dispatch SaaS for concrete fleet managers |
-| [srm-operations-demo](https://github.com/thebardchat/srm-operations-demo) | Operations demo system |
 | [melvin_operations_os](https://github.com/thebardchat/melvin_operations_os) | Operations OS |
-| [2.0RepairTrucks](https://github.com/thebardchat/2.0RepairTrucks) | Work truck repair tracking |
-| [order-calendar](https://github.com/thebardchat/order-calendar) | Node.js dispatch scheduling API |
-| [weather-log](https://github.com/thebardchat/weather-log) | Weather logging for dispatch |
+| [srm-operations-demo](https://github.com/thebardchat/srm-operations-demo) | Operations demo system `[archived]` |
+| [2.0RepairTrucks](https://github.com/thebardchat/2.0RepairTrucks) | Work truck repair tracking `[archived]` |
+| [order-calendar](https://github.com/thebardchat/order-calendar) | Node.js dispatch scheduling API `[archived]` |
+| [weather-log](https://github.com/thebardchat/weather-log) | Weather logging for dispatch `[archived]` |
 
 </details>
 
@@ -389,7 +414,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Repo | Description |
 |------|-------------|
-| [AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) | 36-module local AI curriculum — zero to AI sovereignty, zero cloud |
+| [AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) | 36-module local AI curriculum — zero to AI sovereignty, zero cloud. Built for Windows 10 refugees. |
 | [AI-Trainer-OBLIVION](https://github.com/thebardchat/AI-Trainer-OBLIVION) | Next-level beyond MAX — for builders who want more |
 
 </details>
@@ -400,9 +425,9 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | Description |
 |------|-------------|
 | [you-probably-think-this-book-is-about-you](https://github.com/thebardchat/you-probably-think-this-book-is-about-you) | 55 noir vignettes — published on Amazon |
+| [you-probably-think-this-song-is-about-you-too](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too) | The follow-up |
 | [book-launch-playbook](https://github.com/thebardchat/book-launch-playbook) | Open-source AI-co-written book launch playbook |
 | [noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) | Voice dumps → shaped noir prose — the AI-human method |
-| [you-probably-think-this-song-is-about-you-too](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too) | The follow-up |
 
 </details>
 
@@ -437,9 +462,9 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [constitution](https://github.com/thebardchat/constitution) | The governing covenant — nine pillars, one ecosystem |
 | [manifesto](https://github.com/thebardchat/manifesto) | ShaneBrain AI mission statement and vision |
 | [brand](https://github.com/thebardchat/brand) | Brand assets and guidelines |
-| [shanebrain](https://github.com/thebardchat/shanebrain) | From mind to world |
+| [shanebrain](https://github.com/thebardchat/shanebrain) | From mind to world `[archived]` |
 | [claude-memory](https://github.com/thebardchat/claude-memory) | Claude Code session memory and CLAUDE.md state |
-| [claude-notes](https://github.com/thebardchat/claude-notes) | Memory exports and conversation context |
+| [claude-notes](https://github.com/thebardchat/claude-notes) | Memory exports and conversation context `[archived]` |
 | [treasures](https://github.com/thebardchat/treasures) | Recovered archive hub — drives to GitHub |
 | [index](https://github.com/thebardchat/index) | Master index |
 
@@ -451,15 +476,15 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | Description |
 |------|-------------|
 | [thought-tree](https://github.com/thebardchat/thought-tree) | Local AI mind mapping — Weaviate semantic search |
-| [horizon-meta-profile](https://github.com/thebardchat/horizon-meta-profile) | Horizon Worlds creator profile — The Bard Chat |
 | [loudon-desarro](https://github.com/thebardchat/loudon-desarro) | Loudon/DeSarro Athletic Complex — 50,000 SF 3D viz |
+| [horizon-meta-profile](https://github.com/thebardchat/horizon-meta-profile) | Horizon Worlds creator profile — The Bard Chat |
 | [mini-shanebrain](https://github.com/thebardchat/mini-shanebrain) | Social bot — X, FB, LinkedIn, Instagram, Bluesky, Threads |
 | [twitch](https://github.com/thebardchat/twitch) | Love & light on Twitch — family channel, local AI powered |
 | [retro-cha](https://github.com/thebardchat/retro-cha) | Retro chatroom |
 | [rettro--chatroom](https://github.com/thebardchat/rettro--chatroom) | Retro chatroom v2 |
-| [wingfest2025](https://github.com/thebardchat/wingfest2025) | WingFest 2025 site |
+| [wingfest2025](https://github.com/thebardchat/wingfest2025) | WingFest 2025 site `[archived]` |
 | [multi-container-app](https://github.com/thebardchat/multi-container-app) | Node.js + MongoDB multi-container Docker starter |
-| [codespaces-react](https://github.com/thebardchat/codespaces-react) | React Codespaces starter |
+| [codespaces-react](https://github.com/thebardchat/codespaces-react) | React Codespaces starter `[archived]` |
 
 </details>
 
@@ -509,6 +534,17 @@ Projects recovered from old drives and released to GitHub in April 2026.
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
+| 🏛️ **loudon-desarro** | 50,000 SF Athletic Complex 3D visualization | [Pages ↗](https://thebardchat.github.io/loudon-desarro/) |
+
+---
+
+## Fork the Template
+
+Every repo on this profile runs under one governing structure. If you want to build something that matters — with a Constitution, a CLAUDE.md, and brand assets already wired in — fork the template and start there.
+
+**[shanebrain-template →](https://github.com/thebardchat/shanebrain-template)**
+
+*Fork it. Rename it. Make it yours. That's the point.*
 
 ---
 
@@ -550,6 +586,6 @@ Faith · Family · Sobriety · Local AI · The Left-Behind User
 
 **Hazel Green, Alabama · 2026**
 
-*Sober since November 27, 2023*
+*Sober since November 27, 2023 · 919 days and counting*
 
 </div>
