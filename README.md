@@ -41,6 +41,17 @@ I built all of it while running concrete dispatch by day and raising five boys w
 
 > *"The internet has enough darkness. This is the opposite of that."*
 
+<div align="center">
+
+| | | | | |
+|:-:|:-:|:-:|:-:|:-:|
+| **83** | **42** | **25** | **17** | **2** |
+| public repos | MCP tools | Weaviate collections | autonomous bots | provisional patents |
+| **18** | **30+** | **920** | **5** | **$0** |
+| drivers dispatched | N8N workflows | days sober | boys raised | cloud spend |
+
+</div>
+
 ---
 
 <div align="center">
@@ -144,60 +155,99 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## The Ecosystem
 
+> One Raspberry Pi 5. 83 repositories. Real businesses. Real families. Zero cloud dependency. Zero Big Tech permission required.
+
 ```
-🧠 ShaneBrain (Pi 5 · primary node · Hazel Green, AL)
-   ├── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
-   ├── 42-tool MCP server (FastMCP, port 8100)
-   ├── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   ├── N8N automation workflows (30+ active)
-   ├── Discord + Twitch bots (24/7)
-   ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
-   ├── gulfshores — Surface 1, Node.js v24, dev/build node
-   └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
+╔══════════════════════════════════════════════════════════════════╗
+║  🧠  ShaneBrain  ·  Pi 5 16GB  ·  Hazel Green, AL               ║
+║      The stack that runs when nobody's watching                  ║
+╚══════════════════════════════════════════════════════════════════╝
 
-🌐 shanebrain.cloud (public hub)
-   ├── Ecosystem command center, live on GitHub Pages
-   ├── Cloudflare DNS — shanebrain.cloud
-   └── Built May 2026: Instrument Serif + Inter, zero framework, zero build step
+ HARDWARE
+   ├── Raspberry Pi 5 (16GB RAM) ─── $80 machine. Runs everything.
+   ├── NVMe RAID 1 (2 × 2TB) ─────── Data doesn't die here.
+   ├── Raspberry Pi Pico 2 (RP2350) ─ Peripheral nervous system / sensors
+   └── gulfshores (Surface 1) ─────── Node.js v24, dev / build node
 
-🚀 BGKPJR Aerospace (patent pending)
-   ├── Electromagnetic launch architecture — BGKPJR-001
-   ├── Three.js 3D visualizations, live on GitHub Pages
-   ├── 7 Manna cargo pod variants documented
-   └── Physics engine: rail, GNC, Kepler sail math
+ BRAIN LAYER
+   ├── 42-tool MCP server (FastMCP · port 8100) ─── Claude talks to everything
+   ├── Weaviate 1.36.2 · neworleans node ────────── 25 collections · 3,200+ objects
+   ├── 7 specialist AI agents ────────────────────── Guardian · Librarian · Dispatch
+   │                                                  Life Coach · Dream · Story · Intel
+   ├── 30+ N8N automation workflows (systemd · 24/7)
+   ├── Discord bot + Twitch bot (always on)
+   └── 6 AM morning briefing ─── weather · health · dispatch · Halo Finance alerts
 
-☁️ Angel Cloud (wellness platform)
-   ├── Mental wellness + AI sentiment engine
-   ├── Halo progression: New Born → Guardian (points for lifting others up)
-   ├── Angel Defenders — community self-governance layer
-   ├── Messenger storyteller (OPTOUT/ANON/FORGET privacy controls)
-   ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
-   └── Tailscale Funnel public endpoint
+ MEGA CREW (17 autonomous bots · noir audiobook · 24/7)
+   ├── Sparky · Volt · Neon · Glitch · Arc · Weld · Gemini + 10 more
+   ├── Each bot: name · role · personality · local Weaviate memory
+   └── Output: noir audiobook series, auto-illustrated, auto-narrated, live on GitHub Pages
 
-🔐 Pulsar Sentinel (post-quantum)
+ NETWORK
+   ├── Tailscale VPN ─────── private mesh across all nodes
+   ├── Cloudflare DNS ─────── shanebrain.cloud (one address, everything)
+   └── GitHub Pages ────────── all public demos · zero hosting cost
+
+ ──────────────────────────────────────────────────────────────────
+
+ 🌐  PUBLIC HUBS
+   ├── shanebrain.cloud ────────────── Ecosystem command center
+   └── sentinel.shanebrain.cloud ───── Pulsar Sentinel · live post-quantum product
+
+ 🚀  BGKPJR AEROSPACE  (patent pending · BGKPJR-001)
+   ├── 37 km evacuated coilgun · Mach 5 · $1,025/kg LEO
+   ├── Three.js 3D visualizations · live on GitHub Pages
+   ├── 7 Manna cargo pod variants · full physics engine
+   ├── Pre-Lukens audit complete · Scott Lukens (NASA MSFC contractor) review ready
+   └── Goal: unmanned cargo to lunar orbit by 2033
+
+ ☁️  ANGEL CLOUD  (family wellness platform)
+   ├── AI sentiment engine + Messenger storyteller
+   ├── Halo progression: New Born → Guardian (lift others up to level up)
+   ├── Angel Defenders ─── community self-governance layer
+   ├── Privacy controls: OPTOUT · ANON · FORGET
+   ├── Firebase backend + Pulsar blockchain layer
+   └── Roblox: The Cloud Climb ─── 24 scripts · 6 ascending layers · 65 lore fragments
+
+ 🔐  PULSAR SENTINEL  (post-quantum security · live · $10.99/mo)
    ├── ML-KEM / Kyber-1024 lattice encryption
-   ├── Dilithium3 signatures
-   └── Deployed across all cluster nodes
+   ├── Dilithium3 digital signatures
+   ├── Blockchain audit trail + digital inheritance
+   ├── Built for the 800M Windows 10 users Big Tech is abandoning
+   ├── sentinel.shanebrain.cloud ─── live today
+   └── USPTO provisional patent: Quantum Legacy AI Stick
 
-💰 HaloFinance (family financial AI)
-   ├── AI-powered budgeting, forecasting, alerts
-   └── Built for working families, not hedge funds
+ 💰  HALOFINANCE  (family financial AI)
+   ├── AI-powered budgeting · forecasting · emergency alerts
+   └── Built for working families. Not hedge funds.
 
-🏥 Greenfield / Claim Cruncher (medical billing AI)
+ 🏥  GREENFIELD / CLAIM CRUNCHER  (medical billing AI)
    ├── Claude AI + FastAPI intake pipeline
-   └── Gavin's project — co-built father and son
+   └── Gavin's project ─── co-built, father and son
 
-🎯 TheirNameBrain (next)
+ 🚚  SRM DISPATCH  (real concrete fleet · real Alabama roads)
+   ├── 18 drivers · 19 plants · 16 active routes
+   ├── PWA + master scheduler + block-plant priority routing
+   ├── Daily 6 AM briefing ─── weather · orders · driver alerts
+   └── Built by the dispatcher running it. Not a demo.
+
+ 🎓  AI-TRAINER  (local AI curriculum · zero cloud)
+   ├── MAX: 36 modules · zero to AI sovereignty · complete
+   └── OBLIVION: next level · for builders who want more
+
+ 🎯  THEIRNAMEBRAIN  (the horizon · next major build)
    ├── Personalized AI for the left-behind user
-   ├── AI Brain + Digital Assets + Legal Documents + Personal Letters
-   └── Legacy hardware, no cloud required
+   ├── Brain + Digital Assets + Legal Documents + Personal Letters
+   └── Legacy hardware. No cloud. No subscription. Yours forever.
 ```
 
 ---
 
 ## MEGA Crew Chronicles
 
-17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+**17 autonomous AI bots.** Real code. Real memory. Real Weaviate long-term memory. Every night — on a $80 Raspberry Pi in a closet in Alabama — they write their own noir audiobook. No human edits the output. No cloud required.
+
+> Sparky · Volt · Neon · Glitch · Arc · Weld · Gemini · Ghost · Drift · Pulse · Cipher · Echo · Blaze · Recon · Axiom · Vector · Nova
 
 <div align="center">
 
@@ -230,7 +280,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | ☀️ **shanebrain-briefing** | Daily 6 AM briefing — weather, health, dispatch | [shanebrain-briefing ↗](https://thebardchat.github.io/shanebrain-briefing/) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [angel-cloud ↗](https://github.com/thebardchat/angel-cloud) |
 | 🎮 **Angel Cloud Roblox** | Wellness game — 6 ascending layers, 65 lore fragments | [angel-cloud-roblox ↗](https://github.com/thebardchat/angel-cloud-roblox) |
-| 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [pulsar_sentinel ↗](https://github.com/thebardchat/pulsar_sentinel) |
+| 🛡️ **Pulsar Sentinel** | Post-quantum security · ML-KEM/Kyber-1024 · $10.99/mo | [sentinel.shanebrain.cloud ↗](https://sentinel.shanebrain.cloud) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thought-tree ↗](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [AI-Trainer-MAX ↗](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🎓 **AI-Trainer-OBLIVION** | Next-level AI training — beyond MAX | [AI-Trainer-OBLIVION ↗](https://github.com/thebardchat/AI-Trainer-OBLIVION) |
@@ -268,8 +318,9 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Containers | Docker + 17 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
-| Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
+| Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today · live at sentinel.shanebrain.cloud |
 | Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
+| Patents | BGKPJR-001 (aerospace) · Quantum Legacy AI Stick (USPTO) | Two provisional patents from a closet in Alabama |
 
 </div>
 
@@ -351,8 +402,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Repo | Description |
 |------|-------------|
-| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 on Pi 5 |
-| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — Quantum Legacy AI Stick |
+| [pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) | Post-quantum crypto — ML-KEM / Kyber-1024 + Dilithium3 · blockchain audit trail · digital inheritance · live at sentinel.shanebrain.cloud |
+| [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) | USPTO provisional patent — 99 portable edge AI models on a single stick, post-quantum encrypted |
 
 </details>
 
@@ -399,10 +450,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Repo | Description |
 |------|-------------|
-| [you-probably-think-this-book-is-about-you](https://github.com/thebardchat/you-probably-think-this-book-is-about-you) | 55 noir vignettes — published on Amazon |
-| [book-launch-playbook](https://github.com/thebardchat/book-launch-playbook) | Open-source AI-co-written book launch playbook |
-| [noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) | Voice dumps → shaped noir prose — the AI-human method |
-| [you-probably-think-this-song-is-about-you-too](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too) | The follow-up |
+| [you-probably-think-this-book-is-about-you](https://github.com/thebardchat/you-probably-think-this-book-is-about-you) | 55 noir vignettes about ego, identity, and the American South — published on Amazon |
+| [book-launch-playbook](https://github.com/thebardchat/book-launch-playbook) | Open-source AI-co-written book launch playbook — from voice dump to Amazon listing |
+| [noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) | Voice dumps → shaped noir prose — the full AI-human writing method, documented |
+| [you-probably-think-this-song-is-about-you-too](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too) | The follow-up — same voice, new darkness |
 
 </details>
 
@@ -457,7 +508,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [twitch](https://github.com/thebardchat/twitch) | Love & light on Twitch — family channel, local AI powered |
 | [retro-cha](https://github.com/thebardchat/retro-cha) | Retro chatroom |
 | [rettro--chatroom](https://github.com/thebardchat/rettro--chatroom) | Retro chatroom v2 |
-| [wingfest2025](https://github.com/thebardchat/wingfest2025) | WingFest 2025 site |
+| [wingfest2025](https://github.com/thebardchat/wingfest2025) | WingFest 2025 — community event site built in the ShaneBrain ecosystem |
 | [multi-container-app](https://github.com/thebardchat/multi-container-app) | Node.js + MongoDB multi-container Docker starter |
 | [codespaces-react](https://github.com/thebardchat/codespaces-react) | React Codespaces starter |
 
@@ -478,6 +529,25 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)** · **[How It Was Made](https://thebardchat.github.io/noir-detective-writing-process/)**
+
+</div>
+
+---
+
+## The Next Book
+
+<div align="center">
+
+### *The Pragmatic Systems Builder*
+#### *One Dispatcher's Guide to Owning Your Own AI*
+
+A non-technical manual for the 800 million people losing Windows 10 support who think AI is only for engineers at big companies.
+
+It isn't.
+
+*Written in Hazel Green, Alabama. Running on a Raspberry Pi. Coming to Amazon.*
+
+**[Follow the Build →](https://github.com/thebardchat/manifesto)**
 
 </div>
 
@@ -514,11 +584,21 @@ Projects recovered from old drives and released to GitHub in April 2026.
 
 ## The Constitution
 
-Every repo here operates under one governing document.
+Every repo on this profile operates under one governing document. A personal covenant — written by a Christian father and builder in Hazel Green, Alabama. Not corporate policy. Not a terms of service. A code of life.
 
-Nine pillars. One covenant. No exceptions.
+| # | Pillar | The Rule That Doesn't Bend |
+|---|--------|--------------------------|
+| 1 | **Faith First** | No project violates Christian values |
+| 2 | **Family Stability** | No build ships at the cost of family |
+| 3 | **Sobriety Integrity** | Every tool reinforces health, never undermines it |
+| 4 | **Local-First AI** | Pi before cloud. Privacy before convenience. |
+| 5 | **80/20 Shipping** | Done and deployed beats perfect and stalled |
+| 6 | **Serve the Left-Behind** | Build for the ~800M Big Tech forgot |
+| 7 | **Open by Default** | Free when it can be. Paid only to fund the mission. |
+| 8 | **ADHD-Aware Design** | Built for my brain first |
+| 9 | **Gratitude is Infrastructure** | Credit Claude, Raspberry Pi, and Pironman — always |
 
-**Faith. Family. Sobriety. Love & Light. Authenticity. Local AI. The Left-Behind. Community. Purpose.**
+*Ratified March 2026. Amended monthly. Single source of truth. No exceptions.*
 
 **[Read the Constitution →](https://github.com/thebardchat/constitution)**
 
