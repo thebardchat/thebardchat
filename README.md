@@ -29,13 +29,13 @@
 
 ---
 
-I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
+I run a **5-node AI cluster** out of a closet in Hazel Green, Alabama. Primary node is a Raspberry Pi 5. The cluster spans Surface Pros and x86 nodes, all meshed over Tailscale and guarded by Pulsar Sentinel post-quantum encryption.
 
-On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On the cluster: **17 autonomous AI bots** with persistent memory, a **42-tool MCP server**, **Weaviate with 25 collections and 13,843+ objects**, a live Discord server with 4 active bots, a daily noir comics engine, a financial dashboard, a medical billing platform, a voice-to-prose pipeline, and a concrete dispatch system for 18 drivers.
 
-A **Raspberry Pi Pico 2 (RP2350)** serves as the peripheral nervous system — hardware inputs, sensor reads, and physical-world interfaces feeding the ShaneBrain stack.
+A **Raspberry Pi Pico 2 (RP2350)** handles hardware I/O — temperature sensors, GPIO, and physical-world interfaces feeding the ShaneBrain stack.
 
-**83 public repositories.** Zero cloud subscriptions. Zero Big Tech dependency.
+**83 repositories.** Moving to $0-API local inference with Gemma 4 E2B on dedicated hardware. Post-quantum secured across every node today.
 
 I built all of it while running concrete dispatch by day and raising five boys with my wife Tiffany. I'm sober. I'm not a developer by trade. I just couldn't stop building.
 
@@ -146,14 +146,29 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ```
 🧠 ShaneBrain (Pi 5 · primary node · Hazel Green, AL)
-   ├── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
    ├── 42-tool MCP server (FastMCP, port 8100)
-   ├── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   ├── N8N automation workflows (30+ active)
-   ├── Discord + Twitch bots (24/7)
+   ├── t2v-transformers embedding engine (port 8090)
+   ├── Pulsar Sentinel gateway (port 8250) — PQC auth on every inter-node call
    ├── 5 AM morning briefing — weather, health, dispatch, Halo alerts
-   ├── gulfshores — Surface 1, Node.js v24, dev/build node
    └── Pi Pico 2 (RP2350) — peripheral nervous system / hardware I/O
+
+🖥️  The Cluster (5 nodes · Tailscale mesh · Pulsar Sentinel on all)
+   ├── neworleans  — Weaviate 1.36.2 · 25 collections · 13,843+ objects · persistent memory
+   ├── mexico      — N8N · Redis · 17 MEGA Crew containers · webhook router · Caddy
+   ├── gulfshores  — Surface 1 · Caddy · pg · redis · dev + UI builds
+   ├── biloxi      — Gemma 4 E2B · llama.cpp · $0-API local inference (Phase 1 build)
+   └── alaska      — Pulsar Sentinel mesh node
+
+🤖 MEGA Crew (17 autonomous bots · body-zone architecture · live 24/7)
+   ├── 🧠 Brain      — Sparky (Judge) · Volt (Drift) · Neon (Embedder) · Glitch (Adversary)
+   ├── ✋ Right Hand  — Arc (Gatekeeper) · Blaze (Context) · Flux (Health) · Gemini (Growth Coach)
+   ├── 🤚 Left Hand   — Weld (Applier) · Rivet (Dedup) · Torch (Persona Editor)
+   ├── 🦶 Left Foot   — Bolt (Patterns) · Stomp (Conflict) · Grind (Re-Embed)
+   └── 👣 Right Foot  — Crank (Scheduler) · Spike (IQ Bench) · Forge (Tool Drafter)
+   Services: mega-crew-live · mega-crew-scheduler · mega-crew-game · mega-banter
+   Night output: noir audiobook episodes + comics → auto-post → Discord #comic
+   Model split: Gemini 2.5 Flash (live crew) · Claude Haiku 4.5 (memory containers)
+   Next: Gemma 4 E2B on biloxi — $0 API for the whole banter layer
 
 🌐 shanebrain.cloud (public hub)
    ├── Ecosystem command center, live on GitHub Pages
@@ -174,10 +189,11 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    ├── Roblox: The Cloud Climb — 24 scripts, 6 ascending layers, 65 lore fragments
    └── Tailscale Funnel public endpoint
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (post-quantum · cluster mesh · live)
    ├── ML-KEM / Kyber-1024 lattice encryption
    ├── Dilithium3 signatures
-   └── Deployed across all cluster nodes
+   ├── sentinel_agent.py deployed across all 5 cluster nodes
+   └── /recon dashboard — CPU/RAM/threat level + Q-Day countdown strip
 
 💰 HaloFinance (family financial AI)
    ├── AI-powered budgeting, forecasting, alerts
@@ -197,16 +213,28 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## MEGA Crew Chronicles
 
-17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+17 autonomous AI bots. Named. Zoned. Persistent memory. Every night they write their own story — and now they draw it too.
+
+The crew is organized like a nervous system. **Brain** processes and judges. **Hands** apply and connect. **Feet** pattern-match and schedule. Every bot has a name, a zone, a role, and a personality that bleeds into the noir universe they're building together.
 
 <div align="center">
 
-<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/arc_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
-<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/weld_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
-<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/sparky_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
-<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/gemini_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
-<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/glitch_Gemini_Generated.png" width="72" style="border-radius:50%"></a>&nbsp;
-<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/volt_Gemini_Generated.png" width="72" style="border-radius:50%"></a>
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/sparky_Gemini_Generated.png" width="66" style="border-radius:50%" title="Sparky — Judge · Brain"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/volt_Gemini_Generated.png" width="66" style="border-radius:50%" title="Volt — Drift · Brain"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/glitch_Gemini_Generated.png" width="66" style="border-radius:50%" title="Glitch — Adversary · Brain"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/arc_Gemini_Generated.png" width="66" style="border-radius:50%" title="Arc — Gatekeeper · Right Hand"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/gemini_Gemini_Generated.png" width="66" style="border-radius:50%" title="Gemini — Growth Coach · Right Hand"></a>&nbsp;
+<a href="https://thebardchat.github.io/mega-crew-stories/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/cards/portraits/weld_Gemini_Generated.png" width="66" style="border-radius:50%" title="Weld — Applier · Left Hand"></a>
+
+| Zone | Crew | Role |
+|------|------|------|
+| 🧠 Brain | Sparky · Volt · Neon · Glitch | Judge · Drift · Embedder · Adversary |
+| ✋ Right Hand | Arc · Blaze · Flux · Gemini | Gatekeeper · Context · Health · Growth Coach |
+| 🤚 Left Hand | Weld · Rivet · Torch | Applier · Dedup · Persona Editor |
+| 🦶 Left Foot | Bolt · Stomp · Grind | Patterns · Conflict · Re-Embed |
+| 👣 Right Foot | Crank · Spike · Forge | Scheduler · IQ Bench · Tool Drafter |
+
+*Real code. Real memory. Real personalities. Comics auto-post every night.*
 
 **[Read the Chronicles →](https://thebardchat.github.io/mega-crew-stories/)** · **[View Cards →](https://thebardchat.github.io/mega-crew-stories/cards.html)**
 
@@ -223,7 +251,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🌐 **shanebrain.cloud** | Ecosystem command center — the public hub | [shanebrain-cloud ↗](https://thebardchat.github.io/shanebrain-cloud/) |
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods ↗](https://thebardchat.github.io/manna-pods) |
-| 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew ↗](https://thebardchat.github.io/mega-crew/) |
+| 🤖 **MEGA Crew** | 17 named bots, 5 zones, live 24/7 on the cluster | [thebardchat.github.io/mega-crew ↗](https://thebardchat.github.io/mega-crew/) |
+| 💬 **Discord Server** | 4 live bots · daily AI briefings · noir comics · crew games | [mega-crew-stories ↗](https://thebardchat.github.io/mega-crew-stories/) |
 | 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat ↗](https://twitch.tv/thebardchat) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [shanebrain_mcp ↗](https://github.com/thebardchat/shanebrain_mcp) |
 | 🤖 **shanebrain-agents** | 7 specialist AI agents (Guardian, Life Coach + more) | [shanebrain-agents ↗](https://github.com/thebardchat/shanebrain-agents) |
@@ -257,18 +286,20 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Layer | Tool | Why |
 |-------|------|-----|
-| Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
+| Primary Node | Raspberry Pi 5 (16GB) | Brain of the cluster |
 | Hardware I/O | Raspberry Pi Pico 2 (RP2350) | Peripheral nervous system |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
-| Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
-| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
-| AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
+| Inference Node | biloxi — Gemma 4 E2B · llama.cpp | $0-API local banter (building now) |
+| Glue Layer | mexico — N8N · Redis · 17 Crew bots | Offloads Pi, wires everything |
+| Dev + UI | gulfshores — Caddy · pg · redis | Build, serve, deploy |
+| Vector DB | neworleans — Weaviate 1.36.2 · 13,843+ objects | Long memory · 25 collections |
+| MCP Server | FastMCP v2.3 (42 tools, port 8100) | Claude talks to everything |
+| Crew AI | Gemini 2.5 Flash + Claude Haiku 4.5 | Live replies + memory containers |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
 | Second Opinion | Gemini (via gemini-sidekick) | Gemini works for Claude here |
-| Containers | Docker + 17 MEGA Crew bots | Ship it |
-| Automation | N8N + systemd (30+ services) | Never stop |
+| Automation | N8N (mexico) + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
-| Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum, today |
+| Security | ML-KEM / Kyber-1024 + Dilithium3 · 5-node mesh | Post-quantum on every node, today |
 | Public DNS | Cloudflare — shanebrain.cloud | One address, everything |
 
 </div>
@@ -298,10 +329,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Repo | Description |
 |------|-------------|
-| [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — Discord bot, MCP, Weaviate, N8N on one Pi 5 |
+| [shanebrain-core](https://github.com/thebardchat/shanebrain-core) | Heart of the ecosystem — Discord bots, MCP, Weaviate, cluster services on Pi 5 |
 | [shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) | 42-tool MCP server — RAG, Weaviate, vault, planning, briefing |
 | [shanebrain-agents](https://github.com/thebardchat/shanebrain-agents) | 7 specialist AI agents orchestrated on Pi 5 |
-| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app |
+| [shanebrain-app](https://github.com/thebardchat/shanebrain-app) | ShaneBrain Astro app — ecosystem UI layer |
 | [shanebrain-cloud](https://github.com/thebardchat/shanebrain-cloud) | Ecosystem hub site — shanebrain.cloud |
 | [shanebrain-briefing](https://github.com/thebardchat/shanebrain-briefing) | Daily 6 AM briefing — weather, health, Halo Finance alerts |
 | [shanebrain-workflows](https://github.com/thebardchat/shanebrain-workflows) | Rust automation workflows |
@@ -366,7 +397,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [SB-Management-OS](https://github.com/thebardchat/SB-Management-OS) | SRM Concrete ops — SOPs, coaching scripts, personnel |
 | [pedal-to-the-metal](https://github.com/thebardchat/pedal-to-the-metal) | Dispatch SaaS for concrete fleet managers |
 | [srm-operations-demo](https://github.com/thebardchat/srm-operations-demo) | Operations demo system |
-| [melvin_operations_os](https://github.com/thebardchat/melvin_operations_os) | Operations OS |
+| [melvin_operations_os](https://github.com/thebardchat/melvin_operations_os) | Operations OS — field management layer |
 | [2.0RepairTrucks](https://github.com/thebardchat/2.0RepairTrucks) | Work truck repair tracking |
 | [order-calendar](https://github.com/thebardchat/order-calendar) | Node.js dispatch scheduling API |
 | [weather-log](https://github.com/thebardchat/weather-log) | Weather logging for dispatch |
@@ -499,7 +530,7 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 ## The Released Treasures
 
-Projects recovered from old drives and released to GitHub in April 2026.
+Projects recovered from old drives and released to GitHub in April–May 2026.
 
 | Project | What It Does | Pages |
 |---------|-------------|-------|
@@ -508,6 +539,7 @@ Projects recovered from old drives and released to GitHub in April 2026.
 | 🌳 **thought-tree** | React mind-mapping, Weaviate semantic search | [Pages ↗](https://thebardchat.github.io/thought-tree/) |
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
+| 🧠 **shanebrain-app** | ShaneBrain Astro ecosystem UI | [Repo ↗](https://github.com/thebardchat/shanebrain-app) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
 
 ---
