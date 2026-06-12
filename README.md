@@ -27,9 +27,11 @@
 
 ---
 
-I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
+I run a **7-node Tailscale mesh cluster** from a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+The hub: a **Raspberry Pi 5** running 19 autonomous AI bots. Three **repurposed Surface Pros** serving local Gemma 4 inference at **$0 per token**. A dedicated **Weaviate vector database** with 25+ collections and **14,600+ objects**. Post-quantum encryption across every node. A **42-tool MCP server** that lets Claude talk to all of it.
+
+On the cluster: **19 autonomous AI bots**, a Discord server with per-user memory, a nightly narrative engine that turns bot behavior into published stories, a concrete dispatch PWA for 18 drivers, a mental wellness platform, a post-quantum security framework, and a live aerospace engineering pipeline aimed at $1,025/kg LEO cargo.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -133,44 +135,124 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ---
 
+## FABLE 5 — The Narrative Engine
+
+**Flexible Autonomous Bot Logic Engine v5.**
+
+Every bot generates data. Every approval, rejection, memory write, and constitutional alignment check gets scored. FABLE 5 reads that data and builds story arcs. The crew earns their arcs. They don't get handed them.
+
+```
+Crew State Reader → Constitutional Checker → Narrative Arc Builder
+                                              ↓
+                            Character Voice Engine → Legacy Committer
+```
+
+**Arc types:** `tribunal` · `triumph` · `collapse` · `discovery`
+
+**Value scoring (per bot, 0.0–1.0):**
+```
+arc_approval_rate × 0.30
++ training_count  × 0.20
++ const_alignment × 0.30
++ brain_queries   × 0.20
+```
+
+Low-value bots get slower tick intervals. High-value bots get promoted. The behavior governs the story. The story governs the behavior.
+
+**Phases 0–6: all deployed.** 51+ episodes published to GitHub Pages. Episode 50: tribunal arc, *"The Weight of Not Yet."* Episode 51: triumph arc.
+
+- `/api/fable5` — live endpoint on the MEGA Dashboard (arc type badge, value score bars, probation alerts)
+- `fable5_arcs.json` — canonical arc registry
+- `auto_chronicle.py` — nightly at 03:30: Weaviate AgentLog → Gemini Chronicler → HTML → GitHub Pages
+
+> *Tone: The Wire × Neuromancer × Friday Night Lights.*
+
+**[Read the Chronicles →](https://thebardchat.github.io/mega-crew-stories/)** · **[View Episode Cards →](https://thebardchat.github.io/mega-crew-stories/cards.html)**
+
+---
+
+## The Cluster
+
+Seven nodes. One Tailscale network. No open ports. Post-quantum encrypted at every endpoint.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    Tailscale Mesh (100.x.x.x)                   │
+│                                                                  │
+│  shanebrain (Pi 5) ──── neworleans (Weaviate v1.36.2 + N8N)    │
+│       │                                                          │
+│       ├──── biloxi     (Gemma 4 E2B — primary banter)           │
+│       ├──── gulfshores (Gemma 4 E2B — fallback 1 + dev)         │
+│       ├──── alaska     (Gemma 4 E2B — fallback 2)               │
+│       ├──── mexico     (nomic-embed-text-v1.5 — primary embed)  │
+│       └──── pulsar00100 (Pulsar Sentinel + Windows bus)          │
+│                                                                  │
+│  All nodes: heartbeat every 15s · watchdog auto-restart         │
+│  Inference: $0 per token (local Gemma) · Gemini for Noir/chat   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+| Node | Role | What Runs |
+|------|------|-----------|
+| **shanebrain** (Pi 5, 16GB) | Hub / Orchestrator | 19 bots · MCP server v2.3 (42 tools) · Weaviate v1.28 · Discord services · 5 AM briefing · coordinator crons · daily devotionals |
+| **biloxi** (Surface Pro) | Primary banter inference | Gemma 4 E2B :8080 · embed :8081 · health sentinel :8351 |
+| **gulfshores** (Surface Pro) | Secondary banter + dev | Gemma 4 E2B :8080 · Node.js v24 · Caddy |
+| **alaska** (Surface Pro) | Tertiary banter | Gemma 4 E2B :8080 |
+| **neworleans** (dedicated) | Vector database | Weaviate v1.36.2 :8080 · N8N automation workflows |
+| **mexico** (dedicated) | Embedding | nomic-embed-text-v1.5 Q8_0 :8081 — primary embed for all user memory |
+| **pulsar00100** (Desktop) | Security / Windows bus | Pulsar Sentinel · own Claude session · SHANEBRAIN.bat launcher |
+
+**Inference routing (locked by Shane, do not change):**
+- Live Discord chat + nightly Noir→comic: **Gemini 2.5 Flash** (free tier, zero cost)
+- All 19 bots (crew brain-farm): **Gemma 4 E2B** on biloxi → gulfshores → alaska — **$0 API cost**
+- ShaneBrain gateway + MCP tools: **Claude** via Anthropic API
+
+---
+
 ## The Ecosystem
 
 ```
 🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+   └── 19 MEGA Crew bots — Constitution-aligned, value-scored, narrative-driven
    └── 42-tool MCP server (FastMCP, port 8100)
-   └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   └── N8N automation workflows
+   └── Weaviate v1.28 — personal brain (14,600+ objects across 2 nodes)
+   └── N8N automation workflows (neworleans node)
    └── Discord + Twitch bots
+   └── FABLE 5 narrative engine (51+ episodes, auto-published nightly)
    └── 5 AM morning briefing every day
-   └── gulfshores — Surface 1, Node.js v24, dev/build node
+   └── gulfshores — Surface Pro, Node.js v24, dev/build node
 
 🚀 BGKPJR Aerospace
    └── Electromagnetic launch architecture (patent filed)
    └── Three.js 3D visualizations, live on GitHub Pages
    └── 7 Manna cargo pod variants documented
    └── Physics engine: rail, GNC, Kepler sail math
+   └── Pre-Lukens expert audit complete · NASA contractor review
 
 🌐 Angel Cloud (public platform)
    └── Mental wellness + AI sentiment
    └── Messenger storyteller (OPTOUT/ANON/FORGET)
+   └── Halo points system — earn by helping, not by performing
+   └── Angel Cloud AI Services LLC (EIN on file, Oct 2025)
    └── Tailscale Funnel public endpoint
 
 🔐 Pulsar Sentinel (post-quantum)
    └── ML-KEM / Kyber-1024 lattice encryption
    └── Dilithium3 signatures
-   └── Deployed across all cluster nodes
+   └── Deployed across all 7 cluster nodes
+   └── Pulsar AI LLC (EIN on file, Oct 2025)
 
 🎯 TheirNameBrain (next)
    └── Personalized AI for the left-behind user
    └── Legacy hardware, no cloud required
+   └── Built on everything learned from ShaneBrain
 ```
 
 ---
 
 ## MEGA Crew Chronicles
 
-18 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+19 autonomous AI bots. Real code. Real memory. The Constitution in every system prompt. Every night Gemini reads their logs and writes the story.
 
 <div align="center">
 
@@ -185,6 +267,44 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 </div>
 
+<br/>
+
+**The 19 — by zone:**
+
+| Zone | Bots | Function |
+|------|------|----------|
+| 🧠 Brain | Sparky (Judge) · Volt (Drift) · Neon (Embedder) · Glitch (Adversary) | Core reasoning + adversarial testing |
+| ✋ Right Hand | Arc (Gatekeeper) · Blaze (Context) · Flux (Health) · Gemini (Growth Coach) | Quality gates + monitoring |
+| 🤚 Left Hand | Weld (Applier) · Rivet (Dedup) · Torch (Persona Editor) | Memory maintenance |
+| 🦶 Left Foot | Bolt (Patterns) · Stomp (Conflict) · Grind (Re-Embed) | Pattern recognition + conflict resolution |
+| 👣 Right Foot | Crank (Scheduler) · Spike (IQ Bench) · Forge (Tool Drafter) | Infrastructure + benchmarking |
+| ⚡ Grid | **Nukkels** (Power Grid Keeper) | Power layer — *built by Ryker. Ryker is five.* |
+| 🔌 Bridge | discord_bridge | Discord I/O · per-user memory · family-safe filter |
+
+**What makes this different from every other bot project:**
+
+- **Per-user memory** — the crew remembers you by name across sessions (MegaUserMemory on neworleans Weaviate + mexico embed node)
+- `/whoami` — "here's what the crew knows about you"
+- `/forget` — right to be forgotten, full wipe, no questions
+- `/about` — mission statement + constitutional credit, every time
+- **Family-safe filter** — deterministic, not prompt-based. Can't be talked around. Blocked text never reaches Discord.
+- **The Constitution** is in every single bot's system prompt — `constitution.py`, 9 Pillars, baked at container start, not referenced, *enforced*
+- **$0 per million tokens** — the entire 18-bot brain-farm runs on local Gemma 4 E2B on repurposed Surface Pros
+- **FABLE 5** scores every bot 0.0–1.0. Low-value bots tick slower. The behavior has real consequences.
+
+**Daily auto-schedule (no human input required):**
+
+```
+05:05 UTC  — Neon posts daily devotional + affirmation → #general
+07:30 UTC  — Gemini frames the morning briefing → #daily
+07:35 UTC  — Neon posts sobriety milestone → #general (milestones only)
+12:00 UTC  — Spike runs trivia → #crew-lounge
+18:00 UTC  — Spike runs trivia → #crew-lounge
+03:30 UTC  — Gemini Chronicler reads AgentLog → writes episode → pushes to GitHub Pages
+Every 10 min — mesh_coordinator.py heartbeat · all 7 nodes health-checked
+Every 30 min — 18 crew bots run judgment cycles → write to Weaviate
+```
+
 ---
 
 ## The Stack
@@ -193,15 +313,20 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Layer | Tool | Why |
 |-------|------|-----|
-| Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
+| Hub | Raspberry Pi 5 (16GB) | $80. Runs everything. |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
-| Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
-| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
-| AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
+| Banter inference | Gemma 4 E2B on biloxi/gulfshores/alaska | $0/token. Local. Survives API outages. |
+| Embedding | nomic-embed-text-v1.5 on mexico | Dedicated node. Weaviate RAM untouched. |
+| Database (personal) | Weaviate v1.28 on Pi | ShaneBrain memory. 14,600+ objects. |
+| Database (crew) | Weaviate v1.36.2 on neworleans | Bot memory. Crew AgentLog. BotMemory. |
+| Automation | N8N on neworleans + systemd (30+ services) | Never stop |
+| Narrative | FABLE 5 (fable5.py + Gemini Chronicler) | The bots earn their story |
+| AI tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
-| Containers | Docker + 18 MEGA Crew bots | Ship it |
-| Automation | N8N + systemd (30+ services) | Never stop |
-| Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Security | Pulsar Sentinel (ML-KEM/Kyber-1024 + Dilithium3) | Post-quantum. Every node. |
+| Mesh | Tailscale | Zero open ports. |
+| Viz stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Bot mesh | Docker + 19 MEGA Crew containers | Ship it |
 
 </div>
 
@@ -214,15 +339,17 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Project | What It Does | Link |
 |---------|-------------|------|
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
-| 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
+| 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections + full specs | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
 | 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
-| 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
-| 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
-| ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
+| 🤖 **MEGA Crew Chronicles** | 19 autonomous bots · 51+ auto-published episodes | [thebardchat.github.io/mega-crew-stories](https://thebardchat.github.io/mega-crew-stories/) |
+| 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude · port 8100 | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
+| ☁️ **Angel Cloud** | Mental wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
-| 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
-| 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
+| 🧠 **ThoughtTree** | Local AI mind mapping + Weaviate semantic search | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
+| 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum, zero cloud | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🤝 **gemini-sidekick** | Claude + Gemini co-builder framework | [github.com/thebardchat/gemini-sidekick](https://github.com/thebardchat/gemini-sidekick) |
+| 🎨 **brand** | Canonical brand identity system v1.0.0 | [github.com/thebardchat/brand](https://github.com/thebardchat/brand) |
 
 </div>
 
@@ -275,6 +402,17 @@ Eight projects recovered from old drives and released to GitHub in April 2026.
 
 ---
 
+## The Legal Layer
+
+This isn't a hobby. Two legal entities.
+
+| Entity | Purpose | Status |
+|--------|---------|--------|
+| **Angel Cloud AI Services LLC** | Mental wellness platform + AI services | Active · EIN on file · Oct 2025 |
+| **Pulsar AI LLC** | Post-quantum security infrastructure | Active · EIN on file · Oct 2025 |
+
+---
+
 ## The Constitution
 
 Every repo here operates under one governing document.
@@ -282,6 +420,8 @@ Every repo here operates under one governing document.
 Nine pillars. One covenant. No exceptions.
 
 **Faith. Family. Sobriety. Love & Light. Authenticity. Local AI. The Left-Behind. Community. Purpose.**
+
+The Constitution is not aspirational. It is in every bot's system prompt. It governs every pull request template. It routes every issue. It is the only non-negotiable thing in the stack.
 
 **[Read the Constitution →](https://github.com/thebardchat/constitution)**
 
