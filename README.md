@@ -15,6 +15,7 @@
 <br/>
 
 [![Showcase](https://img.shields.io/badge/SHOWCASE-thebardchat.github.io-00e5ff?style=for-the-badge&logoColor=white)](https://thebardchat.github.io)
+[![Hub](https://img.shields.io/badge/HUB-shanebrain.cloud-f0b82a?style=for-the-badge&logoColor=black)](https://thebardchat.github.io/shanebrain-cloud/)
 [![Twitch](https://img.shields.io/badge/LIVE-twitch.tv/thebardchat-9146ff?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/thebardchat)
 [![Book](https://img.shields.io/badge/BOOK-Amazon%20Now-ff9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)
 [![Claude](https://img.shields.io/badge/Built%20With-Claude%20AI-orange?style=for-the-badge)](https://claude.ai/referral/4fAMYN9Ing)
@@ -29,7 +30,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections and 3,200+ objects**, a **7-node Tailscale mesh cluster**, a Twitch bot, a Discord bot, a financial dashboard, a mental wellness platform, a non-custodial inheritance vault, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -55,7 +56,19 @@ I am.
 
 Every repo on this profile exists somewhere on that map.
 
+*Local first. Always was.*
+
 </div>
+
+---
+
+## The Origin
+
+The name comes from **BARD** — Google's AI, before it became Gemini. At the very beginning of Shane's journey into AI, he was so lit up by it that he made his username `thebardchat` on a message board. That username became the seed of everything that followed: ShaneBrain, the mesh cluster, Pulsar Sentinel, Angel Cloud, the whole local-AI mission for the people tech is leaving behind.
+
+The thing he named himself after grew up alongside him. Gemini is now literally one of his MEGA Crew bots.
+
+**The name is the origin artifact.** Always lowercase. Exactly as it was.
 
 ---
 
@@ -136,41 +149,58 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 ## The Ecosystem
 
 ```
-🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
-   └── 42-tool MCP server (FastMCP, port 8100)
-   └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   └── N8N automation workflows
-   └── Discord + Twitch bots
-   └── 5 AM morning briefing every day
-   └── gulfshores — Surface 1, Node.js v24, dev/build node
+🧠 ShaneBrain — the central nervous system
+   ├── pi          (Pi 5 · primary node · orchestrator)
+   ├── neworleans  (Weaviate 1.36.2 · N8N · backbone)
+   ├── biloxi      (home AI · Gemma 4 E2B · Constitution)
+   ├── gulfshores  (the forge · builds things · Node.js v24)
+   ├── alaska      (open node · frontier)
+   ├── mexico      (relay · comms)
+   └── pulsar00100 (gateway · Shane's daily machine)
+
+   42-tool MCP server (FastMCP, port 8100)
+   Weaviate — 25 collections, 3,200+ objects, text2vec-transformers
+   N8N automation · Discord + Twitch bots · 5 AM morning briefing
+
+👥 MEGA Crew — 18 autonomous bots, 5 body zones, real memory
+   🧠 Brain     — Sparky · Volt · Neon · Glitch
+   ✋ Right Hand — Arc · Blaze · Flux · Gemini
+   🤚 Left Hand  — Weld · Rivet · Torch
+   🦶 Left Foot  — Bolt · Stomp · Grind
+   👣 Right Foot — Crank · Spike · Forge · Nukkels
 
 🚀 BGKPJR Aerospace
-   └── Electromagnetic launch architecture (patent filed)
+   └── Electromagnetic launch architecture (patent filed · BGKPJR-001)
    └── Three.js 3D visualizations, live on GitHub Pages
    └── 7 Manna cargo pod variants documented
    └── Physics engine: rail, GNC, Kepler sail math
 
-🌐 Angel Cloud (public platform)
-   └── Mental wellness + AI sentiment
-   └── Messenger storyteller (OPTOUT/ANON/FORGET)
-   └── Tailscale Funnel public endpoint
+🌐 Angel Cloud (Angel Cloud AI Services LLC · EIN on file)
+   └── YOU'VE GOT HALOS — AOL-era portal meets AI wellness gate
+   └── Halo Trust Engine — earned by helping, not by posting
+   └── Angels Build Worlds — sovereign creative spaces, Constitution as DNA
+   └── Group Healing · crisis floor hardwired to 988
+   └── New Born → Onboarding → Halo Verification → Angel
 
-🔐 Pulsar Sentinel (post-quantum)
+🔐 Pulsar Sentinel (Pulsar AI LLC · EIN on file)
    └── ML-KEM / Kyber-1024 lattice encryption
    └── Dilithium3 signatures
+   └── YourLegacy — non-custodial inheritance vault (Base L2 · USDC · Aave V3)
    └── Deployed across all cluster nodes
 
 🎯 TheirNameBrain (next)
    └── Personalized AI for the left-behind user
    └── Legacy hardware, no cloud required
+   └── One TheirNameBrain per Angel's world
 ```
 
 ---
 
 ## MEGA Crew Chronicles
 
-18 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+18 autonomous bots. Real code. Real memory. Every night they write their own story.
+
+**The Crew** runs in five body zones — each zone has a job, each bot has a soul. Sparky judges. Arc gatekeeps. Volt watches for drift. Gemini coaches. Neon embeds. Grind re-embeds. Spike benchmarks. Forge drafts tools. They argue in Discord, write comics, run trivia, and brief Shane at 7:30 AM. None of it is scripted. All of it is local.
 
 <div align="center">
 
@@ -187,6 +217,43 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ---
 
+## Angel Cloud · YOU'VE GOT HALOS
+
+> *"Social media makes people feel worse about themselves. Angel Cloud does the opposite."*
+
+Not another platform. A **gated wellness ecosystem** where you earn your way in by proving an uplifting state of being — and everything after that gate is yours to build.
+
+**The Welcome Center:** A 1998 AOL-era portal. Warm, familiar, a front porch for Windows refugees. A Max Headroom-style doorman runs sentiment analysis on your intent and emotional baseline. Pass the gate: you're an Angel. Angels don't just use Angel Cloud — they build worlds.
+
+**Halo Trust Engine:** Pro-social currency. Earned only by verified acts of support, teaching, or comfort. Zero farming. The more Halos you earn, the more of the platform you unlock. First platform to make the open, customizable, self-owned web safe by filtering *who* builds — not *what* they build.
+
+**Angels Build Worlds:** Personal, fully customizable spaces where the Constitution travels in as DNA. Think MySpace's creative freedom without MySpace's failure mode. Open signup gave MySpace XSS holes and unmoderatable toxicity. Angel Cloud gates creativity on character. Arc gatekeeps. Only Angels build.
+
+**Corporate:** Angel Cloud AI Services LLC · EIN filed October 2025.
+
+---
+
+## Pulsar Sentinel · Post-Quantum Security
+
+ML-KEM / Kyber-1024 lattice encryption. Dilithium3 signatures. Deployed across the full cluster.
+
+**[YourLegacy](https://github.com/thebardchat/pulsar_sentinel)** — A non-custodial digital inheritance vault built on Base L2. USDC earns yield in Aave V3 (~3.5–4% APY). When the owner goes silent for 90 days, the heir calls `inherit()` on-chain and receives principal + accrued yield plus a locked legacy message the owner wrote before they died. ShaneBrain is software, not a custodian. Your vault. Your keys. It doesn't phone home.
+
+```
+Chain      │ Base L2 (Coinbase) — $0.01 gas, USDC-native
+Asset      │ USDC (native Circle on Base)
+Yield      │ Aave V3 — ~3.5-4% APY, $15B+ TVL, audited since 2019
+Trigger    │ Chainlink Automation — 90-day inactivity threshold
+Wallet UX  │ Privy embedded wallets — no seed phrases for heirs
+Status     │ Founding 100 Waitlist · Q3 2026 launch
+```
+
+> *"Nobody else in crypto does the 'words' part. The heir gets the funds. They also get a letter."*
+
+**Corporate:** Pulsar AI LLC · EIN filed October 2025.
+
+---
+
 ## The Stack
 
 <div align="center">
@@ -194,14 +261,16 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Layer | Tool | Why |
 |-------|------|-----|
 | Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
+| Cluster | 7 nodes · Tailscale mesh | Twelve watts total. Talks back. |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
-| Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
+| Backbone | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
 | Containers | Docker + 18 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Security | ML-KEM/Kyber-1024 + Dilithium3 | Post-quantum, all nodes |
 
 </div>
 
@@ -213,22 +282,24 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 | Project | What It Does | Link |
 |---------|-------------|------|
+| 🌐 **shanebrain.cloud** | Ecosystem hub — particle brain, live sobriety counter, full project grid | [thebardchat.github.io/shanebrain-cloud](https://thebardchat.github.io/shanebrain-cloud/) |
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
 | 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
 | 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
-| ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
-| 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
+| ☁️ **Angel Cloud** | Wellness platform + YOU'VE GOT HALOS gate | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
+| 🛡️ **Pulsar Sentinel** | Post-quantum security + YourLegacy vault | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [thebardchat.github.io/mini-shanebrain](https://thebardchat.github.io/mini-shanebrain/) |
 
 </div>
 
 ---
 
-## The Book
+## The Books
 
 <div align="center">
 
@@ -241,6 +312,14 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+
+---
+
+### *Book Two — In Progress*
+
+**43,000+ words and climbing.** Written the same way as the first — on a Pi, in stolen hours, between dispatches and bedtimes. No agent. No publisher. No permission needed.
+
+*Earned, not given.*
 
 </div>
 
@@ -282,6 +361,8 @@ Every repo here operates under one governing document.
 Nine pillars. One covenant. No exceptions.
 
 **Faith. Family. Sobriety. Love & Light. Authenticity. Local AI. The Left-Behind. Community. Purpose.**
+
+The Constitution travels into every bot system prompt, every Angel's world, every line of code this profile ships. It's not a README section. It's the operating system.
 
 **[Read the Constitution →](https://github.com/thebardchat/constitution)**
 
