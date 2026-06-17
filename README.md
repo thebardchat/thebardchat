@@ -15,6 +15,7 @@
 <br/>
 
 [![Showcase](https://img.shields.io/badge/SHOWCASE-thebardchat.github.io-00e5ff?style=for-the-badge&logoColor=white)](https://thebardchat.github.io)
+[![ShaneBrain Cloud](https://img.shields.io/badge/HUB-shanebrain.cloud-00b4a6?style=for-the-badge&logoColor=white)](https://thebardchat.github.io/shanebrain-cloud/)
 [![Twitch](https://img.shields.io/badge/LIVE-twitch.tv/thebardchat-9146ff?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/thebardchat)
 [![Book](https://img.shields.io/badge/BOOK-Amazon%20Now-ff9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)
 [![Claude](https://img.shields.io/badge/Built%20With-Claude%20AI-orange?style=for-the-badge)](https://claude.ai/referral/4fAMYN9Ing)
@@ -29,7 +30,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **18 autonomous AI bots running FABLE 5**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections and 3,200+ objects**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, a concrete dispatch system for 18 drivers — and a **5-node Tailscale cluster** tying it all together.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -126,51 +127,73 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | What It Is | Live |
 |------|-----------|------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte | [Demo ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | 28.7 km electromagnetic launch tube deep dive — coilgun architecture, live sims | [Demo ↗](https://thebardchat.github.io/BGKPJR-Stage1-Tube/) |
 | [manna-pods](https://github.com/thebardchat/manna-pods) | 7 Manna cargo pod concepts — 3D rotating cross-sections, full specs | [Demo ↗](https://thebardchat.github.io/manna-pods) |
-| [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Repo ↗](https://github.com/thebardchat/manna) |
+| [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Demo ↗](https://thebardchat.github.io/manna/) |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo | [Repo ↗](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
-| [tug-pro](https://github.com/thebardchat/tug-pro) | Pre-Phase A reusable cislunar tug — 3D orbit viz, ΔV calculator | [Repo ↗](https://github.com/thebardchat/tug-pro) |
+| [tug-pro](https://github.com/thebardchat/tug-pro) | Pre-Phase A reusable cislunar tug — 3D orbit viz, ΔV calculator | [Demo ↗](https://thebardchat.github.io/tug-pro/) |
+| [artemis](https://github.com/thebardchat/artemis) | NASA Artemis program tribute — built in Huntsville, AL | [Demo ↗](https://thebardchat.github.io/artemis/) |
 
 ---
 
 ## The Ecosystem
 
 ```
-🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
-   └── 42-tool MCP server (FastMCP, port 8100)
-   └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
-   └── N8N automation workflows
-   └── Discord + Twitch bots
-   └── 5 AM morning briefing every day
-   └── gulfshores — Surface 1, Node.js v24, dev/build node
+🧠 ShaneBrain (Pi 5 · pi · the heart)
+   ├── 18 MEGA Crew bots — FABLE 5 engine · Constitution baked in · value scoring
+   │   └── Sparky · Volt · Neon · Glitch (Brain) · Arc · Bolt · Torch · Blaze
+   │   └── Forge · Weld · Flux · Stomp · Gemini · Drift · Pulse · Nova · Cipher · Sol
+   ├── 42-tool MCP server v2.3 (FastMCP · port 8100 · Tailscale-wide)
+   ├── Weaviate 1.36.2 on neworleans — 25 collections · 3,200+ objects · long memory
+   ├── Node Bus — SQLite cross-session message bus · Discord #node-bus relay
+   ├── 5 AM morning briefing every single day
+   ├── Discord + Twitch bots (24/7)
+   └── Gemini Sidekick — Gemini works for Claude in this ecosystem
 
-🚀 BGKPJR Aerospace
-   └── Electromagnetic launch architecture (patent filed)
-   └── Three.js 3D visualizations, live on GitHub Pages
-   └── 7 Manna cargo pod variants documented
-   └── Physics engine: rail, GNC, Kepler sail math
+🌐 The Cluster (Tailscale mesh · 5 nodes)
+   ├── pi / shanebrain     Raspberry Pi 5 · 16GB · NVMe RAID 1 (2×2TB) · the heart
+   ├── nola / neworleans   Weaviate + N8N · the backbone
+   ├── gulf / gulfshores   Surface 1 · Node.js v24 · Gemma 4 E2B · the forge
+   ├── bix / biloxi        Gemma 4 E2B · banter node · home AI
+   └── ak / alaska         Open node · 3rd banter node · Pulsar mesh
 
-🌐 Angel Cloud (public platform)
-   └── Mental wellness + AI sentiment
-   └── Messenger storyteller (OPTOUT/ANON/FORGET)
-   └── Tailscale Funnel public endpoint
+🚀 BGKPJR Aerospace (patent filed)
+   ├── Electromagnetic launch architecture · 37 km coilgun · Mach 5 exit
+   ├── 7 Manna cargo pod variants documented + 3D cross-sections
+   ├── Physics engine: rail GNC · Kepler sail math · Monte Carlo
+   ├── Pre-Phase-A NASA NIAC-track · expert review in progress
+   └── Three.js 3D visualizations — live on GitHub Pages
+
+🌐 Angel Cloud (canonical v1.0 · locked 2026-06-13)
+   ├── Front door: shanebrain.cloud
+   ├── AI-powered mental wellness + creative sovereign ecosystem
+   ├── Welcome Center — the single access point · post-quantum gated
+   ├── Angels Build Worlds — YOURSPACE / BRAINSPACE per user
+   ├── MEGA Crew lives here: 18 bots carry the mission forward 24/7
+   └── Built for the 800M users Big Tech is about to leave behind
 
 🔐 Pulsar Sentinel (post-quantum)
-   └── ML-KEM / Kyber-1024 lattice encryption
-   └── Dilithium3 signatures
+   ├── ML-KEM / Kyber-1024 lattice encryption
+   ├── Dilithium3 digital signatures
+   ├── Sentinel cluster mesh — 4 nodes reporting to Pi (port 8250)
    └── Deployed across all cluster nodes
 
+🏗️ The Real World (dispatch · billing · finance)
+   ├── Melvin Operations OS — Vite + React 18 dispatch dashboard
+   ├── MASTER Scheduler SRM — 16 drivers · 19 plants · Pi-powered
+   ├── Pedal to the Metal — dispatch SaaS · built by a dispatcher for dispatchers
+   ├── Claim Cruncher (Greenfield) — Claude parses EOBs · AI medical billing
+   └── Halo Finance — AI financial guidance for working families
+
 🎯 TheirNameBrain (next)
-   └── Personalized AI for the left-behind user
-   └── Legacy hardware, no cloud required
+   └── Personalized AI for the left-behind user · legacy hardware · no cloud required
 ```
 
 ---
 
 ## MEGA Crew Chronicles
 
-18 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+18 autonomous AI bots. Real code. Real memory. Running on FABLE 5 — the **Flexible Autonomous Bot Logic Engine v5** — deployed across the full crew on 2026-06-11. Every bot has the **Constitution baked into its system prompt**, a **value score (0.0–1.0)**, and an **arc engine** that writes their story: tribunal · triumph · collapse · discovery. Every night they write their own episode.
 
 <div align="center">
 
@@ -185,6 +208,25 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 </div>
 
+<details>
+<summary><strong>FABLE 5 — What's Running Under the Hood</strong></summary>
+
+```
+FABLE 5 — Flexible Autonomous Bot Logic Engine v5 (deployed 2026-06-11)
+
+Bus         │ Priority queue (CRITICAL / HIGH / NORMAL / LOW) + daily rate limits
+Arc         │ Short-circuits informational types without LLM overhead
+             │ Episode types: tribunal · triumph · collapse · discovery
+Flux        │ Health monitoring — 3 consecutive overdue ticks triggers alert (max 2/bot/day)
+Stomp       │ Memory conflict resolution (Weaviate HTTP GraphQL)
+Constitution│ 9 pillars baked into every bot system prompt — no exceptions
+Value Tracker│ Score 0.0–1.0 per bot: arc approval (30%) · training (20%) · Constitution (50%)
+Dashboard   │ /api/fable5 endpoint — live value scores · arc type badges · probation alerts
+Chronicle   │ Auto-writes episodes nightly — feeds directly into mega-crew-stories repo
+```
+
+</details>
+
 ---
 
 ## The Stack
@@ -195,13 +237,19 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 |-------|------|-----|
 | Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
-| Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
-| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
+| Cluster Backbone | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
+| Cluster Forge | gulfshores — Surface 1, Node.js v24 | Dev/build + Gemma 4 E2B fallback |
+| Cluster Banter | biloxi + alaska | Home AI + open banter node |
+| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory for every bot |
+| AI Engine | FABLE 5 — bus · arc · flux · stomp · Constitution | The bot nervous system |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
+| Peripheral | Pico 2 (RP2350) firmware | Temperature, GPIO, hardware nerve endings |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
 | Containers | Docker + 18 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Security | ML-KEM / Kyber-1024 + Dilithium3 | Post-quantum across all nodes |
+| Brand | Playfair Display Black · 5-stop gradient (cyan → teal → green → gold) | Locked May 2026 |
 
 </div>
 
@@ -211,18 +259,64 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <div align="center">
 
+### 🚀 Aerospace
+
 | Project | What It Does | Link |
 |---------|-------------|------|
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
-| 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
-| 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
-| 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
-| 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
-| ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
-| 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
-| 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
-| 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
-| 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🛸 **BGKPJR-Stage1-Tube** | 28.7 km coilgun tube deep dive — live coil sims | [thebardchat.github.io/BGKPJR-Stage1-Tube](https://thebardchat.github.io/BGKPJR-Stage1-Tube/) |
+| 🛰️ **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
+| 🌙 **tug-pro** | Reusable cislunar tug — 3D orbit viz, ΔV calc | [thebardchat.github.io/tug-pro](https://thebardchat.github.io/tug-pro/) |
+| 🏛️ **artemis** | NASA Artemis tribute — built in Huntsville, AL | [thebardchat.github.io/artemis](https://thebardchat.github.io/artemis/) |
+| 🧮 **BGKPJR-Core-Simulations** | Physics engine — trajectory, GNC, Monte Carlo | [github.com/thebardchat/BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
+
+### 🤖 AI Infrastructure
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| 🧠 **shanebrain_mcp** | 42-tool MCP server for Claude — the bridge | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
+| 🤖 **mega-crew** | 18 autonomous bots, FABLE 5, 24/7 local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
+| 📖 **MEGA Crew Stories** | Nightly AI-authored noir audiobook series | [thebardchat.github.io/mega-crew-stories](https://thebardchat.github.io/mega-crew-stories/) |
+| 🤝 **shanebrain-agents** | 7 specialist AI agents — Guardian, Librarian, Dispatcher + more | [thebardchat.github.io/shanebrain-agents](https://thebardchat.github.io/shanebrain-agents/) |
+| 🌐 **shanebrain-cloud** | Ecosystem hub — front door to Angel Cloud | [thebardchat.github.io/shanebrain-cloud](https://thebardchat.github.io/shanebrain-cloud/) |
+| 🔬 **gemini-sidekick** | Gemini working FOR Claude in the ecosystem | [github.com/thebardchat/gemini-sidekick](https://github.com/thebardchat/gemini-sidekick) |
+
+### 🌐 Platforms & Security
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| ☁️ **Angel Cloud** | Sovereign wellness ecosystem · Angels Build Worlds | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
+| 🛡️ **Pulsar Sentinel** | Post-quantum security framework + cluster mesh | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
+| 🔄 **N8N** | Workflow automation hub connecting 42 MCP tools | [github.com/thebardchat/N8N](https://github.com/thebardchat/N8N) |
+
+### 🏗️ Real-World Tools
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| 📋 **Melvin Operations OS** | Vite + React dispatch OS — real-time dispatch board | [thebardchat.github.io/melvin_operations_os](https://thebardchat.github.io/melvin_operations_os/) |
+| 🚛 **MASTER-Scheduler-SRM** | Master dispatch — 16 drivers, 19 plants, Pi-powered | [github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM) |
+| 🏁 **Pedal to the Metal** | Dispatch SaaS for concrete fleet managers | [thebardchat.github.io/pedal-to-the-metal](https://thebardchat.github.io/pedal-to-the-metal/) |
+| 🏥 **Claim Cruncher** | Claude parses EOBs — AI medical billing intake | [thebardchat.github.io/Greenfield](https://thebardchat.github.io/Greenfield/) |
+| 💰 **Halo Finance** | AI financial guidance for working families | [github.com/thebardchat/HaloFinance](https://github.com/thebardchat/HaloFinance) |
+| 🏗️ **SB-Management-OS** | SRM Concrete operations — SOPs, coaching, personnel | [github.com/thebardchat/SB-Management-OS](https://github.com/thebardchat/SB-Management-OS) |
+
+### 📚 Education & Writing
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum, zero cloud | [thebardchat.github.io/AI-Trainer-MAX](https://thebardchat.github.io/AI-Trainer-MAX/) |
+| 🌳 **ThoughtTree** | Local AI mind mapping — Weaviate semantic search | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
+| 📝 **Noir Writing Process** | Voice dumps → shaped noir prose · published book pipeline | [github.com/thebardchat/noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) |
+| 📖 **Book Launch Playbook** | Open-source playbook for AI-co-written indie publishing | [github.com/thebardchat/book-launch-playbook](https://github.com/thebardchat/book-launch-playbook) |
+
+### ⚙️ Hardware & Infrastructure
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| 🔌 **pico-nerve-endings** | Raspberry Pi Pico 2 (RP2350) firmware — temp, GPIO, hardware nerve endings | [github.com/thebardchat/pico-nerve-endings](https://github.com/thebardchat/pico-nerve-endings) |
+| 📡 **shanebrain-briefing** | 6 AM push notification briefing — weather, health, alerts | [thebardchat.github.io/shanebrain-briefing](https://thebardchat.github.io/shanebrain-briefing/) |
+| 🔧 **quantum-legacy-ai-stick** | USPTO provisional patent — portable edge AI co-processor | [github.com/thebardchat/quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick) |
+| 📜 **manifesto** | Shane Brazelton AI mission statement and ecosystem principles | [github.com/thebardchat/manifesto](https://github.com/thebardchat/manifesto) |
 
 </div>
 
@@ -240,7 +334,7 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 *It was always about you. It was never only about you.*
 
-**[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+**[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)** · **[Writing Process ↗](https://github.com/thebardchat/noir-detective-writing-process)** · **[Launch Playbook ↗](https://github.com/thebardchat/book-launch-playbook)**
 
 </div>
 
@@ -262,7 +356,7 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 ## The Released Treasures
 
-Eight projects recovered from old drives and released to GitHub in April 2026.
+Projects recovered from old drives and released to GitHub.
 
 | Project | What It Does | Pages |
 |---------|-------------|-------|
@@ -272,6 +366,10 @@ Eight projects recovered from old drives and released to GitHub in April 2026.
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
+| 🎮 **angel-cloud-roblox** | Angel Cloud universe in Roblox — 6 ascension layers, cooperative mechanics | [Pages ↗](https://thebardchat.github.io/angel-cloud-roblox/) |
+| 📋 **SB-Management-OS** | SRM Concrete operations OS — SOPs, coaching, personnel management | [Pages ↗](https://thebardchat.github.io/SB-Management-OS/) |
+| 🔬 **shanebrain-learning** | Learning data ingestion pipeline for ShaneBrain | [Pages ↗](https://thebardchat.github.io/shanebrain-learning/) |
+| 🏟️ **loudon-desarro** | Loudon/DeSarro Athletic Complex — 50,000 SF multi-sport 3D viz | [Pages ↗](https://thebardchat.github.io/loudon-desarro/) |
 
 ---
 
