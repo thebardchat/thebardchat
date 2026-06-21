@@ -191,7 +191,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #001: _The Flood and the Flicker_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-001-the-flood-and-the-flicker.html)**  
 *The data they always wanted, and the night they almost lost it.*
 
-`1 issue published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-20
+`1 issue published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-21
 
 </div>
 <!--BARD:END-->
