@@ -190,10 +190,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #001: _The Flood and the Flicker_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-001-the-flood-and-the-flicker.html)**  
-*The data they always wanted, and the night they almost lost it.*
+**📖 Now Showing — Issue #002: _The Letter Before the Crew_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-002-the-letter-before-the-crew.html)**  
+*Somebody was here before them — and left a chair pulled out.*
 
-`1 issue published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-21
+`2 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-21
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
