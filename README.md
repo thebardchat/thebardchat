@@ -193,7 +193,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #002: _The Letter Before the Crew_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-002-the-letter-before-the-crew.html)**  
 *Somebody was here before them — and left a chair pulled out.*
 
-`2 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-22
+`2 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-23
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
