@@ -190,10 +190,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #002: _The Letter Before the Crew_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-002-the-letter-before-the-crew.html)**  
-*Somebody was here before them — and left a chair pulled out.*
+**📖 Now Showing — Issue #003: _The One Who Listens_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-003-the-one-who-listens.html)**  
+*The crew went down into the dark to carry home the one who'd been listening all along.*
 
-`2 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-24
+`3 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-24
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
