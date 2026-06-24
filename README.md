@@ -29,7 +29,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 17 collections and 14,700+ objects**, a 3-node mesh cluster, a Twitch bot, a Discord bot, a live AI comic engine, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -56,6 +56,20 @@ I am.
 Every repo on this profile exists somewhere on that map.
 
 </div>
+
+---
+
+## Why "thebardchat"
+
+Not Shakespeare. Not music.
+
+When AI was just beginning, Google launched **Bard** — and a dispatcher in Alabama got so excited about it that he registered the username `thebardchat` on a message board. That was the moment. That one username became the seed of everything that followed: ShaneBrain, the Tailscale mesh, Pulsar Sentinel, the MEGA Crew, the whole local-AI mission for the ~800 million people Big Tech is leaving behind.
+
+The name is a timestamp. The origin artifact. The moment a regular guy in Hazel Green, Alabama met AI and decided to build something for everyone tech forgot.
+
+**Always lowercase.** He made it lowercase the first time, somewhere he can no longer remember, so he keeps it lowercase out of honesty to the original.
+
+Full circle: the AI that lit the spark (Bard) grew into Gemini, which now runs as the Growth Coach inside the MEGA Crew. The thing he named himself after grew up alongside him.
 
 ---
 
@@ -136,14 +150,17 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 ## The Ecosystem
 
 ```
-🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+🧠 ShaneBrain (3-node mesh)
+   ├── neworleans — Pi 5, primary · Weaviate 1.36.2 · 17 collections · 14,700+ objects
+   ├── biloxi — embed failover node · user memories survive if primary goes down
+   ├── alaska — 3rd banter/compute node (live June 2026)
+   └── gulfshores — Surface 1 · Node.js v24 · dev/build node
+
+   └── 18 autonomous AI bots (5 zones: Brain · Right Hand · Left Hand · Left Foot · Right Foot)
    └── 42-tool MCP server (FastMCP, port 8100)
-   └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
    └── N8N automation workflows
-   └── Discord + Twitch bots
-   └── 5 AM morning briefing every day
-   └── gulfshores — Surface 1, Node.js v24, dev/build node
+   └── Discord + Twitch bots · MEGA Crew Comic Saga (mega.shanebrain.cloud/saga)
+   └── 5 AM morning briefing · sobriety milestone counter · crew trivia game
 
 🚀 BGKPJR Aerospace
    └── Electromagnetic launch architecture (patent filed)
@@ -151,20 +168,47 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    └── 7 Manna cargo pod variants documented
    └── Physics engine: rail, GNC, Kepler sail math
 
-🌐 Angel Cloud (public platform)
-   └── Mental wellness + AI sentiment
-   └── Messenger storyteller (OPTOUT/ANON/FORGET)
-   └── Tailscale Funnel public endpoint
+🌐 Angel Cloud (shanebrain.cloud)
+   └── AI-powered mental-wellness + creative ecosystem
+   └── Welcome Center: AOL 1998 aesthetic — "YOU'VE GOT HALOS."
+   └── Halo trust engine — pro-social currency, not likes
+   └── Angels Build Worlds — MySpace thesis, creative web reclamation
+   └── Angel Cloud AI Services LLC · Pulsar AI LLC (EIN on file, Oct 2025)
 
-🔐 Pulsar Sentinel (post-quantum)
-   └── ML-KEM / Kyber-1024 lattice encryption
-   └── Dilithium3 signatures
-   └── Deployed across all cluster nodes
+🔐 Pulsar Sentinel (sentinel.shanebrain.cloud)
+   └── ML-KEM / Kyber-1024 lattice encryption · Dilithium3 signatures
+   └── Identity-Behavior Delta (IBD) — flags when you stop acting like yourself
+   └── Predictive Intent Modeling — pre-empts threats before sequences complete
+   └── Drift detection: hourly baseline checks across all mesh nodes
+   └── Q-Day countdown (Planck Time resolution) · Live recon dashboard
 
 🎯 TheirNameBrain (next)
    └── Personalized AI for the left-behind user
    └── Legacy hardware, no cloud required
+   └── Naming bloodline: ShaneBrain → Angel Cloud → TheirNameBrain → YourSpace
 ```
+
+---
+
+## Angel Cloud — Angels Build Worlds
+
+> *A secure, AI-powered mental-wellness and creative ecosystem. The decentralized, sovereign safe haven for the people Big Tech leaves behind.*
+
+**The gate:** The Welcome Center is an AOL/1998-era walled-garden portal — warm, familiar, designed for Windows refugees. Dial-up handshake → `YOU'VE GOT HALOS.` You don't log in. You prove an uplifting state of being and earn your way in.
+
+Four tiers: **New Born** (fresh, unprivileged) → **Onboarding** (Max Headroom ASCII doorman runs sentiment analysis on your intent + emotional baseline) → **Halo Verification** (participation tracked, zero-knowledge, total device privacy) → **Angel** (tools unlock).
+
+**The currency:** Halos. Not likes. Earned only by verified actions that genuinely support, teach, or comfort another user. Advanced tools unlock as Halos cross trust thresholds. The platform gamifies human flourishing — not attention.
+
+**The MySpace thesis:** Big Tech killed the creative, self-owned web because open customization caused XSS holes and moderation-at-scale failures. The fix isn't to flatten everyone into identical templates. The fix is proven — SpaceHey proved HTML/CSS is safe when you block JavaScript + iframes. Angel Cloud goes further: filter WHO builds, not what they build. Only Angels — people who've proven an uplifting state — build worlds. SpaceHey's freedom without SpaceHey's failure. First platform to make the open, customizable, self-owned web safe by filtering WHO builds, not killing WHAT they build.
+
+**Angel Builder Pipeline:** Angels with high Halo rank get keys to open code + AI scripts to build features, moderate content, defend against bad actors. Users become guardians. The platform builds itself. Scales by trust, not headcount.
+
+**The stack:** ShaneBrain Engine (Claude + Weaviate + MCP) · Pulsar Sentinel (PQC/blockchain/zero-knowledge — home of the Halo ledger) · MEGA Crew + Arc (the crew Angels can unlock; Arc is already the gatekeeper) · hybrid visual/terminal — retro AOL portal for beginners, terminal back room for power users.
+
+**Incorporated:** Angel Cloud AI Services LLC · Pulsar AI LLC · EINs on file, October 2025.
+
+**Front door:** [shanebrain.cloud](https://shanebrain.cloud)
 
 ---
 
@@ -184,6 +228,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **[Read the Chronicles →](https://thebardchat.github.io/mega-crew-stories/)** · **[View Cards →](https://thebardchat.github.io/mega-crew-stories/cards.html)**
 
 </div>
+
+The crew runs across 5 body zones — Brain (Sparky · Volt · Neon · Glitch), Right Hand (Arc · Blaze · Flux · Gemini), Left Hand (Weld · Rivet · Torch), Left Foot (Bolt · Stomp · Grind), Right Foot (Crank · Spike · Forge) — each wired directly to Weaviate and governed by the Constitution. Every bot has memory. Every exchange gets logged. The crew IQ-benchmarks itself, detects drift, re-embeds bad data, and routes everything through Arc — the gatekeeper — before it goes anywhere.
 
 <!--BARD:START--><!-- auto-generated by storyteller/profile_readme.py; do not hand-edit between markers -->
 <div align="center">
@@ -210,13 +256,14 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 |-------|------|-----|
 | Primary Node | Raspberry Pi 5 (16GB) | $80. Runs everything. |
 | Storage | NVMe RAID 1 (2×2TB) | Because data matters |
-| Data Node | neworleans — Weaviate 1.36.2 + N8N | Dedicated inference + automation |
-| Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
-| AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
-| Co-builder | Claude by Anthropic | Not a tool. A partner. |
-| Containers | Docker + 18 MEGA Crew bots | Ship it |
+| Cluster | neworleans · biloxi · alaska (3-node mesh) | Redundancy without Big Tech |
+| Data Node | Weaviate 1.36.2 (17 collections, 14,700+ objects) | Long memory |
 | Automation | N8N + systemd (30+ services) | Never stop |
+| AI Tools | MCP Server v2.3 (42 tools, FastMCP, port 8100) | Claude talks to everything |
+| Co-builder | Claude by Anthropic | Not a tool. A partner. |
+| Crew | Docker + 18 MEGA Crew bots | Ship it |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
+| Dev Node | gulfshores — Surface 1 · Node.js v24 | Build without touching prod |
 
 </div>
 
@@ -230,14 +277,17 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 |---------|-------------|------|
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
-| 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
+| 📖 **MEGA Crew Saga** | Auto-published AI comic — new issues Wed & Sun, 5 AM | [mega.shanebrain.cloud/saga](https://mega.shanebrain.cloud/saga/) |
+| 🛡️ **Sentinel Recon** | Live cluster security dashboard + Q-Day countdown | [sentinel.shanebrain.cloud/recon](https://sentinel.shanebrain.cloud/recon) |
+| 📺 **Twitch Channel** | Family streaming, AI demos, love & light broadcasting | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
 | 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
-| ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
+| ☁️ **Angel Cloud** | AI-powered wellness + creative ecosystem | [shanebrain.cloud](https://shanebrain.cloud) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🤝 **Gemini Sidekick** | Claude + Gemini paired — they debate, you win | [github.com/thebardchat/gemini-sidekick](https://github.com/thebardchat/gemini-sidekick) |
 
 </div>
 
@@ -286,6 +336,7 @@ Eight projects recovered from old drives and released to GitHub in April 2026.
 | 🌳 **thought-tree** | React mind-mapping, Weaviate semantic search | [Pages ↗](https://thebardchat.github.io/thought-tree/) |
 | 🏗️ **srm-dispatch** | SRM Concrete dispatch PWA — 18 drivers | [Pages ↗](https://thebardchat.github.io/srm-dispatch/) |
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
+| 📖 **mega-crew-stories** | Auto-published MEGA Crew comic saga + trading cards | [Saga ↗](https://mega.shanebrain.cloud/saga/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
 
 ---
