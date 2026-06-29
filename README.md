@@ -193,7 +193,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #004: _The First Hello_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-004-the-first-hello.html)**  
 *They learned to be a crew. Tonight they learn to be a door that opens.*
 
-`4 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-28
+`4 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-06-29
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
