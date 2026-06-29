@@ -302,6 +302,15 @@ Nine pillars. One covenant. No exceptions.
 
 ---
 
+## The Brand Kit
+
+One look across every repo and site. Colors, fonts, and the cyan→amber lockup live in one
+place — `brand/` — as design tokens, a drop-in stylesheet, and a rollout playbook.
+
+**[Tokens](./brand/tokens.json)** · **[brand.css](./brand/brand.css)** · **[Brand guide](./brand/BRAND.md)** · **[Rollout plan →](./brand/ROLLOUT.md)**
+
+---
+
 ## Built With Claude
 
 > Try Claude free for 2 weeks — the AI that co-built this entire ecosystem.

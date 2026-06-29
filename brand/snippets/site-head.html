@@ -1,0 +1,17 @@
+<!-- thebardchat brand kit — paste into <head> of any ecosystem website.
+     Zero-build: pulls the canonical stylesheet straight from the profile repo.
+     For production sites, vendor a copy of brand.css and pin the version instead
+     of hot-linking raw.githubusercontent.com. -->
+<link rel="stylesheet"
+      href="https://raw.githubusercontent.com/thebardchat/thebardchat/main/brand/brand.css">
+
+<!-- Favicon / share image — reuse the canonical logo + banner. -->
+<link rel="icon" type="image/svg+xml"
+      href="https://raw.githubusercontent.com/thebardchat/thebardchat/main/assets/logo.svg">
+<meta property="og:image"
+      content="https://raw.githubusercontent.com/thebardchat/thebardchat/main/assets/banner.svg">
+
+<!-- Then use the variables, e.g.:
+     body  { background: var(--grad-surface); color: var(--text-dim); font-family: var(--font-sans); }
+     h1    { class="bard-wordmark" }   a { class="bard-link" }   .card { class="bard-panel" }
+-->
