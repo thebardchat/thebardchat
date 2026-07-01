@@ -190,10 +190,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #004: _The First Hello_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-004-the-first-hello.html)**  
-*They learned to be a crew. Tonight they learn to be a door that opens.*
+**📖 Now Showing — Issue #005: _The Careful One_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-005-the-careful-one.html)**  
+*It already knows we're strong. Tonight it finds out if we're kind.*
 
-`4 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-07-01
+`5 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-07-01
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
