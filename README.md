@@ -29,7 +29,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -137,12 +137,14 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ```
 🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+   └── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch + 13 more
    └── 42-tool MCP server (FastMCP, port 8100)
    └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
    └── N8N automation workflows
    └── Discord + Twitch bots
    └── 5 AM morning briefing every day
+   └── shanebrain-cloud — public ecosystem hub site
+   └── pico-nerve-endings — Pi Pico 2 firmware, the peripheral nervous system
    └── gulfshores — Surface 1, Node.js v24, dev/build node
 
 🚀 BGKPJR Aerospace
@@ -155,6 +157,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    └── Mental wellness + AI sentiment
    └── Messenger storyteller (OPTOUT/ANON/FORGET)
    └── Tailscale Funnel public endpoint
+   └── Angel Cloud Roblox — wellness game universe (Phase 1 MVP in progress)
 
 🔐 Pulsar Sentinel (post-quantum)
    └── ML-KEM / Kyber-1024 lattice encryption
@@ -170,7 +173,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## MEGA Crew Chronicles
 
-18 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
 
 <div align="center">
 
@@ -214,7 +217,8 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
-| Containers | Docker + 18 MEGA Crew bots | Ship it |
+| Edge / Firmware | Pi Pico 2 (RP2350) — pico-nerve-endings | The peripheral nervous system |
+| Containers | Docker + 17 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
 
@@ -238,6 +242,9 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🧬 **shanebrain-cloud** | Public ecosystem hub — the whole map in one site | [shanebrain.cloud](https://thebardchat.github.io/shanebrain-cloud/) |
+| 🏥 **Claim Cruncher** | AI medical billing intake — Claude parses EOBs, flags errors | [github.com/thebardchat/Greenfield](https://github.com/thebardchat/Greenfield) |
+| 🚚 **Pedal to the Metal** | Dispatch SaaS for concrete fleet managers, by a dispatcher | [thebardchat.github.io/pedal-to-the-metal](https://thebardchat.github.io/pedal-to-the-metal) |
 
 </div>
 
@@ -256,6 +263,8 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+
+*Volume Two — "You Probably Think This Song Is About You Too" — in production.*
 
 </div>
 
