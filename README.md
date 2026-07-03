@@ -37,6 +37,29 @@ I built all of it while running concrete dispatch by day and raising five boys w
 
 > *"The internet has enough darkness. This is the opposite of that."*
 
+<br/>
+
+<div align="center">
+
+**83 repositories · 63 public & open source · 18 autonomous AI bots · 42-tool MCP server**
+**25 Weaviate collections · 2 patents filed · $0 cloud bill**
+
+</div>
+
+---
+
+<details>
+<summary><b>Why "thebardchat"? (click for the origin story)</b></summary>
+<br>
+
+It's not Shakespeare. It's not minstrels.
+
+Back when Google Bard was Shane's first real look at what AI could become, he was so hooked on the idea that an AI was about to change the world that he made his forum username **`thebardchat`** — a nod to Bard, back before it had a name people took seriously. Bard became Gemini. Gemini became a co-builder alongside Claude. The username stuck, and years later it became the name of a Raspberry Pi, a GitHub org, a Twitch channel, and an entire ecosystem.
+
+Everything here traces back to that same feeling: something is about to change, and it shouldn't only belong to the people who can already afford it.
+
+</details>
+
 ---
 
 <div align="center">
@@ -126,10 +149,14 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Repo | What It Is | Live |
 |------|-----------|------|
 | [BGKPJR-Launch-Vis](https://github.com/thebardchat/BGKPJR-Launch-Vis) | NASA-ready 3D animated launch visualization — Three.js + Astro + Svelte | [Demo ↗](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — 37 km coilgun architecture, live Three.js animation, muzzle seal engineering | [Repo ↗](https://github.com/thebardchat/BGKPJR-Stage1-Tube) |
 | [manna-pods](https://github.com/thebardchat/manna-pods) | 7 Manna cargo pod concepts — 3D rotating cross-sections, full specs | [Demo ↗](https://thebardchat.github.io/manna-pods) |
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Repo ↗](https://github.com/thebardchat/manna) |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo | [Repo ↗](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
 | [tug-pro](https://github.com/thebardchat/tug-pro) | Pre-Phase A reusable cislunar tug — 3D orbit viz, ΔV calculator | [Repo ↗](https://github.com/thebardchat/tug-pro) |
+| [artemis](https://github.com/thebardchat/artemis) | Artemis program showcase — built in Huntsville, AL, ten miles from Marshall Space Flight Center | [Repo ↗](https://github.com/thebardchat/artemis) |
+
+**Patent #2:** the ShaneBrain Vault — a $499 portable edge AI co-processor with encrypted storage, filed as a provisional patent Nov 10, 2025. Same instinct as BGKPJR: personalized AI shouldn't require a recurring cloud bill. See it in [quantum-legacy-ai-stick](https://github.com/thebardchat/quantum-legacy-ai-stick).
 
 ---
 
@@ -164,6 +191,12 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 🎯 TheirNameBrain (next)
    └── Personalized AI for the left-behind user
    └── Legacy hardware, no cloud required
+
+🏗️ Concrete & Family (proof it isn't just talk)
+   └── Pedal to the Metal — dispatch SaaS, built by a dispatcher for dispatchers
+   └── MASTER Scheduler Dashboard — live routing for 16 drivers, 19 plants
+   └── Claim Cruncher / Greenfield — AI medical billing intake, built for my son Gavin
+   └── HaloFinance — AI budgeting for working families
 ```
 
 ---
@@ -230,14 +263,20 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 |---------|-------------|------|
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
-| 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
-| 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
+| 📺 **Twitch Channel** | Family streaming, AI demos, love & light — bot + overlay code in [thebardchat/twitch](https://github.com/thebardchat/twitch) | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
+| 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) · [Code ↗](https://github.com/thebardchat/mega-crew) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🚛 **Pedal to the Metal** | Dispatch SaaS for concrete fleet managers — built by a dispatcher, for dispatchers | [github.com/thebardchat/pedal-to-the-metal](https://github.com/thebardchat/pedal-to-the-metal) |
+| 🩺 **Claim Cruncher (Greenfield)** | AI-powered medical billing intake — Claude parses EOBs, flags errors, built for my son Gavin | [github.com/thebardchat/Greenfield](https://github.com/thebardchat/Greenfield) |
+| 💰 **HaloFinance** | AI-powered budgeting and debt strategy for working families | [github.com/thebardchat/HaloFinance](https://github.com/thebardchat/HaloFinance) |
+| 🤝 **ShaneBrain Agents** | 7 specialist AI agents orchestrated on the Pi — Guardian, Librarian, Dispatcher, Builder, Storyteller, Ops, Social | [github.com/thebardchat/shanebrain-agents](https://github.com/thebardchat/shanebrain-agents) |
+| 🔌 **pico-nerve-endings** | Raspberry Pi Pico 2 firmware — sensors and GPIO automation, the peripheral nervous system of the whole cluster | [github.com/thebardchat/pico-nerve-endings](https://github.com/thebardchat/pico-nerve-endings) |
+| 🌐 **Ecosystem Hub** | thebardchat.github.io — the front door to everything on this profile | [thebardchat.github.io](https://thebardchat.github.io) |
 
 </div>
 
@@ -256,6 +295,10 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+
+**Volume Two — *You Probably Think This Song Is About You Too*** is in progress. [Follow the repo ↗](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too)
+
+The whole writing process is open too — voice dumps to shaped prose, published: [noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process) · [book-launch-playbook](https://github.com/thebardchat/book-launch-playbook)
 
 </div>
 
@@ -277,7 +320,7 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 ## The Released Treasures
 
-Eight projects recovered from old drives and released to GitHub in April 2026.
+Six projects recovered from old drives and released to GitHub in April 2026.
 
 | Project | What It Does | Pages |
 |---------|-------------|-------|
@@ -299,6 +342,8 @@ Nine pillars. One covenant. No exceptions.
 **Faith. Family. Sobriety. Love & Light. Authenticity. Local AI. The Left-Behind. Community. Purpose.**
 
 **[Read the Constitution →](https://github.com/thebardchat/constitution)**
+
+Most builders open-source the code and keep the reasoning private. Here the reasoning is public too — the [manifesto](https://github.com/thebardchat/manifesto), the [brand system](https://github.com/thebardchat/brand), and the [repo template](https://github.com/thebardchat/shanebrain-template) every project forks from are all in the open, so anyone can copy the whole approach, not just the output.
 
 ---
 
