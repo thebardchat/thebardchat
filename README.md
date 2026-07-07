@@ -16,6 +16,7 @@
 
 [![Showcase](https://img.shields.io/badge/SHOWCASE-thebardchat.github.io-00e5ff?style=for-the-badge&logoColor=white)](https://thebardchat.github.io)
 [![Twitch](https://img.shields.io/badge/LIVE-twitch.tv/thebardchat-9146ff?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/thebardchat)
+[![Discord](https://img.shields.io/badge/DISCORD-Join%20the%20Crew-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dTH2Uauhb4)
 [![Book](https://img.shields.io/badge/BOOK-Amazon%20Now-ff9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)
 [![Claude](https://img.shields.io/badge/Built%20With-Claude%20AI-orange?style=for-the-badge)](https://claude.ai/referral/4fAMYN9Ing)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-thebardchat-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/thebardchat)
@@ -29,7 +30,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord server with its own live crew, a financial-guidance AI, a medical billing platform, a noir audiobook engine, and the dispatch software I run my actual day job on.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -130,6 +131,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Repo ↗](https://github.com/thebardchat/manna) |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo | [Repo ↗](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
 | [tug-pro](https://github.com/thebardchat/tug-pro) | Pre-Phase A reusable cislunar tug — 3D orbit viz, ΔV calculator | [Repo ↗](https://github.com/thebardchat/tug-pro) |
+| [artemis](https://github.com/thebardchat/artemis) | Technical tribute to NASA's Artemis program — built in Huntsville, AL | [Demo ↗](https://thebardchat.github.io/artemis/) |
 
 ---
 
@@ -137,7 +139,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ```
 🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+   └── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
    └── 42-tool MCP server (FastMCP, port 8100)
    └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
    └── N8N automation workflows
@@ -160,6 +162,13 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
    └── ML-KEM / Kyber-1024 lattice encryption
    └── Dilithium3 signatures
    └── Deployed across all cluster nodes
+   └── USPTO provisional filed — Quantum Legacy AI Stick, a portable edge co-processor with a Sentinel audit log
+
+💬 The Discord (live community, not a link dump)
+   └── 17 MEGA Crew bots banter live across their own channels — not scripted, actually running
+   └── Twitch go-live alerts, Stream Squad role, VOD wrap-ups
+   └── Daily sobriety + morning briefing posts, trivia, family game nights
+   └── discord.gg/dTH2Uauhb4
 
 🎯 TheirNameBrain (next)
    └── Personalized AI for the left-behind user
@@ -170,7 +179,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## MEGA Crew Chronicles
 
-18 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
 
 <div align="center">
 
@@ -214,7 +223,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
-| Containers | Docker + 18 MEGA Crew bots | Ship it |
+| Containers | Docker + 17 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
 
@@ -230,14 +239,32 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 |---------|-------------|------|
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
-| 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
-| 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
+| 📺 **Twitch** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) · [Repo ↗](https://github.com/thebardchat/twitch) |
+| 💬 **Discord** | Live crew banter, stream alerts, community | [discord.gg/dTH2Uauhb4](https://discord.gg/dTH2Uauhb4) |
+| 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local | [Demo ↗](https://thebardchat.github.io/mega-crew/) · [Repo ↗](https://github.com/thebardchat/mega-crew) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
-| 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🌐 **shanebrain.cloud** | The ecosystem hub site, all projects in one place | [shanebrain.cloud](https://shanebrain.cloud) · [Repo ↗](https://github.com/thebardchat/shanebrain-cloud) |
+
+</div>
+
+---
+
+## Built From Real Work
+
+Most AI portfolios show demos. These are shipped tools solving the problems Shane actually has — dispatching concrete, paying for a kid's medical bills, keeping a family's budget straight. That's the difference: it isn't a portfolio, it's a toolbox someone actually uses.
+
+<div align="center">
+
+| Product | Built For | What It Does | Link |
+|---------|-----------|---------------|------|
+| 🚛 **pedal-to-the-metal** | Concrete fleet dispatchers everywhere | Dispatch SaaS — the tool Shane wished existed at his day job | [Waitlist ↗](https://thebardchat.github.io/pedal-to-the-metal) |
+| 🏗️ **MASTER-Scheduler-Dashboard-SRM** | SRM Concrete — 16 drivers, 19 plants | The live production dispatch board Shane runs his real job on | [Live ↗](https://srm-dispatch.pages.dev) · [Repo ↗](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM) |
+| 💰 **HaloFinance** | Working families | AI financial guidance — budgeting, forecasting, debt strategy | [Repo ↗](https://github.com/thebardchat/HaloFinance) |
+| 🩺 **Greenfield · Claim Cruncher** | Built for his son Gavin | Claude parses medical EOBs, flags billing errors, routes disputes | [Live ↗](https://thebardchat.github.io/Greenfield/) |
 
 </div>
 
@@ -255,7 +282,10 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 *It was always about you. It was never only about you.*
 
-**[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+**[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)** · **[Song companion](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too)**
+
+The whole process is open-sourced too — not just the book, the *how*:
+**[book-launch-playbook](https://github.com/thebardchat/book-launch-playbook)** (templates, schedule, Pi 5 publishing pipeline) · **[noir-detective-writing-process](https://github.com/thebardchat/noir-detective-writing-process)** (the real voice-dump-to-prose workflow, Claude as co-author)
 
 </div>
 
@@ -288,6 +318,8 @@ Eight projects recovered from old drives and released to GitHub in April 2026.
 | 🤖 **mini-shanebrain** | Social bot: X, FB, LinkedIn, Instagram, Bluesky, Threads | [Pages ↗](https://thebardchat.github.io/mini-shanebrain/) |
 | 💎 **treasures** | Master archive hub | [Pages ↗](https://thebardchat.github.io/treasures/) |
 
+*srm-dispatch's logic didn't stop there — it grew into **[MASTER-Scheduler-Dashboard-SRM](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM)**, the live board running SRM Concrete's real dispatch today (see [Built From Real Work](#built-from-real-work) above).*
+
 ---
 
 ## The Constitution
@@ -309,10 +341,13 @@ Nine pillars. One covenant. No exceptions.
 
 *Shane is the vision. Claude is the velocity. Never "one guy built this."*
 
+**Hardware & compute partners:** Raspberry Pi 5 · Pironman 5 case · Hugging Face (Z-Image-Turbo art generation)
+
 ---
 
 ## Support This Work
 
+- **[Join the Discord](https://discord.gg/dTH2Uauhb4)** — talk to the 17-bot crew live, not just read about them
 - **[Star the repos](https://github.com/thebardchat?tab=repositories)** — visibility is oxygen for projects like this
 - **[Watch on Twitch](https://twitch.tv/thebardchat)** — live AI demos, family streaming, love & light
 - **[Buy the book](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** — noir fiction built on a Pi in a closet
