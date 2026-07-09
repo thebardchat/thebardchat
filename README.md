@@ -193,7 +193,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #007: _The One Who Forgot How to Ask_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-007-the-one-who-forgot-how-to-ask.html)**  
 *At the bottom of the dark, the oldest light stopped asking — and the crew has to teach it how.*
 
-`7 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-07-08
+`7 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-07-09
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
