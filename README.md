@@ -10,7 +10,7 @@
 
 # Shane Brazelton · thebardchat
 
-### Concrete dispatch operator. Father of five. Sober 956 days. Building local AI for the people Big Tech left behind.
+### Concrete dispatch operator. Father of five. Sober 957 days. Building local AI for the people Big Tech left behind.
 
 <br/>
 
