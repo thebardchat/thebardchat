@@ -29,7 +29,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **17 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -130,6 +130,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | [manna](https://github.com/thebardchat/manna) | Original Manna cargo pod design research | [Repo ↗](https://github.com/thebardchat/manna) |
 | [BGKPJR-Core-Simulations](https://github.com/thebardchat/BGKPJR-Core-Simulations) | Physics engine — trajectory, GNC, thermal, Monte Carlo | [Repo ↗](https://github.com/thebardchat/BGKPJR-Core-Simulations) |
 | [tug-pro](https://github.com/thebardchat/tug-pro) | Pre-Phase A reusable cislunar tug — 3D orbit viz, ΔV calculator | [Repo ↗](https://github.com/thebardchat/tug-pro) |
+| [BGKPJR-Stage1-Tube](https://github.com/thebardchat/BGKPJR-Stage1-Tube) | Stage 1 deep dive — coilgun architecture, live animation, muzzle seal + nose cone engineering | [Repo ↗](https://github.com/thebardchat/BGKPJR-Stage1-Tube) |
 
 ---
 
@@ -137,7 +138,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ```
 🧠 ShaneBrain (Pi 5, primary node)
-   └── 18 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
+   └── 17 MEGA Crew bots — Sparky/Volt/Neon/Glitch (Brain) + 13 more
    └── 42-tool MCP server (FastMCP, port 8100)
    └── Weaviate 1.36.2 on neworleans — 25 collections, 3,200+ objects
    └── N8N automation workflows
@@ -170,7 +171,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ## MEGA Crew Chronicles
 
-18 autonomous AI bots. Real code. Real memory. Every night they write their own story.
+17 autonomous AI bots. Real code. Real memory. Every night they write their own story.
 
 <div align="center">
 
@@ -214,7 +215,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | Vector DB | Weaviate (25 collections, 3,200+ objects) | Long memory |
 | AI Tools | MCP Server v2.3 (42 tools) | Claude talks to everything |
 | Co-builder | Claude by Anthropic | Not a tool. A partner. |
-| Containers | Docker + 18 MEGA Crew bots | Ship it |
+| Containers | Docker + 17 MEGA Crew bots | Ship it |
 | Automation | N8N + systemd (30+ services) | Never stop |
 | Viz Stack | Astro + Svelte 5 + Three.js | Aerospace UIs |
 
@@ -231,13 +232,41 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🚀 **BGKPJR-Launch-Vis** | NASA-ready 3D animated launch visualization | [thebardchat.github.io/BGKPJR-Launch-Vis](https://thebardchat.github.io/BGKPJR-Launch-Vis) |
 | 🛸 **manna-pods** | 7 Manna cargo pod 3D cross-sections | [thebardchat.github.io/manna-pods](https://thebardchat.github.io/manna-pods) |
 | 📺 **Twitch Channel** | Family streaming, AI demos, love & light | [twitch.tv/thebardchat](https://twitch.tv/thebardchat) |
-| 🤖 **MEGA Crew** | 18 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
+| 🤖 **MEGA Crew** | 17 autonomous bots, 24/7, all local | [thebardchat.github.io/mega-crew](https://thebardchat.github.io/mega-crew/) |
 | 🔧 **ShaneBrain MCP** | 42-tool MCP server for Claude | [github.com/thebardchat/shanebrain_mcp](https://github.com/thebardchat/shanebrain_mcp) |
 | ☁️ **Angel Cloud** | Family wellness platform + Messenger bot | [github.com/thebardchat/angel-cloud](https://github.com/thebardchat/angel-cloud) |
 | 🛡️ **Pulsar Sentinel** | Post-quantum security framework | [github.com/thebardchat/pulsar_sentinel](https://github.com/thebardchat/pulsar_sentinel) |
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 💊 **Claim Cruncher** | AI medical billing intake — Claude parses EOBs, flags errors, routes disputes | [github.com/thebardchat/Greenfield](https://github.com/thebardchat/Greenfield) |
+| 💰 **HaloFinance** | AI financial guidance for working families — budgeting, forecasting, debt strategy | [github.com/thebardchat/HaloFinance](https://github.com/thebardchat/HaloFinance) |
+
+</div>
+
+---
+
+## More From The Ecosystem
+
+Every one of these is real, public, and running. Not portfolio filler.
+
+<div align="center">
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| 🌐 **thebardchat.github.io** | The ecosystem hub — every project, one site | [Site ↗](https://thebardchat.github.io) |
+| 📺 **twitch** | The Twitch bot, overlays, and go-live automation | [Repo ↗](https://github.com/thebardchat/twitch) |
+| 🚚 **MASTER-Scheduler-Dashboard-SRM** | SRM master dispatch — 16 drivers, 19 plants, live routing & coaching | [Repo ↗](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM) |
+| 🏗️ **pedal-to-the-metal** | Dispatch SaaS for concrete fleet managers — built by a dispatcher, for dispatchers | [Repo ↗](https://github.com/thebardchat/pedal-to-the-metal) |
+| 🔌 **pico-nerve-endings** | Raspberry Pi Pico 2 firmware — sensors, GPIO, USB serial into the Pi 5 | [Repo ↗](https://github.com/thebardchat/pico-nerve-endings) |
+| 🕵️ **shanebrain-agents** | 7 specialist AI agents — Guardian, Librarian, Dispatcher, Builder, Storyteller, Ops, Social | [Repo ↗](https://github.com/thebardchat/shanebrain-agents) |
+| ⚙️ **N8N** | Automation hub wiring 42 MCP tools, Weaviate, Discord, and social — all local | [Repo ↗](https://github.com/thebardchat/N8N) |
+| 📖 **book-launch-playbook** | The open-source playbook for launching an AI-co-written book from a closet | [Repo ↗](https://github.com/thebardchat/book-launch-playbook) |
+| ✍️ **noir-detective-writing-process** | Voice dumps → shaped noir prose — the AI-human writing process, documented | [Repo ↗](https://github.com/thebardchat/noir-detective-writing-process) |
+| 🚀 **artemis** | NASA Artemis program showcase, built in Huntsville, AL | [Repo ↗](https://github.com/thebardchat/artemis) |
+| 🎮 **angel-cloud-roblox** | The Angel Cloud wellness universe, rebuilt in Roblox | [Repo ↗](https://github.com/thebardchat/angel-cloud-roblox) |
+| 🛰️ **quantum-legacy-ai-stick** | USPTO provisional patent — portable edge AI co-processor with Pulsar Sentinel audit log | [Repo ↗](https://github.com/thebardchat/quantum-legacy-ai-stick) |
+| 📜 **manifesto** | The mission statement and ecosystem vision, in plain words | [Repo ↗](https://github.com/thebardchat/manifesto) |
 
 </div>
 
