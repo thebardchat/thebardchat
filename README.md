@@ -29,7 +29,7 @@
 
 I run a Raspberry Pi 5 out of a closet in Hazel Green, Alabama.
 
-On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a financial dashboard, a medical billing platform, a noir audiobook engine, and a concrete dispatch system for 18 drivers.
+On it: **18 autonomous AI bots**, a **42-tool MCP server**, a **Weaviate vector database with 25 collections**, a Twitch bot, a Discord bot, a [financial dashboard](https://github.com/thebardchat/HaloFinance), a [medical billing platform](https://github.com/thebardchat/Greenfield), a noir audiobook engine, and a concrete dispatch system for 18 drivers.
 
 Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 
@@ -54,6 +54,18 @@ I am.
 **ShaneBrain → Angel Cloud → Pulsar Sentinel → TheirNameBrain → 800M users**
 
 Every repo on this profile exists somewhere on that map.
+
+</div>
+
+---
+
+<div align="center">
+
+## Not Just Repos — Filed IP
+
+**BGKPJR-001** — electromagnetic launch architecture, patent filed · **Quantum Legacy AI Stick** — portable edge-AI co-processor, [USPTO provisional filed](https://github.com/thebardchat/quantum-legacy-ai-stick)
+
+*Most solo-builder profiles ship demos. This one ships demos backed by filed patents.*
 
 </div>
 
@@ -243,6 +255,28 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 ---
 
+## More From The Ecosystem
+
+Not everything fits above the fold. Here's the rest of it — still real, still shipping.
+
+<div align="center">
+
+| Project | What It Does | Link |
+|---------|-------------|------|
+| 💰 **HaloFinance** | AI-powered financial guidance for working families — budgeting, forecasting, debt strategy | [Repo ↗](https://github.com/thebardchat/HaloFinance) |
+| 🏥 **Greenfield** (Claim Cruncher) | AI-powered medical billing intake platform, built with Claude | [Repo ↗](https://github.com/thebardchat/Greenfield) |
+| 🚧 **pedal-to-the-metal** | Dispatch SaaS for concrete fleet managers — productizing srm-dispatch | [Repo ↗](https://github.com/thebardchat/pedal-to-the-metal) |
+| 📊 **MASTER-Scheduler-Dashboard-SRM** | Master dispatch for 16 drivers, 19 plants — live scheduling, SOPs, coaching | [Repo ↗](https://github.com/thebardchat/MASTER-Scheduler-Dashboard-SRM) |
+| 🕹️ **angel-cloud-roblox** | The Angel Cloud wellness universe, rebuilt in Roblox | [Repo ↗](https://github.com/thebardchat/angel-cloud-roblox) |
+| 🔌 **pico-nerve-endings** | Raspberry Pi Pico 2 (RP2350) firmware — the peripheral nervous system of ShaneBrain | [Repo ↗](https://github.com/thebardchat/pico-nerve-endings) |
+| 🧠 **claude-memory** | Claude Code session memory and state management across the whole ecosystem | [Repo ↗](https://github.com/thebardchat/claude-memory) |
+| ⚙️ **N8N** | Workflow automation hub — connects 42 MCP tools, Weaviate, Discord, socials | [Repo ↗](https://github.com/thebardchat/N8N) |
+| 📜 **constitution** | Nine pillars, engineering ethics, community rules — governs every repo here | [Repo ↗](https://github.com/thebardchat/constitution) |
+
+</div>
+
+---
+
 ## The Book
 
 <div align="center">
@@ -256,6 +290,8 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+
+*The whole process is open source too* — **[the writing process](https://github.com/thebardchat/noir-detective-writing-process)** (voice dumps → shaped prose) · **[the publishing playbook](https://github.com/thebardchat/book-launch-playbook)** (fork it, launch your own) · **[the companion](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too)**
 
 </div>
 
