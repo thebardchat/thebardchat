@@ -238,6 +238,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🩸 **DARK SEVEN** | Noir blood-comic — Volume Three graphic novel | [thebardchat.github.io/dark_seven](https://thebardchat.github.io/dark_seven/) |
 
 </div>
 
@@ -256,6 +257,20 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+
+<br/>
+
+### 🩸 DARK SEVEN — Volume Three · The Culmination
+
+**A dark noir blood comic. Black and white, and the only color is blood.**
+Where the book becomes a graphic novel. Six cuts on a nameless detective,
+each a door into an older wound — all hung off the one scar down his spine,
+which is the binding of the book itself.
+
+*Three inks, no fourth. Black is the world. Red is blood. White is grace.*
+**The Devil does not win.**
+
+**[Read the site ↗](https://thebardchat.github.io/dark_seven/)** · **[Repo](https://github.com/thebardchat/dark_seven)**
 
 </div>
 
