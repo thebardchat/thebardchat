@@ -260,6 +260,8 @@ Built on a Raspberry Pi 5. Published on Amazon.
 
 <br/>
 
+<a href="https://thebardchat.github.io/dark_seven/"><img src="./assets/dark-seven-banner.png" alt="DARK SEVEN — Volume Three · The Culmination. A noir blood comic; black and white, and the only color is blood. The Devil does not win." width="100%"></a>
+
 ### 🩸 DARK SEVEN — Volume Three · The Culmination
 
 **A dark noir blood comic. Black and white, and the only color is blood.**
