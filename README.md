@@ -238,6 +238,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 | 🧠 **ThoughtTree** | Local AI mind mapping | [thebardchat.github.io/thought-tree](https://thebardchat.github.io/thought-tree/) |
 | 🎓 **AI-Trainer-MAX** | 36-module local AI curriculum | [github.com/thebardchat/AI-Trainer-MAX](https://github.com/thebardchat/AI-Trainer-MAX) |
 | 🏗️ **srm-dispatch** | Concrete dispatch PWA for 18 drivers | [thebardchat.github.io/srm-dispatch](https://thebardchat.github.io/srm-dispatch/) |
+| 🎶 **…Song Is About You Too** | Noir song cycle — Volume Two, out on Amazon | [thebardchat.github.io/…song…](https://thebardchat.github.io/you-probably-think-this-song-is-about-you-too/) |
 | 🩸 **DARK SEVEN** | Noir blood-comic — Volume Three graphic novel | [thebardchat.github.io/dark_seven](https://thebardchat.github.io/dark_seven/) |
 
 </div>
@@ -257,6 +258,19 @@ Built on a Raspberry Pi 5. Published on Amazon.
 *It was always about you. It was never only about you.*
 
 **[Buy on Amazon](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-book-is-about-you)**
+
+<br/>
+
+### 🎶 …This Song Is About You Too — Volume Two · A Noir Song Cycle
+
+**The album after the movie.** The detective is ripped out of his own body and
+dropped into strangers at a European diner — living one second over and over
+from nine perspectives, trying to change an outcome he can never change. All of
+it on a therapist's couch, though you won't know until the hidden track.
+
+*He is everyone and no one at the same time. It's never too late to be Seen.*
+
+**[Read on Amazon](https://a.co/d/0fZzwiAd)** · **[Read the site ↗](https://thebardchat.github.io/you-probably-think-this-song-is-about-you-too/)** · **[Repo](https://github.com/thebardchat/you-probably-think-this-song-is-about-you-too)**
 
 <br/>
 
