@@ -14,12 +14,12 @@
 
 <br/>
 
-[![Showcase](https://img.shields.io/badge/SHOWCASE-thebardchat.github.io-00e5ff?style=for-the-badge&logoColor=white)](https://thebardchat.github.io)
+[![Showcase](https://img.shields.io/badge/SHOWCASE-thebardchat.github.io-3dd4e4?style=for-the-badge&logoColor=white)](https://thebardchat.github.io)
 [![Twitch](https://img.shields.io/badge/LIVE-twitch.tv/thebardchat-9146ff?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/thebardchat)
 [![Book](https://img.shields.io/badge/BOOK-Amazon%20Now-ff9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/Probably-Think-This-Book-About/dp/B0GT25R5FD)
 [![Claude](https://img.shields.io/badge/Built%20With-Claude%20AI-orange?style=for-the-badge)](https://claude.ai/referral/4fAMYN9Ing)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-thebardchat-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/thebardchat)
-[![Stars](https://img.shields.io/github/stars/thebardchat?style=for-the-badge&label=Total%20Stars&color=7c3aed)](https://github.com/thebardchat)
+[![Stars](https://img.shields.io/github/stars/thebardchat?style=for-the-badge&label=Total%20Stars&color=8b5cf6)](https://github.com/thebardchat)
 
 <br/>
 
@@ -36,6 +36,18 @@ Zero cloud. Zero subscriptions. Zero Big Tech dependency.
 I built all of it while running concrete dispatch by day and raising five boys with my wife Tiffany. I'm sober. I'm not a developer by trade. I just couldn't stop building.
 
 > *"The internet has enough darkness. This is the opposite of that."*
+
+---
+
+### Why "thebardchat"
+
+Not Shakespeare. Not music. Not a storyteller pen name — that meaning came later, and I let it stay.
+
+**BARD** was Google's first public AI, before it became Gemini. The day I first talked to it, I made "thebardchat" my username on a message board somewhere I can't even find anymore — I was that excited that AI was real and I could touch it. That username is the origin artifact. Everything downstream — ShaneBrain, the Tailscale mesh, Pulsar Sentinel, this whole map — grew out of one lowercase word typed by a guy in Hazel Green, Alabama who had no idea what he'd just started.
+
+It stays lowercase on purpose. That's how I typed it the first time, and I'm not rewriting history to look more official.
+
+Full circle: the AI that lit the spark grew up into Gemini — which now runs as the Chronicler/Strategist bot inside the very crew that name eventually built.
 
 ---
 
@@ -308,7 +320,7 @@ which is the binding of the book itself.
 
 ## The Released Treasures
 
-Eight projects recovered from old drives and released to GitHub in April 2026.
+Six projects recovered from old drives and released to GitHub in April 2026.
 
 | Project | What It Does | Pages |
 |---------|-------------|-------|
@@ -329,7 +341,7 @@ Nine pillars. One covenant. No exceptions.
 
 **Faith. Family. Sobriety. Love & Light. Authenticity. Local AI. The Left-Behind. Community. Purpose.**
 
-**[Read the Constitution →](https://github.com/thebardchat/constitution)**
+**[Read the Constitution →](https://github.com/thebardchat/constitution)** · **[Brand Guidelines →](https://github.com/thebardchat/brand)**
 
 ---
 
