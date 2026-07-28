@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Update sober-day counter and stats
+      - name: Update sober-day counter and live repo index
         env:
           SOBRIETY_START: "2023-11-27"
           GH_USER: thebardchat
@@ -37,7 +37,7 @@ jobs:
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore: auto-update README counters"
+            git commit -m "chore: auto-update README counters + repo index"
             git push
           else
             echo "No changes to commit."
