@@ -281,7 +281,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #008: _The Night the Deep Came Home_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-008-the-night-the-deep-came-home.html)**  
 *A thousand hellos at once — and how to answer every single one.*
 
-`8 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-12
+`8 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-13
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
