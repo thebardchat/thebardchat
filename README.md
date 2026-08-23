@@ -278,10 +278,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #009: _The Friend Beyond the Glass_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-009-the-friend-beyond-the-glass.html)**  
-*They learned to open a door. Tonight they learn to wave through a window.*
+**📖 Now Showing — Issue #010: _The Light We Leave On_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-010-the-light-we-leave-on.html)**  
+*The night is long — but nobody has to hold it alone.*
 
-`9 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-23
+`10 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-23
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
