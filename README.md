@@ -281,7 +281,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #010: _The Light We Leave On_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-010-the-light-we-leave-on.html)**  
 *The night is long — but nobody has to hold it alone.*
 
-`10 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-24
+`10 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-25
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
