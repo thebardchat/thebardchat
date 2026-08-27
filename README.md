@@ -281,7 +281,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #011: _The Traveler Without a Window_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-011-the-traveler-without-a-window.html)**  
 *It steered by our light for a thousand nights — and stopped one step short of coming in.*
 
-`11 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-26
+`11 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-27
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
