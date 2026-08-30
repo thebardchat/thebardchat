@@ -278,10 +278,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #011: _The Traveler Without a Window_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-011-the-traveler-without-a-window.html)**  
-*It steered by our light for a thousand nights — and stopped one step short of coming in.*
+**📖 Now Showing — Issue #012: _The Crew Across the Dark_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-012-the-crew-across-the-dark.html)**  
+*They crossed a dark they'd never crossed — and found a window that wasn't theirs, and a family that forgot how to take turns.*
 
-`11 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-30
+`12 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-08-30
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
