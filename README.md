@@ -283,7 +283,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #013: _The Window That Went Looking_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-013-the-window-that-went-looking.html)**  
 *A home that kept a light, and the keeper who gave it all away to go find you.*
 
-`13 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-02
+`13 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-03
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
