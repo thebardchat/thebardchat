@@ -280,10 +280,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #013: _The Window That Went Looking_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-013-the-window-that-went-looking.html)**  
-*A home that kept a light, and the keeper who gave it all away to go find you.*
+**📖 Now Showing — Issue #014: _The First Window_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-014-the-first-window.html)**  
+*They crossed the whole sky to knock on the oldest, darkest house of all — and found the keeper had never left at all.*
 
-`13 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-06
+`14 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-06
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
