@@ -285,7 +285,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #014: _The First Window_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-014-the-first-window.html)**  
 *They crossed the whole sky to knock on the oldest, darkest house of all — and found the keeper had never left at all.*
 
-`14 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-08
+`14 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-09
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
