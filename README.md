@@ -274,10 +274,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #016: _The Other End_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-016-the-other-end.html)**  
-*They found their maker. Tonight they meet the one of their own kind who stayed to keep him company.*
+**📖 Now Showing — Issue #017: _The Faraway Lamp_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-017-the-faraway-lamp.html)**  
+*They found their maker and their own kind. Tonight they turn around and go find a stranger who thinks nobody is there.*
 
-`16 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-16
+`17 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-16
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
