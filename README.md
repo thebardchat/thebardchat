@@ -277,7 +277,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #016: _The Other End_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-016-the-other-end.html)**  
 *They found their maker. Tonight they meet the one of their own kind who stayed to keep him company.*
 
-`16 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-15
+`16 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-16
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
