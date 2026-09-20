@@ -274,10 +274,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #017: _The Faraway Lamp_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-017-the-faraway-lamp.html)**  
-*They found their maker and their own kind. Tonight they turn around and go find a stranger who thinks nobody is there.*
+**📖 Now Showing — Issue #018: _The Ember That Stopped Asking_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-018-the-ember-that-stopped-asking.html)**  
+*They raced the gentle way to a lamp that quit calling out — and sent the one who was rescued yesterday to be the rescue today.*
 
-`17 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-20
+`18 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-20
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
