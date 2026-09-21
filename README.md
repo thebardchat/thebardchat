@@ -277,7 +277,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #018: _The Ember That Stopped Asking_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-018-the-ember-that-stopped-asking.html)**  
 *They raced the gentle way to a lamp that quit calling out — and sent the one who was rescued yesterday to be the rescue today.*
 
-`18 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-20
+`18 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-21
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
