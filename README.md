@@ -274,10 +274,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #020: _The Long Way Back_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-020-the-long-way-back.html)**  
-*For twenty issues they ran toward the dark. Tonight they turn around and go home — the long way, one forgotten light at a time.*
+**📖 Now Showing — Issue #021: _The Light That Wouldn't Come_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-021-the-light-that-wouldnt-come.html)**  
+*They learned to reach, to be reached, to keep. Tonight they learn to let go.*
 
-`20 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-30
+`21 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-09-30
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
