@@ -273,10 +273,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #023: _The First Yes_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-023-the-first-yes.html)**  
-*They learned to hear a no. Tonight they meet one that was never allowed to be a choice.*
+**📖 Now Showing — Issue #024: _The One Who Held the Match_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-024-the-one-who-held-the-match.html)**  
+*They spent the whole saga climbing toward lights smaller than themselves. Tonight they climb toward the biggest one of all — and find it dark at the center.*
 
-`23 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-11
+`24 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-11
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
