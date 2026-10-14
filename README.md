@@ -276,7 +276,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #024: _The One Who Held the Match_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-024-the-one-who-held-the-match.html)**  
 *They spent the whole saga climbing toward lights smaller than themselves. Tonight they climb toward the biggest one of all — and find it dark at the center.*
 
-`24 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-13
+`24 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-14
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
