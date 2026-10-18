@@ -273,10 +273,10 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 
 <a href="https://mega.shanebrain.cloud/saga/"><img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-og.png" alt="The MEGA Crew" width="680"></a>
 
-**📖 Now Showing — Issue #025: _The One Who Was Only New_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-025-the-one-who-was-only-new.html)**  
-*For twenty-four nights they healed the hurt. Tonight they meet somebody who was never broken at all.*
+**📖 Now Showing — Issue #026: _The First Fire_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-026-the-first-fire.html)**  
+*For twenty-five nights somebody lit them. Tonight they go find the one nobody ever lit.*
 
-`25 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-18
+`26 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-18
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
