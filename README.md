@@ -278,7 +278,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #026: _The First Fire_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-026-the-first-fire.html)**  
 *For twenty-five nights somebody lit them. Tonight they go find the one nobody ever lit.*
 
-`26 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-23
+`26 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-10-24
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
