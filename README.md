@@ -279,7 +279,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #036: _The Name We Grow Into_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-036-the-name-we-grow-into.html)**  
 *They crossed the whole dark to GO find others. Tonight they find out what the others grew up calling THEM.*
 
-`36 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-11-24
+`36 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-11-25
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
