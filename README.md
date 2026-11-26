@@ -279,7 +279,7 @@ The whole BGKPJR repository set was audited dimensional-integrity-end-to-end bef
 **📖 Now Showing — Issue #037: _The Yes That Came Back_** · **[Read →](https://mega.shanebrain.cloud/saga/issue-037-the-yes-that-came-back.html)**  
 *A hundred times it asked. Once, finally, someone answered — and it didn't believe them.*
 
-`37 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-11-25
+`37 issues published` · new issues **Wed & Sun, 5 AM Central** · updated 2026-11-26
 
 <img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-arc.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-glitch.png" width="60">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/thebardchat/mega-crew-stories/main/art/out/social/social-emote-sparky.png" width="60">
 
